@@ -1,0 +1,584 @@
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"i2c.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.MX_I2C1_Init,"ax",%progbits
+  20              		.align	2
+  21              		.global	MX_I2C1_Init
+  22              		.thumb
+  23              		.thumb_func
+  25              	MX_I2C1_Init:
+  26              	.LFB65:
+  27              		.file 1 "Src/i2c.c"
+   1:Src/i2c.c     **** /**
+   2:Src/i2c.c     ****   ******************************************************************************
+   3:Src/i2c.c     ****   * File Name          : I2C.c
+   4:Src/i2c.c     ****   * Description        : This file provides code for the configuration
+   5:Src/i2c.c     ****   *                      of the I2C instances.
+   6:Src/i2c.c     ****   ******************************************************************************
+   7:Src/i2c.c     ****   * @attention
+   8:Src/i2c.c     ****   *
+   9:Src/i2c.c     ****   * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  10:Src/i2c.c     ****   * All rights reserved.</center></h2>
+  11:Src/i2c.c     ****   *
+  12:Src/i2c.c     ****   * This software component is licensed by ST under BSD 3-Clause license,
+  13:Src/i2c.c     ****   * the "License"; You may not use this file except in compliance with the
+  14:Src/i2c.c     ****   * License. You may obtain a copy of the License at:
+  15:Src/i2c.c     ****   *                        opensource.org/licenses/BSD-3-Clause
+  16:Src/i2c.c     ****   *
+  17:Src/i2c.c     ****   ******************************************************************************
+  18:Src/i2c.c     ****   */
+  19:Src/i2c.c     **** 
+  20:Src/i2c.c     **** /* Includes ------------------------------------------------------------------*/
+  21:Src/i2c.c     **** #include "i2c.h"
+  22:Src/i2c.c     **** 
+  23:Src/i2c.c     **** /* USER CODE BEGIN 0 */
+  24:Src/i2c.c     **** 
+  25:Src/i2c.c     **** /* USER CODE END 0 */
+  26:Src/i2c.c     **** 
+  27:Src/i2c.c     **** I2C_HandleTypeDef hi2c1;
+  28:Src/i2c.c     **** I2C_HandleTypeDef hi2c2;
+  29:Src/i2c.c     **** 
+  30:Src/i2c.c     **** /* I2C1 init function */
+  31:Src/i2c.c     **** void MX_I2C1_Init(void)
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 2
+
+
+  32:Src/i2c.c     **** {
+  28              		.loc 1 32 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 08B5     		push	{r3, lr}
+  33              	.LCFI0:
+  34              		.cfi_def_cfa_offset 8
+  35              		.cfi_offset 3, -8
+  36              		.cfi_offset 14, -4
+  33:Src/i2c.c     **** 
+  34:Src/i2c.c     ****   hi2c1.Instance = I2C1;
+  37              		.loc 1 34 0
+  38 0002 0A48     		ldr	r0, .L4
+  39 0004 0A4B     		ldr	r3, .L4+4
+  40 0006 0360     		str	r3, [r0]
+  35:Src/i2c.c     ****   hi2c1.Init.ClockSpeed = 100000;
+  41              		.loc 1 35 0
+  42 0008 0A4B     		ldr	r3, .L4+8
+  43 000a 4360     		str	r3, [r0, #4]
+  36:Src/i2c.c     ****   hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  44              		.loc 1 36 0
+  45 000c 0023     		movs	r3, #0
+  46 000e 8360     		str	r3, [r0, #8]
+  37:Src/i2c.c     ****   hi2c1.Init.OwnAddress1 = 0;
+  47              		.loc 1 37 0
+  48 0010 C360     		str	r3, [r0, #12]
+  38:Src/i2c.c     ****   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  49              		.loc 1 38 0
+  50 0012 4FF48042 		mov	r2, #16384
+  51 0016 0261     		str	r2, [r0, #16]
+  39:Src/i2c.c     ****   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  52              		.loc 1 39 0
+  53 0018 4361     		str	r3, [r0, #20]
+  40:Src/i2c.c     ****   hi2c1.Init.OwnAddress2 = 0;
+  54              		.loc 1 40 0
+  55 001a 8361     		str	r3, [r0, #24]
+  41:Src/i2c.c     ****   hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  56              		.loc 1 41 0
+  57 001c C361     		str	r3, [r0, #28]
+  42:Src/i2c.c     ****   hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  58              		.loc 1 42 0
+  59 001e 0362     		str	r3, [r0, #32]
+  43:Src/i2c.c     ****   if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+  60              		.loc 1 43 0
+  61 0020 FFF7FEFF 		bl	HAL_I2C_Init
+  62              	.LVL0:
+  63 0024 08B1     		cbz	r0, .L1
+  44:Src/i2c.c     ****   {
+  45:Src/i2c.c     ****     Error_Handler();
+  64              		.loc 1 45 0
+  65 0026 FFF7FEFF 		bl	Error_Handler
+  66              	.LVL1:
+  67              	.L1:
+  68 002a 08BD     		pop	{r3, pc}
+  69              	.L5:
+  70              		.align	2
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 3
+
+
+  71              	.L4:
+  72 002c 00000000 		.word	hi2c1
+  73 0030 00540040 		.word	1073763328
+  74 0034 A0860100 		.word	100000
+  75              		.cfi_endproc
+  76              	.LFE65:
+  78              		.section	.text.MX_I2C2_Init,"ax",%progbits
+  79              		.align	2
+  80              		.global	MX_I2C2_Init
+  81              		.thumb
+  82              		.thumb_func
+  84              	MX_I2C2_Init:
+  85              	.LFB66:
+  46:Src/i2c.c     ****   }
+  47:Src/i2c.c     **** 
+  48:Src/i2c.c     **** }
+  49:Src/i2c.c     **** /* I2C2 init function */
+  50:Src/i2c.c     **** void MX_I2C2_Init(void)
+  51:Src/i2c.c     **** {
+  86              		.loc 1 51 0
+  87              		.cfi_startproc
+  88              		@ args = 0, pretend = 0, frame = 0
+  89              		@ frame_needed = 0, uses_anonymous_args = 0
+  90 0000 08B5     		push	{r3, lr}
+  91              	.LCFI1:
+  92              		.cfi_def_cfa_offset 8
+  93              		.cfi_offset 3, -8
+  94              		.cfi_offset 14, -4
+  52:Src/i2c.c     **** 
+  53:Src/i2c.c     ****   hi2c2.Instance = I2C2;
+  95              		.loc 1 53 0
+  96 0002 0A48     		ldr	r0, .L9
+  97 0004 0A4B     		ldr	r3, .L9+4
+  98 0006 0360     		str	r3, [r0]
+  54:Src/i2c.c     ****   hi2c2.Init.ClockSpeed = 100000;
+  99              		.loc 1 54 0
+ 100 0008 0A4B     		ldr	r3, .L9+8
+ 101 000a 4360     		str	r3, [r0, #4]
+  55:Src/i2c.c     ****   hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+ 102              		.loc 1 55 0
+ 103 000c 0023     		movs	r3, #0
+ 104 000e 8360     		str	r3, [r0, #8]
+  56:Src/i2c.c     ****   hi2c2.Init.OwnAddress1 = 0;
+ 105              		.loc 1 56 0
+ 106 0010 C360     		str	r3, [r0, #12]
+  57:Src/i2c.c     ****   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+ 107              		.loc 1 57 0
+ 108 0012 4FF48042 		mov	r2, #16384
+ 109 0016 0261     		str	r2, [r0, #16]
+  58:Src/i2c.c     ****   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+ 110              		.loc 1 58 0
+ 111 0018 4361     		str	r3, [r0, #20]
+  59:Src/i2c.c     ****   hi2c2.Init.OwnAddress2 = 0;
+ 112              		.loc 1 59 0
+ 113 001a 8361     		str	r3, [r0, #24]
+  60:Src/i2c.c     ****   hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+ 114              		.loc 1 60 0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 4
+
+
+ 115 001c C361     		str	r3, [r0, #28]
+  61:Src/i2c.c     ****   hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+ 116              		.loc 1 61 0
+ 117 001e 0362     		str	r3, [r0, #32]
+  62:Src/i2c.c     ****   if (HAL_I2C_Init(&hi2c2) != HAL_OK)
+ 118              		.loc 1 62 0
+ 119 0020 FFF7FEFF 		bl	HAL_I2C_Init
+ 120              	.LVL2:
+ 121 0024 08B1     		cbz	r0, .L6
+  63:Src/i2c.c     ****   {
+  64:Src/i2c.c     ****     Error_Handler();
+ 122              		.loc 1 64 0
+ 123 0026 FFF7FEFF 		bl	Error_Handler
+ 124              	.LVL3:
+ 125              	.L6:
+ 126 002a 08BD     		pop	{r3, pc}
+ 127              	.L10:
+ 128              		.align	2
+ 129              	.L9:
+ 130 002c 00000000 		.word	hi2c2
+ 131 0030 00580040 		.word	1073764352
+ 132 0034 A0860100 		.word	100000
+ 133              		.cfi_endproc
+ 134              	.LFE66:
+ 136              		.section	.text.HAL_I2C_MspInit,"ax",%progbits
+ 137              		.align	2
+ 138              		.global	HAL_I2C_MspInit
+ 139              		.thumb
+ 140              		.thumb_func
+ 142              	HAL_I2C_MspInit:
+ 143              	.LFB67:
+  65:Src/i2c.c     ****   }
+  66:Src/i2c.c     **** 
+  67:Src/i2c.c     **** }
+  68:Src/i2c.c     **** 
+  69:Src/i2c.c     **** void HAL_I2C_MspInit(I2C_HandleTypeDef* i2cHandle)
+  70:Src/i2c.c     **** {
+ 144              		.loc 1 70 0
+ 145              		.cfi_startproc
+ 146              		@ args = 0, pretend = 0, frame = 32
+ 147              		@ frame_needed = 0, uses_anonymous_args = 0
+ 148              	.LVL4:
+ 149 0000 10B5     		push	{r4, lr}
+ 150              	.LCFI2:
+ 151              		.cfi_def_cfa_offset 8
+ 152              		.cfi_offset 4, -8
+ 153              		.cfi_offset 14, -4
+ 154 0002 88B0     		sub	sp, sp, #32
+ 155              	.LCFI3:
+ 156              		.cfi_def_cfa_offset 40
+  71:Src/i2c.c     **** 
+  72:Src/i2c.c     ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
+ 157              		.loc 1 72 0
+ 158 0004 0023     		movs	r3, #0
+ 159 0006 0493     		str	r3, [sp, #16]
+ 160 0008 0593     		str	r3, [sp, #20]
+ 161 000a 0693     		str	r3, [sp, #24]
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 5
+
+
+ 162 000c 0793     		str	r3, [sp, #28]
+  73:Src/i2c.c     ****   if(i2cHandle->Instance==I2C1)
+ 163              		.loc 1 73 0
+ 164 000e 0368     		ldr	r3, [r0]
+ 165 0010 294A     		ldr	r2, .L15
+ 166 0012 9342     		cmp	r3, r2
+ 167 0014 25D1     		bne	.L12
+ 168              	.LBB2:
+  74:Src/i2c.c     ****   {
+  75:Src/i2c.c     ****   /* USER CODE BEGIN I2C1_MspInit 0 */
+  76:Src/i2c.c     **** 
+  77:Src/i2c.c     ****   /* USER CODE END I2C1_MspInit 0 */
+  78:Src/i2c.c     ****   
+  79:Src/i2c.c     ****     __HAL_RCC_GPIOB_CLK_ENABLE();
+ 169              		.loc 1 79 0
+ 170 0016 294C     		ldr	r4, .L15+4
+ 171 0018 A369     		ldr	r3, [r4, #24]
+ 172 001a 43F00803 		orr	r3, r3, #8
+ 173 001e A361     		str	r3, [r4, #24]
+ 174 0020 A369     		ldr	r3, [r4, #24]
+ 175 0022 03F00803 		and	r3, r3, #8
+ 176 0026 0093     		str	r3, [sp]
+ 177 0028 009B     		ldr	r3, [sp]
+ 178              	.LBE2:
+  80:Src/i2c.c     ****     /**I2C1 GPIO Configuration    
+  81:Src/i2c.c     ****     PB6     ------> I2C1_SCL
+  82:Src/i2c.c     ****     PB7     ------> I2C1_SDA 
+  83:Src/i2c.c     ****     */
+  84:Src/i2c.c     ****     GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7;
+ 179              		.loc 1 84 0
+ 180 002a C023     		movs	r3, #192
+ 181 002c 0493     		str	r3, [sp, #16]
+  85:Src/i2c.c     ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
+ 182              		.loc 1 85 0
+ 183 002e 1223     		movs	r3, #18
+ 184 0030 0593     		str	r3, [sp, #20]
+  86:Src/i2c.c     ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+ 185              		.loc 1 86 0
+ 186 0032 0323     		movs	r3, #3
+ 187 0034 0793     		str	r3, [sp, #28]
+  87:Src/i2c.c     ****     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+ 188              		.loc 1 87 0
+ 189 0036 04A9     		add	r1, sp, #16
+ 190 0038 2148     		ldr	r0, .L15+8
+ 191              	.LVL5:
+ 192 003a FFF7FEFF 		bl	HAL_GPIO_Init
+ 193              	.LVL6:
+ 194              	.LBB3:
+  88:Src/i2c.c     **** 
+  89:Src/i2c.c     ****     /* I2C1 clock enable */
+  90:Src/i2c.c     ****     __HAL_RCC_I2C1_CLK_ENABLE();
+ 195              		.loc 1 90 0
+ 196 003e E369     		ldr	r3, [r4, #28]
+ 197 0040 43F40013 		orr	r3, r3, #2097152
+ 198 0044 E361     		str	r3, [r4, #28]
+ 199 0046 E369     		ldr	r3, [r4, #28]
+ 200 0048 03F40013 		and	r3, r3, #2097152
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 6
+
+
+ 201 004c 0193     		str	r3, [sp, #4]
+ 202 004e 019B     		ldr	r3, [sp, #4]
+ 203              	.LBE3:
+  91:Src/i2c.c     **** 
+  92:Src/i2c.c     ****     /* I2C1 interrupt Init */
+  93:Src/i2c.c     ****     HAL_NVIC_SetPriority(I2C1_EV_IRQn, 0, 0);
+ 204              		.loc 1 93 0
+ 205 0050 0022     		movs	r2, #0
+ 206 0052 1146     		mov	r1, r2
+ 207 0054 1F20     		movs	r0, #31
+ 208 0056 FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 209              	.LVL7:
+  94:Src/i2c.c     ****     HAL_NVIC_EnableIRQ(I2C1_EV_IRQn);
+ 210              		.loc 1 94 0
+ 211 005a 1F20     		movs	r0, #31
+ 212 005c FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 213              	.LVL8:
+ 214 0060 28E0     		b	.L11
+ 215              	.LVL9:
+ 216              	.L12:
+  95:Src/i2c.c     ****   /* USER CODE BEGIN I2C1_MspInit 1 */
+  96:Src/i2c.c     **** 
+  97:Src/i2c.c     ****   /* USER CODE END I2C1_MspInit 1 */
+  98:Src/i2c.c     ****   }
+  99:Src/i2c.c     ****   else if(i2cHandle->Instance==I2C2)
+ 217              		.loc 1 99 0
+ 218 0062 184A     		ldr	r2, .L15+12
+ 219 0064 9342     		cmp	r3, r2
+ 220 0066 25D1     		bne	.L11
+ 221              	.LBB4:
+ 100:Src/i2c.c     ****   {
+ 101:Src/i2c.c     ****   /* USER CODE BEGIN I2C2_MspInit 0 */
+ 102:Src/i2c.c     **** 
+ 103:Src/i2c.c     ****   /* USER CODE END I2C2_MspInit 0 */
+ 104:Src/i2c.c     ****   
+ 105:Src/i2c.c     ****     __HAL_RCC_GPIOB_CLK_ENABLE();
+ 222              		.loc 1 105 0
+ 223 0068 144C     		ldr	r4, .L15+4
+ 224 006a A369     		ldr	r3, [r4, #24]
+ 225 006c 43F00803 		orr	r3, r3, #8
+ 226 0070 A361     		str	r3, [r4, #24]
+ 227 0072 A369     		ldr	r3, [r4, #24]
+ 228 0074 03F00803 		and	r3, r3, #8
+ 229 0078 0293     		str	r3, [sp, #8]
+ 230 007a 029B     		ldr	r3, [sp, #8]
+ 231              	.LBE4:
+ 106:Src/i2c.c     ****     /**I2C2 GPIO Configuration    
+ 107:Src/i2c.c     ****     PB10     ------> I2C2_SCL
+ 108:Src/i2c.c     ****     PB11     ------> I2C2_SDA 
+ 109:Src/i2c.c     ****     */
+ 110:Src/i2c.c     ****     GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_11;
+ 232              		.loc 1 110 0
+ 233 007c 4FF44063 		mov	r3, #3072
+ 234 0080 0493     		str	r3, [sp, #16]
+ 111:Src/i2c.c     ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
+ 235              		.loc 1 111 0
+ 236 0082 1223     		movs	r3, #18
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 7
+
+
+ 237 0084 0593     		str	r3, [sp, #20]
+ 112:Src/i2c.c     ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+ 238              		.loc 1 112 0
+ 239 0086 0323     		movs	r3, #3
+ 240 0088 0793     		str	r3, [sp, #28]
+ 113:Src/i2c.c     ****     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+ 241              		.loc 1 113 0
+ 242 008a 04A9     		add	r1, sp, #16
+ 243 008c 0C48     		ldr	r0, .L15+8
+ 244              	.LVL10:
+ 245 008e FFF7FEFF 		bl	HAL_GPIO_Init
+ 246              	.LVL11:
+ 247              	.LBB5:
+ 114:Src/i2c.c     **** 
+ 115:Src/i2c.c     ****     /* I2C2 clock enable */
+ 116:Src/i2c.c     ****     __HAL_RCC_I2C2_CLK_ENABLE();
+ 248              		.loc 1 116 0
+ 249 0092 E369     		ldr	r3, [r4, #28]
+ 250 0094 43F48003 		orr	r3, r3, #4194304
+ 251 0098 E361     		str	r3, [r4, #28]
+ 252 009a E369     		ldr	r3, [r4, #28]
+ 253 009c 03F48003 		and	r3, r3, #4194304
+ 254 00a0 0393     		str	r3, [sp, #12]
+ 255 00a2 039B     		ldr	r3, [sp, #12]
+ 256              	.LBE5:
+ 117:Src/i2c.c     **** 
+ 118:Src/i2c.c     ****     /* I2C2 interrupt Init */
+ 119:Src/i2c.c     ****     HAL_NVIC_SetPriority(I2C2_EV_IRQn, 0, 0);
+ 257              		.loc 1 119 0
+ 258 00a4 0022     		movs	r2, #0
+ 259 00a6 1146     		mov	r1, r2
+ 260 00a8 2120     		movs	r0, #33
+ 261 00aa FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 262              	.LVL12:
+ 120:Src/i2c.c     ****     HAL_NVIC_EnableIRQ(I2C2_EV_IRQn);
+ 263              		.loc 1 120 0
+ 264 00ae 2120     		movs	r0, #33
+ 265 00b0 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 266              	.LVL13:
+ 267              	.L11:
+ 121:Src/i2c.c     ****   /* USER CODE BEGIN I2C2_MspInit 1 */
+ 122:Src/i2c.c     **** 
+ 123:Src/i2c.c     ****   /* USER CODE END I2C2_MspInit 1 */
+ 124:Src/i2c.c     ****   }
+ 125:Src/i2c.c     **** }
+ 268              		.loc 1 125 0
+ 269 00b4 08B0     		add	sp, sp, #32
+ 270              	.LCFI4:
+ 271              		.cfi_def_cfa_offset 8
+ 272              		@ sp needed
+ 273 00b6 10BD     		pop	{r4, pc}
+ 274              	.L16:
+ 275              		.align	2
+ 276              	.L15:
+ 277 00b8 00540040 		.word	1073763328
+ 278 00bc 00100240 		.word	1073876992
+ 279 00c0 000C0140 		.word	1073810432
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 8
+
+
+ 280 00c4 00580040 		.word	1073764352
+ 281              		.cfi_endproc
+ 282              	.LFE67:
+ 284              		.section	.text.HAL_I2C_MspDeInit,"ax",%progbits
+ 285              		.align	2
+ 286              		.global	HAL_I2C_MspDeInit
+ 287              		.thumb
+ 288              		.thumb_func
+ 290              	HAL_I2C_MspDeInit:
+ 291              	.LFB68:
+ 126:Src/i2c.c     **** 
+ 127:Src/i2c.c     **** void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
+ 128:Src/i2c.c     **** {
+ 292              		.loc 1 128 0
+ 293              		.cfi_startproc
+ 294              		@ args = 0, pretend = 0, frame = 0
+ 295              		@ frame_needed = 0, uses_anonymous_args = 0
+ 296              	.LVL14:
+ 297 0000 08B5     		push	{r3, lr}
+ 298              	.LCFI5:
+ 299              		.cfi_def_cfa_offset 8
+ 300              		.cfi_offset 3, -8
+ 301              		.cfi_offset 14, -4
+ 129:Src/i2c.c     **** 
+ 130:Src/i2c.c     ****   if(i2cHandle->Instance==I2C1)
+ 302              		.loc 1 130 0
+ 303 0002 0368     		ldr	r3, [r0]
+ 304 0004 114A     		ldr	r2, .L21
+ 305 0006 9342     		cmp	r3, r2
+ 306 0008 0DD1     		bne	.L18
+ 131:Src/i2c.c     ****   {
+ 132:Src/i2c.c     ****   /* USER CODE BEGIN I2C1_MspDeInit 0 */
+ 133:Src/i2c.c     **** 
+ 134:Src/i2c.c     ****   /* USER CODE END I2C1_MspDeInit 0 */
+ 135:Src/i2c.c     ****     /* Peripheral clock disable */
+ 136:Src/i2c.c     ****     __HAL_RCC_I2C1_CLK_DISABLE();
+ 307              		.loc 1 136 0
+ 308 000a 02F5DE32 		add	r2, r2, #113664
+ 309 000e D369     		ldr	r3, [r2, #28]
+ 310 0010 23F40013 		bic	r3, r3, #2097152
+ 311 0014 D361     		str	r3, [r2, #28]
+ 137:Src/i2c.c     ****   
+ 138:Src/i2c.c     ****     /**I2C1 GPIO Configuration    
+ 139:Src/i2c.c     ****     PB6     ------> I2C1_SCL
+ 140:Src/i2c.c     ****     PB7     ------> I2C1_SDA 
+ 141:Src/i2c.c     ****     */
+ 142:Src/i2c.c     ****     HAL_GPIO_DeInit(GPIOB, GPIO_PIN_6|GPIO_PIN_7);
+ 312              		.loc 1 142 0
+ 313 0016 C021     		movs	r1, #192
+ 314 0018 0D48     		ldr	r0, .L21+4
+ 315              	.LVL15:
+ 316 001a FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 317              	.LVL16:
+ 143:Src/i2c.c     **** 
+ 144:Src/i2c.c     ****     /* I2C1 interrupt Deinit */
+ 145:Src/i2c.c     ****     HAL_NVIC_DisableIRQ(I2C1_EV_IRQn);
+ 318              		.loc 1 145 0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 9
+
+
+ 319 001e 1F20     		movs	r0, #31
+ 320 0020 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 321              	.LVL17:
+ 322 0024 08BD     		pop	{r3, pc}
+ 323              	.LVL18:
+ 324              	.L18:
+ 146:Src/i2c.c     ****   /* USER CODE BEGIN I2C1_MspDeInit 1 */
+ 147:Src/i2c.c     **** 
+ 148:Src/i2c.c     ****   /* USER CODE END I2C1_MspDeInit 1 */
+ 149:Src/i2c.c     ****   }
+ 150:Src/i2c.c     ****   else if(i2cHandle->Instance==I2C2)
+ 325              		.loc 1 150 0
+ 326 0026 0B4A     		ldr	r2, .L21+8
+ 327 0028 9342     		cmp	r3, r2
+ 328 002a 0DD1     		bne	.L17
+ 151:Src/i2c.c     ****   {
+ 152:Src/i2c.c     ****   /* USER CODE BEGIN I2C2_MspDeInit 0 */
+ 153:Src/i2c.c     **** 
+ 154:Src/i2c.c     ****   /* USER CODE END I2C2_MspDeInit 0 */
+ 155:Src/i2c.c     ****     /* Peripheral clock disable */
+ 156:Src/i2c.c     ****     __HAL_RCC_I2C2_CLK_DISABLE();
+ 329              		.loc 1 156 0
+ 330 002c 02F5DC32 		add	r2, r2, #112640
+ 331 0030 D369     		ldr	r3, [r2, #28]
+ 332 0032 23F48003 		bic	r3, r3, #4194304
+ 333 0036 D361     		str	r3, [r2, #28]
+ 157:Src/i2c.c     ****   
+ 158:Src/i2c.c     ****     /**I2C2 GPIO Configuration    
+ 159:Src/i2c.c     ****     PB10     ------> I2C2_SCL
+ 160:Src/i2c.c     ****     PB11     ------> I2C2_SDA 
+ 161:Src/i2c.c     ****     */
+ 162:Src/i2c.c     ****     HAL_GPIO_DeInit(GPIOB, GPIO_PIN_10|GPIO_PIN_11);
+ 334              		.loc 1 162 0
+ 335 0038 4FF44061 		mov	r1, #3072
+ 336 003c 0448     		ldr	r0, .L21+4
+ 337              	.LVL19:
+ 338 003e FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 339              	.LVL20:
+ 163:Src/i2c.c     **** 
+ 164:Src/i2c.c     ****     /* I2C2 interrupt Deinit */
+ 165:Src/i2c.c     ****     HAL_NVIC_DisableIRQ(I2C2_EV_IRQn);
+ 340              		.loc 1 165 0
+ 341 0042 2120     		movs	r0, #33
+ 342 0044 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 343              	.LVL21:
+ 344              	.L17:
+ 345 0048 08BD     		pop	{r3, pc}
+ 346              	.L22:
+ 347 004a 00BF     		.align	2
+ 348              	.L21:
+ 349 004c 00540040 		.word	1073763328
+ 350 0050 000C0140 		.word	1073810432
+ 351 0054 00580040 		.word	1073764352
+ 352              		.cfi_endproc
+ 353              	.LFE68:
+ 355              		.comm	hi2c2,84,4
+ 356              		.comm	hi2c1,84,4
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 10
+
+
+ 357              		.text
+ 358              	.Letext0:
+ 359              		.file 2 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h"
+ 360              		.file 3 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h"
+ 361              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
+ 362              		.file 5 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+ 363              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
+ 364              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
+ 365              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h"
+ 366              		.file 9 "Drivers/CMSIS/Include/core_cm3.h"
+ 367              		.file 10 "Inc/main.h"
+ 368              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h"
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s 			page 11
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 i2c.c
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:20     .text.MX_I2C1_Init:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:25     .text.MX_I2C1_Init:0000000000000000 MX_I2C1_Init
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:72     .text.MX_I2C1_Init:000000000000002c $d
+                            *COM*:0000000000000054 hi2c1
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:79     .text.MX_I2C2_Init:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:84     .text.MX_I2C2_Init:0000000000000000 MX_I2C2_Init
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:130    .text.MX_I2C2_Init:000000000000002c $d
+                            *COM*:0000000000000054 hi2c2
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:137    .text.HAL_I2C_MspInit:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:142    .text.HAL_I2C_MspInit:0000000000000000 HAL_I2C_MspInit
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:277    .text.HAL_I2C_MspInit:00000000000000b8 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:285    .text.HAL_I2C_MspDeInit:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:290    .text.HAL_I2C_MspDeInit:0000000000000000 HAL_I2C_MspDeInit
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccGIJsrK.s:349    .text.HAL_I2C_MspDeInit:000000000000004c $d
+                     .debug_frame:0000000000000010 $d
+
+UNDEFINED SYMBOLS
+HAL_I2C_Init
+Error_Handler
+HAL_GPIO_Init
+HAL_NVIC_SetPriority
+HAL_NVIC_EnableIRQ
+HAL_GPIO_DeInit
+HAL_NVIC_DisableIRQ
