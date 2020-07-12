@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
   30              		@ args = 0, pretend = 0, frame = 32
   31              		@ frame_needed = 0, uses_anonymous_args = 0
   32 0000 F0B5     		push	{r4, r5, r6, r7, lr}
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 2
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 2
 
 
   33              	.LCFI0:
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
   80 003e 0297     		str	r7, [sp, #8]
   81 0040 0194     		str	r4, [sp, #4]
   82 0042 0095     		str	r5, [sp]
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 3
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 3
 
 
   83 0044 2346     		mov	r3, r4
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
   50:Src/oled_i2c.c **** {0x00,0xE0,0x10,0x88,0x88,0x90,0x00,0x00,0x00,0x0F,0x11,0x20,0x20,0x20,0x1F,0x00},/*"6",6*/
   51:Src/oled_i2c.c **** 
   52:Src/oled_i2c.c **** {0x00,0x18,0x08,0x08,0x88,0x68,0x18,0x00,0x00,0x00,0x00,0x3E,0x01,0x00,0x00,0x00},/*"7",7*/
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 4
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 4
 
 
   53:Src/oled_i2c.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
  107:Src/oled_i2c.c **** 
  108:Src/oled_i2c.c ****     {0x00,0xE0,0x10,0x08,0x08,0x10,0xE0,0x00,0x00,0x0F,0x10,0x20,0x20,0x10,0x0F,0x00},/*"0",23*/
  109:Src/oled_i2c.c **** 
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 5
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 5
 
 
  110:Src/oled_i2c.c ****     {0x00,0xE0,0x10,0x08,0x08,0x10,0xE0,0x00,0x00,0x0F,0x10,0x20,0x20,0x10,0x0F,0x00},/*"0",24*/
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
  164:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",50*/
  165:Src/oled_i2c.c **** 
  166:Src/oled_i2c.c ****     {0x18,0x08,0x08,0xF8,0x08,0x08,0x18,0x00,0x00,0x00,0x20,0x3F,0x20,0x00,0x00,0x00},/*"T",51*/
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 6
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 6
 
 
  167:Src/oled_i2c.c **** 
@@ -327,12 +327,113 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
  190:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",63*/
  191:Src/oled_i2c.c **** };
  192:Src/oled_i2c.c **** 
- 193:Src/oled_i2c.c **** 
- 194:Src/oled_i2c.c **** void display_ctrl(I2C_HandleTypeDef *hi2c, uint32_t adc_val, __IO uint8_t *uart_array)
- 195:Src/oled_i2c.c **** {   
- 121              		.loc 1 195 0
+ 193:Src/oled_i2c.c **** static uint8_t array2[][16]=
+ 194:Src/oled_i2c.c **** {
+ 195:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 196:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 197:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 198:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 199:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 200:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 201:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 202:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 203:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 204:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 205:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 206:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 207:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 208:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 209:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 210:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 211:Src/oled_i2c.c **** 
+ 212:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",0*/
+ 213:Src/oled_i2c.c **** 
+ 214:Src/oled_i2c.c ****     {0xE0,0x10,0x08,0x08,0x08,0x10,0xE0,0x00,0x0F,0x10,0x20,0x20,0x20,0x10,0x0F,0x00},/*"O",1*/
+ 215:Src/oled_i2c.c **** 
+ 216:Src/oled_i2c.c ****     {0x08,0x78,0x88,0x00,0x00,0xC8,0x38,0x08,0x00,0x00,0x07,0x38,0x0E,0x01,0x00,0x00},/*"V",2*/
+ 217:Src/oled_i2c.c **** 
+ 218:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",3*/
+ 219:Src/oled_i2c.c **** 
+ 220:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0x88,0x88,0x70,0x00,0x20,0x3F,0x20,0x00,0x03,0x0C,0x30,0x20},/*"R",4*/
+ 221:Src/oled_i2c.c **** 
+ 222:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x90,0x70,0x00,0x00,0x00,0x00,0x00},/*",",5*/
+ 223:Src/oled_i2c.c **** 
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 7
+
+
+ 224:Src/oled_i2c.c ****     {0x08,0xF8,0x08,0x08,0x08,0x08,0xF0,0x00,0x20,0x3F,0x21,0x01,0x01,0x01,0x00,0x00},/*"P",6*/
+ 225:Src/oled_i2c.c **** 
+ 226:Src/oled_i2c.c ****     {0xE0,0x10,0x08,0x08,0x08,0x10,0xE0,0x00,0x0F,0x10,0x20,0x20,0x20,0x10,0x0F,0x00},/*"O",7*/
+ 227:Src/oled_i2c.c **** 
+ 228:Src/oled_i2c.c ****     {0x08,0xF8,0x00,0xF8,0x00,0xF8,0x08,0x00,0x00,0x03,0x3E,0x01,0x3E,0x03,0x00,0x00},/*"W",8*/
+ 229:Src/oled_i2c.c **** 
+ 230:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",9*/
+ 231:Src/oled_i2c.c **** 
+ 232:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0x88,0x88,0x70,0x00,0x20,0x3F,0x20,0x00,0x03,0x0C,0x30,0x20},/*"R",10*/
+ 233:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 234:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 235:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 236:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 237:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 238:Src/oled_i2c.c **** 
+ 239:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",11*/
+ 240:Src/oled_i2c.c **** 
+ 241:Src/oled_i2c.c ****     {0x08,0xF8,0x08,0x08,0x08,0x08,0xF0,0x00,0x20,0x3F,0x21,0x01,0x01,0x01,0x00,0x00},/*"P",12*/
+ 242:Src/oled_i2c.c **** 
+ 243:Src/oled_i2c.c ****     {0x08,0xF8,0x08,0x00,0x00,0x00,0x00,0x00,0x20,0x3F,0x20,0x20,0x20,0x20,0x30,0x00},/*"L",13*/
+ 244:Src/oled_i2c.c **** 
+ 245:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",14*/
+ 246:Src/oled_i2c.c **** 
+ 247:Src/oled_i2c.c ****     {0x00,0x00,0xC0,0x38,0xE0,0x00,0x00,0x00,0x20,0x3C,0x23,0x02,0x02,0x27,0x38,0x20},/*"A",15*/
+ 248:Src/oled_i2c.c **** 
+ 249:Src/oled_i2c.c ****     {0x00,0x70,0x88,0x08,0x08,0x08,0x38,0x00,0x00,0x38,0x20,0x21,0x21,0x22,0x1C,0x00},/*"S",16*/
+ 250:Src/oled_i2c.c **** 
+ 251:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",17*/
+ 252:Src/oled_i2c.c **** 
+ 253:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x90,0x70,0x00,0x00,0x00,0x00,0x00},/*",",18*/
+ 254:Src/oled_i2c.c **** 
+ 255:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",19*/
+ 256:Src/oled_i2c.c **** 
+ 257:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0x88,0x88,0x70,0x00,0x20,0x3F,0x20,0x00,0x03,0x0C,0x30,0x20},/*"R",20*/
+ 258:Src/oled_i2c.c **** 
+ 259:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",21*/
+ 260:Src/oled_i2c.c **** 
+ 261:Src/oled_i2c.c ****     {0x00,0x70,0x88,0x08,0x08,0x08,0x38,0x00,0x00,0x38,0x20,0x21,0x21,0x22,0x1C,0x00},/*"S",22*/
+ 262:Src/oled_i2c.c **** 
+ 263:Src/oled_i2c.c ****     {0x08,0xF8,0x88,0x88,0xE8,0x08,0x10,0x00,0x20,0x3F,0x20,0x20,0x23,0x20,0x18,0x00},/*"E",23*/
+ 264:Src/oled_i2c.c **** 
+ 265:Src/oled_i2c.c ****     {0x18,0x08,0x08,0xF8,0x08,0x08,0x18,0x00,0x00,0x00,0x20,0x3F,0x20,0x00,0x00,0x00},/*"T",24*/
+ 266:Src/oled_i2c.c **** 
+ 267:Src/oled_i2c.c ****     {0x00,0x00,0x00,0xF8,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x00,0x00,0x00,0x00},/*"!",25*/
+ 268:Src/oled_i2c.c **** 
+ 269:Src/oled_i2c.c ****     {0x00,0x00,0x00,0xF8,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x00,0x00,0x00,0x00},/*"!",26*/
+ 270:Src/oled_i2c.c **** 
+ 271:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 272:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 273:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 274:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 275:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 276:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 277:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 278:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 279:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 280:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 8
+
+
+ 281:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 282:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 283:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 284:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 285:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 286:Src/oled_i2c.c ****     {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},/*" ",61*/
+ 287:Src/oled_i2c.c **** };
+ 288:Src/oled_i2c.c **** 
+ 289:Src/oled_i2c.c **** void display_ctrl(I2C_HandleTypeDef *hi2c, uint32_t adc_val, __IO uint8_t *uart_array)
+ 290:Src/oled_i2c.c **** {   
+ 121              		.loc 1 290 0
  122              		.cfi_startproc
- 123              		@ args = 0, pretend = 0, frame = 8
+ 123              		@ args = 0, pretend = 0, frame = 16
  124              		@ frame_needed = 0, uses_anonymous_args = 0
  125              	.LVL6:
  126 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
@@ -347,28 +448,25 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
  135              		.cfi_offset 10, -12
  136              		.cfi_offset 11, -8
  137              		.cfi_offset 14, -4
- 138 0004 87B0     		sub	sp, sp, #28
+ 138 0004 89B0     		sub	sp, sp, #36
  139              	.LCFI4:
- 140              		.cfi_def_cfa_offset 64
+ 140              		.cfi_def_cfa_offset 72
  141 0006 0446     		mov	r4, r0
- 196:Src/oled_i2c.c ****     uint8_t data1 = 0x02, data2 = 0x10;
- 142              		.loc 1 196 0
+ 291:Src/oled_i2c.c ****     uint8_t data1 = 0x02, data2 = 0x10;
+ 142              		.loc 1 291 0
  143 0008 0223     		movs	r3, #2
- 144 000a 8DF81730 		strb	r3, [sp, #23]
+ 144 000a 8DF81F30 		strb	r3, [sp, #31]
  145 000e 1023     		movs	r3, #16
- 146 0010 8DF81630 		strb	r3, [sp, #22]
- 197:Src/oled_i2c.c ****     uint8_t data_b = 0x00;
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 7
-
-
- 147              		.loc 1 197 0
+ 146 0010 8DF81E30 		strb	r3, [sp, #30]
+ 292:Src/oled_i2c.c ****     uint8_t data_b = 0x00;
+ 147              		.loc 1 292 0
  148 0014 0023     		movs	r3, #0
- 149 0016 8DF81530 		strb	r3, [sp, #21]
+ 149 0016 8DF81D30 		strb	r3, [sp, #29]
  150              	.LVL7:
- 198:Src/oled_i2c.c ****     uint8_t m = 0,n = 0;
- 199:Src/oled_i2c.c ****     uint32_t adc_offset = (adc_val / 21) * 10;
- 151              		.loc 1 199 0
- 152 001a AB4B     		ldr	r3, .L17
+ 293:Src/oled_i2c.c ****     uint8_t m = 0,n = 0;
+ 294:Src/oled_i2c.c ****     uint32_t adc_offset = (adc_val / 21) * 10;
+ 151              		.loc 1 294 0
+ 152 001a D74B     		ldr	r3, .L21
  153 001c A3FB0103 		umull	r0, r3, r3, r1
  154              	.LVL8:
  155 0020 C91A     		subs	r1, r1, r3
@@ -376,1741 +474,2931 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 1
  157 0022 03EB5103 		add	r3, r3, r1, lsr #1
  158 0026 1B09     		lsrs	r3, r3, #4
  159 0028 03EB8303 		add	r3, r3, r3, lsl #2
- 160 002c 4FEA4309 		lsl	r9, r3, #1
- 161              	.LVL10:
- 200:Src/oled_i2c.c ****     uint16_t vol = 0x00;
- 201:Src/oled_i2c.c ****     uint32_t pow = 0x00;
- 202:Src/oled_i2c.c ****     uint32_t out = 0x00;
- 203:Src/oled_i2c.c **** 
- 204:Src/oled_i2c.c **** 
- 205:Src/oled_i2c.c ****     if (uart_array != NULL)
- 162              		.loc 1 205 0
- 163 0030 F2B1     		cbz	r2, .L15
- 164 0032 1146     		mov	r1, r2
- 206:Src/oled_i2c.c ****     {
- 207:Src/oled_i2c.c ****         vol = ((uart_array[3] << 8) + uart_array[4]) / 10;
- 165              		.loc 1 207 0
- 166 0034 D278     		ldrb	r2, [r2, #3]	@ zero_extendqisi2
- 167              	.LVL11:
- 168 0036 0B79     		ldrb	r3, [r1, #4]	@ zero_extendqisi2
- 169 0038 03EB0223 		add	r3, r3, r2, lsl #8
- 170 003c A34A     		ldr	r2, .L17+4
- 171 003e 82FB0307 		smull	r0, r7, r2, r3
- 172 0042 DB17     		asrs	r3, r3, #31
- 173 0044 C3EBA707 		rsb	r7, r3, r7, asr #2
- 174 0048 BFB2     		uxth	r7, r7
- 175              	.LVL12:
- 208:Src/oled_i2c.c ****         pow = ((uart_array[9] << 8) + uart_array[10]) / 10;
- 176              		.loc 1 208 0
- 177 004a 487A     		ldrb	r0, [r1, #9]	@ zero_extendqisi2
- 178 004c 8B7A     		ldrb	r3, [r1, #10]	@ zero_extendqisi2
- 179 004e 03EB0023 		add	r3, r3, r0, lsl #8
- 180 0052 82FB0308 		smull	r0, r8, r2, r3
- 181 0056 DB17     		asrs	r3, r3, #31
- 182 0058 C3EBA808 		rsb	r8, r3, r8, asr #2
- 183              	.LVL13:
- 209:Src/oled_i2c.c ****         out = ((uart_array[17] << 8) + uart_array[18]) / 10;
- 184              		.loc 1 209 0
- 185 005c 487C     		ldrb	r0, [r1, #17]	@ zero_extendqisi2
- 186 005e 8B7C     		ldrb	r3, [r1, #18]	@ zero_extendqisi2
- 187 0060 03EB0023 		add	r3, r3, r0, lsl #8
- 188 0064 82FB0312 		smull	r1, r2, r2, r3
- 189              	.LVL14:
- 190 0068 DB17     		asrs	r3, r3, #31
- 191 006a C3EBA20A 		rsb	r10, r3, r2, asr #2
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 8
+ 160 002c 5B00     		lsls	r3, r3, #1
+ 161 002e 1E46     		mov	r6, r3
+ 162 0030 0593     		str	r3, [sp, #20]
+ 163              	.LVL10:
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 9
 
 
+ 295:Src/oled_i2c.c ****     uint16_t vol = 0x00;
+ 296:Src/oled_i2c.c ****     uint32_t pow = 0x00;
+ 297:Src/oled_i2c.c ****     uint32_t out = 0x00;
+ 298:Src/oled_i2c.c **** 
+ 299:Src/oled_i2c.c **** 
+ 300:Src/oled_i2c.c ****     if (uart_array != NULL)
+ 164              		.loc 1 300 0
+ 165 0032 FAB1     		cbz	r2, .L19
+ 166 0034 1146     		mov	r1, r2
+ 301:Src/oled_i2c.c ****     {
+ 302:Src/oled_i2c.c ****         vol = ((uart_array[3] << 8) + uart_array[4]) / 10;
+ 167              		.loc 1 302 0
+ 168 0036 D278     		ldrb	r2, [r2, #3]	@ zero_extendqisi2
+ 169              	.LVL11:
+ 170 0038 0B79     		ldrb	r3, [r1, #4]	@ zero_extendqisi2
+ 171              	.LVL12:
+ 172 003a 03EB0223 		add	r3, r3, r2, lsl #8
+ 173 003e CF4A     		ldr	r2, .L21+4
+ 174 0040 82FB0308 		smull	r0, r8, r2, r3
+ 175 0044 DB17     		asrs	r3, r3, #31
+ 176 0046 C3EBA808 		rsb	r8, r3, r8, asr #2
+ 177 004a 1FFA88F8 		uxth	r8, r8
+ 178              	.LVL13:
+ 303:Src/oled_i2c.c ****         pow = ((uart_array[9] << 8) + uart_array[10]) / 10;
+ 179              		.loc 1 303 0
+ 180 004e 487A     		ldrb	r0, [r1, #9]	@ zero_extendqisi2
+ 181 0050 8B7A     		ldrb	r3, [r1, #10]	@ zero_extendqisi2
+ 182 0052 03EB0023 		add	r3, r3, r0, lsl #8
+ 183 0056 82FB0305 		smull	r0, r5, r2, r3
+ 184 005a DB17     		asrs	r3, r3, #31
+ 185 005c C3EBA505 		rsb	r5, r3, r5, asr #2
+ 186              	.LVL14:
+ 304:Src/oled_i2c.c ****         out = ((uart_array[17] << 8) + uart_array[18]) / 10;
+ 187              		.loc 1 304 0
+ 188 0060 487C     		ldrb	r0, [r1, #17]	@ zero_extendqisi2
+ 189 0062 8B7C     		ldrb	r3, [r1, #18]	@ zero_extendqisi2
+ 190 0064 03EB0023 		add	r3, r3, r0, lsl #8
+ 191 0068 82FB0312 		smull	r1, r2, r2, r3
  192              	.LVL15:
- 193 006e 03E0     		b	.L8
- 194              	.LVL16:
- 195              	.L15:
- 202:Src/oled_i2c.c **** 
- 196              		.loc 1 202 0
- 197 0070 4FF0000A 		mov	r10, #0
- 201:Src/oled_i2c.c ****     uint32_t out = 0x00;
- 198              		.loc 1 201 0
- 199 0074 D046     		mov	r8, r10
- 200:Src/oled_i2c.c ****     uint32_t pow = 0x00;
- 200              		.loc 1 200 0
- 201 0076 5746     		mov	r7, r10
- 202              	.LVL17:
- 203              	.L8:
- 210:Src/oled_i2c.c ****     }
- 211:Src/oled_i2c.c **** 
- 212:Src/oled_i2c.c ****     if(adc_offset < pow)
- 204              		.loc 1 212 0
- 205 0078 C845     		cmp	r8, r9
- 206 007a 09D9     		bls	.L9
- 213:Src/oled_i2c.c ****     {
- 214:Src/oled_i2c.c ****         if(hi2c == &hi2c1)
- 207              		.loc 1 214 0
- 208 007c 944B     		ldr	r3, .L17+8
- 209 007e 9C42     		cmp	r4, r3
- 210 0080 03D1     		bne	.L10
- 215:Src/oled_i2c.c ****         {
- 216:Src/oled_i2c.c ****             MX_GPIO1_TEST_Error(GPIO_PIN_SET);
- 211              		.loc 1 216 0
- 212 0082 0120     		movs	r0, #1
- 213 0084 FFF7FEFF 		bl	MX_GPIO1_TEST_Error
- 214              	.LVL18:
- 215 0088 02E0     		b	.L9
- 216              	.L10:
- 217:Src/oled_i2c.c ****         }
- 218:Src/oled_i2c.c ****         else
- 219:Src/oled_i2c.c ****         {
- 220:Src/oled_i2c.c ****             MX_GPIO2_TEST_Error(GPIO_PIN_SET);
- 217              		.loc 1 220 0
- 218 008a 0120     		movs	r0, #1
- 219 008c FFF7FEFF 		bl	MX_GPIO2_TEST_Error
- 220              	.LVL19:
- 221              	.L9:
- 221:Src/oled_i2c.c ****         }
- 222:Src/oled_i2c.c ****     }
- 223:Src/oled_i2c.c ****     /*
- 224:Src/oled_i2c.c ****     if(adc_offset > pow)
- 225:Src/oled_i2c.c ****     {
- 226:Src/oled_i2c.c ****         if(hi2c == &hi2c1)
- 227:Src/oled_i2c.c ****         {
- 228:Src/oled_i2c.c ****             MX_GPIO1_TEST_Error(GPIO_PIN_RESET);
- 229:Src/oled_i2c.c ****         }
- 230:Src/oled_i2c.c ****         else
- 231:Src/oled_i2c.c ****         {
- 232:Src/oled_i2c.c ****             MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
- 233:Src/oled_i2c.c ****         } 
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 9
+ 193 006c DB17     		asrs	r3, r3, #31
+ 194 006e C3EBA209 		rsb	r9, r3, r2, asr #2
+ 195              	.LVL16:
+ 196 0072 03E0     		b	.L8
+ 197              	.LVL17:
+ 198              	.L19:
+ 297:Src/oled_i2c.c **** 
+ 199              		.loc 1 297 0
+ 200 0074 4FF00009 		mov	r9, #0
+ 296:Src/oled_i2c.c ****     uint32_t out = 0x00;
+ 201              		.loc 1 296 0
+ 202 0078 4D46     		mov	r5, r9
+ 295:Src/oled_i2c.c ****     uint32_t pow = 0x00;
+ 203              		.loc 1 295 0
+ 204 007a C846     		mov	r8, r9
+ 205              	.LVL18:
+ 206              	.L8:
+ 305:Src/oled_i2c.c ****     }
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 10
 
 
- 234:Src/oled_i2c.c ****     }
- 235:Src/oled_i2c.c ****     */
- 236:Src/oled_i2c.c **** 
- 237:Src/oled_i2c.c ****     //out
- 238:Src/oled_i2c.c ****     memcpy(&array1[10][0],&number[out / 10][0],16);
- 222              		.loc 1 238 0
- 223 0090 DFF84CE2 		ldr	lr, .L17+24
- 224 0094 AEFB0A3C 		umull	r3, ip, lr, r10
- 225 0098 4FEADC0C 		lsr	ip, ip, #3
- 226 009c 8D4E     		ldr	r6, .L17+12
- 227 009e 06EB0C13 		add	r3, r6, ip, lsl #4
- 228 00a2 8D4D     		ldr	r5, .L17+16
- 229 00a4 05F1A00B 		add	fp, r5, #160
- 230 00a8 1868     		ldr	r0, [r3]	@ unaligned
- 231 00aa 5968     		ldr	r1, [r3, #4]	@ unaligned
- 232 00ac 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 233 00ae DB68     		ldr	r3, [r3, #12]	@ unaligned
- 234 00b0 ABE80F00 		stmia	fp!, {r0, r1, r2, r3}
- 239:Src/oled_i2c.c ****     memcpy(&array1[11][0],&number[out %  10][0],16);
- 235              		.loc 1 239 0
- 236 00b4 0CEB8C0C 		add	ip, ip, ip, lsl #2
- 237 00b8 4FEA4C03 		lsl	r3, ip, #1
- 238 00bc C3EB0A03 		rsb	r3, r3, r10
- 239 00c0 06EB0313 		add	r3, r6, r3, lsl #4
- 240 00c4 05F1B00C 		add	ip, r5, #176
- 241 00c8 1868     		ldr	r0, [r3]	@ unaligned
- 242 00ca 5968     		ldr	r1, [r3, #4]	@ unaligned
- 243 00cc 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 244 00ce DB68     		ldr	r3, [r3, #12]	@ unaligned
- 245 00d0 ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
- 240:Src/oled_i2c.c ****     //vol
- 241:Src/oled_i2c.c ****     memcpy(&array1[23][0],&number[vol / 100][0],16);
- 246              		.loc 1 241 0
- 247 00d4 DFF80CC2 		ldr	ip, .L17+28
- 248 00d8 ACFB073A 		umull	r3, r10, ip, r7
- 249              	.LVL20:
- 250 00dc 4FEA5A1A 		lsr	r10, r10, #5
- 251 00e0 06EB0A13 		add	r3, r6, r10, lsl #4
- 252 00e4 05F5B87B 		add	fp, r5, #368
- 253 00e8 1868     		ldr	r0, [r3]	@ unaligned
- 254 00ea 5968     		ldr	r1, [r3, #4]	@ unaligned
- 255 00ec 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 256 00ee DB68     		ldr	r3, [r3, #12]	@ unaligned
- 257 00f0 ABE80F00 		stmia	fp!, {r0, r1, r2, r3}
- 242:Src/oled_i2c.c ****     memcpy(&array1[24][0],&number[(vol % 100) / 10][0],16);
- 258              		.loc 1 242 0
- 259 00f4 6423     		movs	r3, #100
- 260 00f6 03FB1A77 		mls	r7, r3, r10, r7
- 261              	.LVL21:
- 262 00fa BFB2     		uxth	r7, r7
- 263 00fc AEFB073A 		umull	r3, r10, lr, r7
- 264 0100 4FEADA0A 		lsr	r10, r10, #3
- 265 0104 06EB0A13 		add	r3, r6, r10, lsl #4
- 266 0108 05F5C07B 		add	fp, r5, #384
- 267 010c 1868     		ldr	r0, [r3]	@ unaligned
- 268 010e 5968     		ldr	r1, [r3, #4]	@ unaligned
- 269 0110 9A68     		ldr	r2, [r3, #8]	@ unaligned
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 10
+ 306:Src/oled_i2c.c **** 
+ 307:Src/oled_i2c.c ****     if(adc_offset < pow)
+ 207              		.loc 1 307 0
+ 208 007c 059B     		ldr	r3, [sp, #20]
+ 209 007e 9D42     		cmp	r5, r3
+ 210 0080 27D9     		bls	.L9
+ 308:Src/oled_i2c.c ****     {
+ 309:Src/oled_i2c.c ****         if(hi2c == &hi2c1)
+ 211              		.loc 1 309 0
+ 212 0082 BF4B     		ldr	r3, .L21+8
+ 213 0084 9C42     		cmp	r4, r3
+ 214 0086 12D1     		bne	.L10
+ 310:Src/oled_i2c.c ****         {
+ 311:Src/oled_i2c.c ****             MX_GPIO1_TEST_Error(GPIO_PIN_SET);
+ 215              		.loc 1 311 0
+ 216 0088 0120     		movs	r0, #1
+ 217 008a FFF7FEFF 		bl	MX_GPIO1_TEST_Error
+ 218              	.LVL19:
+ 312:Src/oled_i2c.c ****             if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0))
+ 219              		.loc 1 312 0
+ 220 008e 0121     		movs	r1, #1
+ 221 0090 BC48     		ldr	r0, .L21+12
+ 222 0092 FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 223              	.LVL20:
+ 224 0096 0128     		cmp	r0, #1
+ 225 0098 1BD1     		bne	.L9
+ 226              	.L11:
+ 313:Src/oled_i2c.c ****             {
+ 314:Src/oled_i2c.c ****                 while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
+ 227              		.loc 1 314 0 discriminator 1
+ 228 009a 0121     		movs	r1, #1
+ 229 009c B948     		ldr	r0, .L21+12
+ 230 009e FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 231              	.LVL21:
+ 232 00a2 0128     		cmp	r0, #1
+ 233 00a4 F9D0     		beq	.L11
+ 315:Src/oled_i2c.c ****                 MX_GPIO1_TEST_Error(GPIO_PIN_RESET);
+ 234              		.loc 1 315 0
+ 235 00a6 0020     		movs	r0, #0
+ 236 00a8 FFF7FEFF 		bl	MX_GPIO1_TEST_Error
+ 237              	.LVL22:
+ 238 00ac 11E0     		b	.L9
+ 239              	.L10:
+ 316:Src/oled_i2c.c ****             }
+ 317:Src/oled_i2c.c ****         }
+ 318:Src/oled_i2c.c ****         else
+ 319:Src/oled_i2c.c ****         {
+ 320:Src/oled_i2c.c ****             MX_GPIO2_TEST_Error(GPIO_PIN_SET);
+ 240              		.loc 1 320 0
+ 241 00ae 0120     		movs	r0, #1
+ 242 00b0 FFF7FEFF 		bl	MX_GPIO2_TEST_Error
+ 243              	.LVL23:
+ 321:Src/oled_i2c.c ****             /*
+ 322:Src/oled_i2c.c ****             if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13))
+ 323:Src/oled_i2c.c ****             {
+ 324:Src/oled_i2c.c ****                 while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13));
+ 325:Src/oled_i2c.c ****                 MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 11
 
 
- 270 0112 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 271 0114 ABE80F00 		stmia	fp!, {r0, r1, r2, r3}
- 243:Src/oled_i2c.c ****     memcpy(&array1[25][0],&number[(vol % 100) % 10][0],16);
- 272              		.loc 1 243 0
- 273 0118 0AEB8A0A 		add	r10, r10, r10, lsl #2
- 274 011c 4FEA4A03 		lsl	r3, r10, #1
- 275 0120 FB1A     		subs	r3, r7, r3
- 276 0122 9BB2     		uxth	r3, r3
- 277 0124 06EB0313 		add	r3, r6, r3, lsl #4
- 278 0128 05F5C877 		add	r7, r5, #400
- 279 012c 1868     		ldr	r0, [r3]	@ unaligned
- 280 012e 5968     		ldr	r1, [r3, #4]	@ unaligned
- 281 0130 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 282 0132 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 283 0134 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 244:Src/oled_i2c.c ****     //pow
- 245:Src/oled_i2c.c ****     memcpy(&array1[39][0],&number[pow / 1000][0],16);
- 284              		.loc 1 245 0
- 285 0136 694B     		ldr	r3, .L17+20
- 286 0138 A3FB083A 		umull	r3, r10, r3, r8
- 287 013c 4FEA9A1A 		lsr	r10, r10, #6
- 288 0140 06EB0A13 		add	r3, r6, r10, lsl #4
- 289 0144 05F51C77 		add	r7, r5, #624
- 290 0148 1868     		ldr	r0, [r3]	@ unaligned
- 291 014a 5968     		ldr	r1, [r3, #4]	@ unaligned
- 292 014c 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 293 014e DB68     		ldr	r3, [r3, #12]	@ unaligned
- 294 0150 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 246:Src/oled_i2c.c ****     memcpy(&array1[40][0],&number[(pow % 1000) / 100][0],16);
- 295              		.loc 1 246 0
- 296 0152 4FF47A7B 		mov	fp, #1000
- 297 0156 0BFB1A87 		mls	r7, fp, r10, r8
- 298 015a ACFB0738 		umull	r3, r8, ip, r7
- 299              	.LVL22:
- 300 015e 4FEA5818 		lsr	r8, r8, #5
- 301 0162 06EB0813 		add	r3, r6, r8, lsl #4
- 302 0166 05F5207A 		add	r10, r5, #640
- 303 016a 1868     		ldr	r0, [r3]	@ unaligned
- 304 016c 5968     		ldr	r1, [r3, #4]	@ unaligned
- 305 016e 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 306 0170 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 307 0172 AAE80F00 		stmia	r10!, {r0, r1, r2, r3}
- 247:Src/oled_i2c.c ****     memcpy(&array1[41][0],&number[((pow % 1000) % 100) / 10][0],16);
- 308              		.loc 1 247 0
- 309 0176 6423     		movs	r3, #100
- 310 0178 03FB187A 		mls	r10, r3, r8, r7
- 311 017c AEFB0A37 		umull	r3, r7, lr, r10
- 312 0180 FF08     		lsrs	r7, r7, #3
- 313 0182 06EB0713 		add	r3, r6, r7, lsl #4
- 314 0186 05F52478 		add	r8, r5, #656
- 315 018a 1868     		ldr	r0, [r3]	@ unaligned
- 316 018c 5968     		ldr	r1, [r3, #4]	@ unaligned
- 317 018e 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 318 0190 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 319 0192 A8E80F00 		stmia	r8!, {r0, r1, r2, r3}
- 248:Src/oled_i2c.c ****     memcpy(&array1[42][0],&number[((pow % 1000) % 100) % 10][0],16);
- 320              		.loc 1 248 0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 11
+ 326:Src/oled_i2c.c ****             }
+ 327:Src/oled_i2c.c ****             */
+ 328:Src/oled_i2c.c ****             if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0))
+ 244              		.loc 1 328 0
+ 245 00b4 0121     		movs	r1, #1
+ 246 00b6 B348     		ldr	r0, .L21+12
+ 247 00b8 FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 248              	.LVL24:
+ 249 00bc 0128     		cmp	r0, #1
+ 250 00be 08D1     		bne	.L9
+ 251              	.L12:
+ 329:Src/oled_i2c.c ****             {
+ 330:Src/oled_i2c.c ****                 while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
+ 252              		.loc 1 330 0 discriminator 1
+ 253 00c0 0121     		movs	r1, #1
+ 254 00c2 B048     		ldr	r0, .L21+12
+ 255 00c4 FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 256              	.LVL25:
+ 257 00c8 0128     		cmp	r0, #1
+ 258 00ca F9D0     		beq	.L12
+ 331:Src/oled_i2c.c ****                 MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
+ 259              		.loc 1 331 0
+ 260 00cc 0020     		movs	r0, #0
+ 261 00ce FFF7FEFF 		bl	MX_GPIO2_TEST_Error
+ 262              	.LVL26:
+ 263              	.L9:
+ 332:Src/oled_i2c.c ****             }
+ 333:Src/oled_i2c.c ****         }
+ 334:Src/oled_i2c.c ****     }
+ 335:Src/oled_i2c.c **** 
+ 336:Src/oled_i2c.c ****     /*
+ 337:Src/oled_i2c.c ****     if(adc_offset > pow)
+ 338:Src/oled_i2c.c ****     {
+ 339:Src/oled_i2c.c ****         if(hi2c == &hi2c1)
+ 340:Src/oled_i2c.c ****         {
+ 341:Src/oled_i2c.c ****             MX_GPIO1_TEST_Error(GPIO_PIN_RESET);
+ 342:Src/oled_i2c.c ****         }
+ 343:Src/oled_i2c.c ****         else
+ 344:Src/oled_i2c.c ****         {
+ 345:Src/oled_i2c.c ****             MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
+ 346:Src/oled_i2c.c ****         } 
+ 347:Src/oled_i2c.c ****     }
+ 348:Src/oled_i2c.c ****     */
+ 349:Src/oled_i2c.c **** 
+ 350:Src/oled_i2c.c ****     //out
+ 351:Src/oled_i2c.c ****     memcpy(&array1[10][0],&number[out / 10][0],16);
+ 264              		.loc 1 351 0
+ 265 00d2 DFF8C4C2 		ldr	ip, .L21+32
+ 266 00d6 ACFB093A 		umull	r3, r10, ip, r9
+ 267 00da 4FEADA0A 		lsr	r10, r10, #3
+ 268 00de DFF8BCE2 		ldr	lr, .L21+36
+ 269 00e2 0EEB0A13 		add	r3, lr, r10, lsl #4
+ 270 00e6 A84F     		ldr	r7, .L21+16
+ 271 00e8 07F1A00B 		add	fp, r7, #160
+ 272 00ec 1868     		ldr	r0, [r3]	@ unaligned
+ 273 00ee 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 274 00f0 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 12
 
 
- 321 0196 07EB8707 		add	r7, r7, r7, lsl #2
- 322 019a 7B00     		lsls	r3, r7, #1
- 323 019c C3EB0A03 		rsb	r3, r3, r10
- 324 01a0 06EB0313 		add	r3, r6, r3, lsl #4
- 325 01a4 05F52877 		add	r7, r5, #672
- 326 01a8 1868     		ldr	r0, [r3]	@ unaligned
- 327 01aa 5968     		ldr	r1, [r3, #4]	@ unaligned
- 328 01ac 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 329 01ae DB68     		ldr	r3, [r3, #12]	@ unaligned
- 330 01b0 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 249:Src/oled_i2c.c ****     //set
- 250:Src/oled_i2c.c ****     memcpy(&array1[55][0],&number[adc_offset / 1000][0],16);
- 331              		.loc 1 250 0
- 332 01b2 4A4B     		ldr	r3, .L17+20
- 333 01b4 A3FB0938 		umull	r3, r8, r3, r9
- 334 01b8 4FEA9818 		lsr	r8, r8, #6
- 335 01bc 06EB0813 		add	r3, r6, r8, lsl #4
- 336 01c0 05F55C77 		add	r7, r5, #880
- 337 01c4 1868     		ldr	r0, [r3]	@ unaligned
- 338 01c6 5968     		ldr	r1, [r3, #4]	@ unaligned
- 339 01c8 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 340 01ca DB68     		ldr	r3, [r3, #12]	@ unaligned
- 341 01cc 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 251:Src/oled_i2c.c ****     memcpy(&array1[56][0],&number[(adc_offset % 1000) / 100][0],16);
- 342              		.loc 1 251 0
- 343 01ce 0BFB1897 		mls	r7, fp, r8, r9
- 344 01d2 ACFB073C 		umull	r3, ip, ip, r7
- 345 01d6 4FEA5C18 		lsr	r8, ip, #5
- 346 01da 06EB0813 		add	r3, r6, r8, lsl #4
- 347 01de 05F5607C 		add	ip, r5, #896
- 348 01e2 1868     		ldr	r0, [r3]	@ unaligned
- 349 01e4 5968     		ldr	r1, [r3, #4]	@ unaligned
- 350 01e6 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 351 01e8 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 352 01ea ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
- 252:Src/oled_i2c.c ****     memcpy(&array1[57][0],&number[((adc_offset % 1000) % 100) / 10][0],16);
- 353              		.loc 1 252 0
- 354 01ee 6423     		movs	r3, #100
- 355 01f0 03FB187C 		mls	ip, r3, r8, r7
- 356 01f4 AEFB0C37 		umull	r3, r7, lr, ip
- 357 01f8 FF08     		lsrs	r7, r7, #3
- 358 01fa 06EB0713 		add	r3, r6, r7, lsl #4
- 359 01fe 05F5647E 		add	lr, r5, #912
- 360 0202 1868     		ldr	r0, [r3]	@ unaligned
- 361 0204 5968     		ldr	r1, [r3, #4]	@ unaligned
- 362 0206 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 363 0208 DB68     		ldr	r3, [r3, #12]	@ unaligned
- 364 020a AEE80F00 		stmia	lr!, {r0, r1, r2, r3}
- 253:Src/oled_i2c.c ****     memcpy(&array1[58][0],&number[((adc_offset % 1000) % 100) % 10][0],16);
- 365              		.loc 1 253 0
- 366 020e 07EB8707 		add	r7, r7, r7, lsl #2
- 367 0212 7B00     		lsls	r3, r7, #1
- 368 0214 C3EB0C03 		rsb	r3, r3, ip
- 369 0218 06EB0316 		add	r6, r6, r3, lsl #4
- 370 021c 05F56875 		add	r5, r5, #928
- 371 0220 3068     		ldr	r0, [r6]	@ unaligned
- 372 0222 7168     		ldr	r1, [r6, #4]	@ unaligned
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 12
+ 275 00f2 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 276 00f4 ABE80F00 		stmia	fp!, {r0, r1, r2, r3}
+ 352:Src/oled_i2c.c ****     memcpy(&array1[11][0],&number[out %  10][0],16);
+ 277              		.loc 1 352 0
+ 278 00f8 0AEB8A0A 		add	r10, r10, r10, lsl #2
+ 279 00fc 4FEA4A03 		lsl	r3, r10, #1
+ 280 0100 C3EB0903 		rsb	r3, r3, r9
+ 281 0104 0EEB0313 		add	r3, lr, r3, lsl #4
+ 282 0108 07F1B009 		add	r9, r7, #176
+ 283              	.LVL27:
+ 284 010c 1868     		ldr	r0, [r3]	@ unaligned
+ 285 010e 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 286 0110 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 287 0112 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 288 0114 A9E80F00 		stmia	r9!, {r0, r1, r2, r3}
+ 353:Src/oled_i2c.c ****     //vol
+ 354:Src/oled_i2c.c ****     memcpy(&array1[23][0],&number[vol / 100][0],16);
+ 289              		.loc 1 354 0
+ 290 0118 9C4B     		ldr	r3, .L21+20
+ 291 011a A3FB0839 		umull	r3, r9, r3, r8
+ 292 011e 4FEA5919 		lsr	r9, r9, #5
+ 293 0122 0EEB0913 		add	r3, lr, r9, lsl #4
+ 294 0126 07F5B87A 		add	r10, r7, #368
+ 295 012a 1868     		ldr	r0, [r3]	@ unaligned
+ 296 012c 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 297 012e 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 298 0130 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 299 0132 AAE80F00 		stmia	r10!, {r0, r1, r2, r3}
+ 355:Src/oled_i2c.c ****     memcpy(&array1[24][0],&number[(vol % 100) / 10][0],16);
+ 300              		.loc 1 355 0
+ 301 0136 4FF0640B 		mov	fp, #100
+ 302 013a 0BFB1988 		mls	r8, fp, r9, r8
+ 303              	.LVL28:
+ 304 013e 1FFA88F8 		uxth	r8, r8
+ 305 0142 ACFB0839 		umull	r3, r9, ip, r8
+ 306 0146 4FEAD909 		lsr	r9, r9, #3
+ 307 014a 0EEB0913 		add	r3, lr, r9, lsl #4
+ 308 014e 07F5C07A 		add	r10, r7, #384
+ 309 0152 1868     		ldr	r0, [r3]	@ unaligned
+ 310 0154 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 311 0156 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 312 0158 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 313 015a AAE80F00 		stmia	r10!, {r0, r1, r2, r3}
+ 356:Src/oled_i2c.c ****     memcpy(&array1[25][0],&number[(vol % 100) % 10][0],16);
+ 314              		.loc 1 356 0
+ 315 015e 09EB8909 		add	r9, r9, r9, lsl #2
+ 316 0162 4FEA4903 		lsl	r3, r9, #1
+ 317 0166 C3EB0803 		rsb	r3, r3, r8
+ 318 016a 9BB2     		uxth	r3, r3
+ 319 016c 0EEB0313 		add	r3, lr, r3, lsl #4
+ 320 0170 07F5C878 		add	r8, r7, #400
+ 321 0174 1868     		ldr	r0, [r3]	@ unaligned
+ 322 0176 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 323 0178 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 324 017a DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 325 017c A8E80F00 		stmia	r8!, {r0, r1, r2, r3}
+ 357:Src/oled_i2c.c ****     //pow
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 13
 
 
- 373 0224 B268     		ldr	r2, [r6, #8]	@ unaligned
- 374 0226 F368     		ldr	r3, [r6, #12]	@ unaligned
- 375 0228 0FC5     		stmia	r5!, {r0, r1, r2, r3}
- 254:Src/oled_i2c.c **** 
- 255:Src/oled_i2c.c **** 	for(m=0;m<8;m++)
- 376              		.loc 1 255 0
- 377 022a 0026     		movs	r6, #0
- 378 022c 46E0     		b	.L11
- 379              	.LVL23:
- 380              	.L14:
- 256:Src/oled_i2c.c **** 	{ 
- 257:Src/oled_i2c.c ****         data_b = 0xb0+m;
- 381              		.loc 1 257 0
- 382 022e A6F15002 		sub	r2, r6, #80
- 383 0232 06AB     		add	r3, sp, #24
- 384 0234 03F8032D 		strb	r2, [r3, #-3]!
- 258:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data_b,1,10);
- 385              		.loc 1 258 0
- 386 0238 0A27     		movs	r7, #10
- 387 023a 0297     		str	r7, [sp, #8]
- 388 023c 0125     		movs	r5, #1
- 389 023e 0195     		str	r5, [sp, #4]
- 390 0240 0093     		str	r3, [sp]
- 391 0242 2B46     		mov	r3, r5
- 392 0244 0022     		movs	r2, #0
- 393 0246 7821     		movs	r1, #120
- 394 0248 2046     		mov	r0, r4
- 395 024a FFF7FEFF 		bl	HAL_I2C_Mem_Write
- 396              	.LVL24:
- 259:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data1,1,10);		//low column start add
- 397              		.loc 1 259 0
- 398 024e 0297     		str	r7, [sp, #8]
- 399 0250 0195     		str	r5, [sp, #4]
- 400 0252 0DF11703 		add	r3, sp, #23
- 401 0256 0093     		str	r3, [sp]
- 402 0258 2B46     		mov	r3, r5
- 403 025a 0022     		movs	r2, #0
- 404 025c 7821     		movs	r1, #120
- 405 025e 2046     		mov	r0, r4
- 406 0260 FFF7FEFF 		bl	HAL_I2C_Mem_Write
- 407              	.LVL25:
- 260:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data2,1,10);		//high column start ad
- 408              		.loc 1 260 0
- 409 0264 0297     		str	r7, [sp, #8]
- 410 0266 0195     		str	r5, [sp, #4]
- 411 0268 0DF11603 		add	r3, sp, #22
- 412 026c 0093     		str	r3, [sp]
- 413 026e 2B46     		mov	r3, r5
- 414 0270 0022     		movs	r2, #0
- 415 0272 7821     		movs	r1, #120
- 416 0274 2046     		mov	r0, r4
- 417 0276 FFF7FEFF 		bl	HAL_I2C_Mem_Write
- 418              	.LVL26:
- 261:Src/oled_i2c.c **** 
- 262:Src/oled_i2c.c ****         for(n=0;n<128;n++)
- 419              		.loc 1 262 0
- 420 027a 0025     		movs	r5, #0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 13
+ 358:Src/oled_i2c.c ****     memcpy(&array1[39][0],&number[pow / 1000][0],16);
+ 326              		.loc 1 358 0
+ 327 0180 834B     		ldr	r3, .L21+24
+ 328 0182 A3FB0538 		umull	r3, r8, r3, r5
+ 329 0186 4FEA9818 		lsr	r8, r8, #6
+ 330 018a 0EEB0813 		add	r3, lr, r8, lsl #4
+ 331 018e 07F51C79 		add	r9, r7, #624
+ 332 0192 1868     		ldr	r0, [r3]	@ unaligned
+ 333 0194 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 334 0196 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 335 0198 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 336 019a A9E80F00 		stmia	r9!, {r0, r1, r2, r3}
+ 359:Src/oled_i2c.c ****     memcpy(&array1[40][0],&number[(pow % 1000) / 100][0],16);
+ 337              		.loc 1 359 0
+ 338 019e 4FF47A73 		mov	r3, #1000
+ 339 01a2 03FB1859 		mls	r9, r3, r8, r5
+ 340 01a6 794B     		ldr	r3, .L21+20
+ 341 01a8 A3FB0938 		umull	r3, r8, r3, r9
+ 342 01ac 4FEA5818 		lsr	r8, r8, #5
+ 343 01b0 0EEB0813 		add	r3, lr, r8, lsl #4
+ 344 01b4 07F5207A 		add	r10, r7, #640
+ 345 01b8 1868     		ldr	r0, [r3]	@ unaligned
+ 346 01ba 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 347 01bc 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 348 01be DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 349 01c0 AAE80F00 		stmia	r10!, {r0, r1, r2, r3}
+ 360:Src/oled_i2c.c ****     memcpy(&array1[41][0],&number[((pow % 1000) % 100) / 10][0],16);
+ 350              		.loc 1 360 0
+ 351 01c4 0BFB189A 		mls	r10, fp, r8, r9
+ 352 01c8 ACFB0A38 		umull	r3, r8, ip, r10
+ 353 01cc 4FEAD808 		lsr	r8, r8, #3
+ 354 01d0 0EEB0813 		add	r3, lr, r8, lsl #4
+ 355 01d4 07F52479 		add	r9, r7, #656
+ 356 01d8 1868     		ldr	r0, [r3]	@ unaligned
+ 357 01da 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 358 01dc 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 359 01de DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 360 01e0 A9E80F00 		stmia	r9!, {r0, r1, r2, r3}
+ 361:Src/oled_i2c.c ****     memcpy(&array1[42][0],&number[((pow % 1000) % 100) % 10][0],16);
+ 361              		.loc 1 361 0
+ 362 01e4 08EB8808 		add	r8, r8, r8, lsl #2
+ 363 01e8 4FEA4803 		lsl	r3, r8, #1
+ 364 01ec C3EB0A03 		rsb	r3, r3, r10
+ 365 01f0 0EEB0313 		add	r3, lr, r3, lsl #4
+ 366 01f4 07F52878 		add	r8, r7, #672
+ 367 01f8 1868     		ldr	r0, [r3]	@ unaligned
+ 368 01fa 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 369 01fc 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 370 01fe DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 371 0200 A8E80F00 		stmia	r8!, {r0, r1, r2, r3}
+ 362:Src/oled_i2c.c ****     //set
+ 363:Src/oled_i2c.c ****     memcpy(&array1[55][0],&number[adc_offset / 1000][0],16);
+ 372              		.loc 1 363 0
+ 373 0204 059B     		ldr	r3, [sp, #20]
+ 374 0206 624A     		ldr	r2, .L21+24
+ 375 0208 A2FB0328 		umull	r2, r8, r2, r3
+ 376 020c 4FEA9818 		lsr	r8, r8, #6
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 14
 
 
- 421 027c 19E0     		b	.L12
- 422              	.LVL27:
- 423              	.L13:
- 263:Src/oled_i2c.c ****         {
- 264:Src/oled_i2c.c ****             HAL_I2C_Mem_Write(hi2c,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array1[m / 2 * 16 + n / 8][(m % 
- 424              		.loc 1 264 0 discriminator 3
- 425 027e 7208     		lsrs	r2, r6, #1
- 426 0280 EB08     		lsrs	r3, r5, #3
- 427 0282 03EB0211 		add	r1, r3, r2, lsl #4
- 428 0286 06F00102 		and	r2, r6, #1
- 429 028a 05F00703 		and	r3, r5, #7
- 430 028e 03EBC202 		add	r2, r3, r2, lsl #3
- 431 0292 0A23     		movs	r3, #10
- 432 0294 0293     		str	r3, [sp, #8]
- 433 0296 0123     		movs	r3, #1
- 434 0298 0193     		str	r3, [sp, #4]
- 435 029a 02EB0112 		add	r2, r2, r1, lsl #4
- 436 029e 0E49     		ldr	r1, .L17+16
- 437 02a0 0A44     		add	r2, r2, r1
- 438 02a2 0092     		str	r2, [sp]
- 439 02a4 4022     		movs	r2, #64
- 440 02a6 7821     		movs	r1, #120
- 441 02a8 2046     		mov	r0, r4
- 442 02aa FFF7FEFF 		bl	HAL_I2C_Mem_Write
- 443              	.LVL28:
- 262:Src/oled_i2c.c ****         {
- 444              		.loc 1 262 0 discriminator 3
- 445 02ae 0135     		adds	r5, r5, #1
- 446              	.LVL29:
- 447 02b0 EDB2     		uxtb	r5, r5
- 448              	.LVL30:
- 449              	.L12:
- 262:Src/oled_i2c.c ****         {
- 450              		.loc 1 262 0 is_stmt 0 discriminator 1
- 451 02b2 15F0800F 		tst	r5, #128
- 452 02b6 E2D0     		beq	.L13
- 255:Src/oled_i2c.c **** 	{ 
- 453              		.loc 1 255 0 is_stmt 1 discriminator 2
- 454 02b8 0136     		adds	r6, r6, #1
- 455              	.LVL31:
- 456 02ba F6B2     		uxtb	r6, r6
- 457              	.LVL32:
- 458              	.L11:
- 255:Src/oled_i2c.c **** 	{ 
- 459              		.loc 1 255 0 is_stmt 0 discriminator 1
- 460 02bc 072E     		cmp	r6, #7
- 461 02be B6D9     		bls	.L14
- 265:Src/oled_i2c.c ****         }
- 266:Src/oled_i2c.c **** 	}  
- 267:Src/oled_i2c.c **** }
- 462              		.loc 1 267 0 is_stmt 1
- 463 02c0 07B0     		add	sp, sp, #28
- 464              	.LCFI5:
- 465              		.cfi_def_cfa_offset 36
- 466              		@ sp needed
- 467 02c2 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 468              	.LVL33:
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 14
+ 377 0210 0EEB0813 		add	r3, lr, r8, lsl #4
+ 378 0214 07F55C79 		add	r9, r7, #880
+ 379 0218 1868     		ldr	r0, [r3]	@ unaligned
+ 380 021a 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 381 021c 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 382 021e DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 383 0220 A9E80F00 		stmia	r9!, {r0, r1, r2, r3}
+ 364:Src/oled_i2c.c ****     memcpy(&array1[56][0],&number[(adc_offset % 1000) / 100][0],16);
+ 384              		.loc 1 364 0
+ 385 0224 4FF47A72 		mov	r2, #1000
+ 386 0228 059B     		ldr	r3, [sp, #20]
+ 387 022a 02FB1839 		mls	r9, r2, r8, r3
+ 388 022e 574B     		ldr	r3, .L21+20
+ 389 0230 A3FB093A 		umull	r3, r10, r3, r9
+ 390 0234 4FEA5A1A 		lsr	r10, r10, #5
+ 391 0238 0EEB0A13 		add	r3, lr, r10, lsl #4
+ 392 023c 07F56078 		add	r8, r7, #896
+ 393 0240 1868     		ldr	r0, [r3]	@ unaligned
+ 394 0242 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 395 0244 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 396 0246 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 397 0248 A8E80F00 		stmia	r8!, {r0, r1, r2, r3}
+ 365:Src/oled_i2c.c ****     memcpy(&array1[57][0],&number[((adc_offset % 1000) % 100) / 10][0],16);
+ 398              		.loc 1 365 0
+ 399 024c 0BFB1A98 		mls	r8, fp, r10, r9
+ 400 0250 ACFB083C 		umull	r3, ip, ip, r8
+ 401 0254 4FEADC0C 		lsr	ip, ip, #3
+ 402 0258 0EEB0C13 		add	r3, lr, ip, lsl #4
+ 403 025c 07F56479 		add	r9, r7, #912
+ 404 0260 1868     		ldr	r0, [r3]	@ unaligned
+ 405 0262 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 406 0264 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 407 0266 DB68     		ldr	r3, [r3, #12]	@ unaligned
+ 408 0268 A9E80F00 		stmia	r9!, {r0, r1, r2, r3}
+ 366:Src/oled_i2c.c ****     memcpy(&array1[58][0],&number[((adc_offset % 1000) % 100) % 10][0],16);
+ 409              		.loc 1 366 0
+ 410 026c 0CEB8C0C 		add	ip, ip, ip, lsl #2
+ 411 0270 4FEA4C03 		lsl	r3, ip, #1
+ 412 0274 C3EB0803 		rsb	r3, r3, r8
+ 413 0278 0EEB031E 		add	lr, lr, r3, lsl #4
+ 414 027c 07F56877 		add	r7, r7, #928
+ 415 0280 DEF80000 		ldr	r0, [lr]	@ unaligned
+ 416 0284 DEF80410 		ldr	r1, [lr, #4]	@ unaligned
+ 417 0288 DEF80820 		ldr	r2, [lr, #8]	@ unaligned
+ 418 028c DEF80C30 		ldr	r3, [lr, #12]	@ unaligned
+ 419 0290 0FC7     		stmia	r7!, {r0, r1, r2, r3}
+ 367:Src/oled_i2c.c **** 
+ 368:Src/oled_i2c.c **** 	for(m=0;m<8;m++)
+ 420              		.loc 1 368 0
+ 421 0292 4FF00008 		mov	r8, #0
+ 422 0296 69E0     		b	.L13
+ 423              	.LVL29:
+ 424              	.L18:
+ 369:Src/oled_i2c.c **** 	{ 
+ 370:Src/oled_i2c.c ****         data_b = 0xb0+m;
+ 425              		.loc 1 370 0
+ 426 0298 A8F15002 		sub	r2, r8, #80
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 15
 
 
- 469              	.L18:
- 470 02c6 00BF     		.align	2
- 471              	.L17:
- 472 02c8 87611886 		.word	-2045222521
- 473 02cc 67666666 		.word	1717986919
- 474 02d0 00000000 		.word	hi2c1
- 475 02d4 00000000 		.word	.LANCHOR1
- 476 02d8 00000000 		.word	.LANCHOR2
- 477 02dc D34D6210 		.word	274877907
- 478 02e0 CDCCCCCC 		.word	-858993459
- 479 02e4 1F85EB51 		.word	1374389535
- 480              		.cfi_endproc
- 481              	.LFE66:
- 483              		.section	.rodata
- 484              		.align	2
- 485              		.set	.LANCHOR0,. + 0
- 486              	.LC0:
- 487 0000 AE       		.byte	-82
- 488 0001 20       		.byte	32
- 489 0002 10       		.byte	16
- 490 0003 B0       		.byte	-80
- 491 0004 C8       		.byte	-56
- 492 0005 02       		.byte	2
- 493 0006 10       		.byte	16
- 494 0007 40       		.byte	64
- 495 0008 81       		.byte	-127
- 496 0009 FF       		.byte	-1
- 497 000a A1       		.byte	-95
- 498 000b A6       		.byte	-90
- 499 000c A8       		.byte	-88
- 500 000d 3F       		.byte	63
- 501 000e A4       		.byte	-92
- 502 000f D3       		.byte	-45
- 503 0010 00       		.byte	0
- 504 0011 D5       		.byte	-43
- 505 0012 F0       		.byte	-16
- 506 0013 D9       		.byte	-39
- 507 0014 22       		.byte	34
- 508 0015 DA       		.byte	-38
- 509 0016 12       		.byte	18
- 510 0017 DB       		.byte	-37
- 511 0018 20       		.byte	32
- 512 0019 8D       		.byte	-115
- 513 001a 14       		.byte	20
- 514 001b AF       		.byte	-81
- 515              		.section	.rodata.number,"a",%progbits
- 516              		.align	2
- 517              		.set	.LANCHOR1,. + 0
- 520              	number:
- 521 0000 00       		.byte	0
- 522 0001 E0       		.byte	-32
- 523 0002 10       		.byte	16
- 524 0003 08       		.byte	8
- 525 0004 08       		.byte	8
- 526 0005 10       		.byte	16
- 527 0006 E0       		.byte	-32
- 528 0007 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 15
+ 427 029c 08AB     		add	r3, sp, #32
+ 428 029e 03F8032D 		strb	r2, [r3, #-3]!
+ 371:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data_b,1,10);
+ 429              		.loc 1 371 0
+ 430 02a2 4FF00A09 		mov	r9, #10
+ 431 02a6 CDF80890 		str	r9, [sp, #8]
+ 432 02aa 0127     		movs	r7, #1
+ 433 02ac 0197     		str	r7, [sp, #4]
+ 434 02ae 0093     		str	r3, [sp]
+ 435 02b0 3B46     		mov	r3, r7
+ 436 02b2 0022     		movs	r2, #0
+ 437 02b4 7821     		movs	r1, #120
+ 438 02b6 2046     		mov	r0, r4
+ 439 02b8 FFF7FEFF 		bl	HAL_I2C_Mem_Write
+ 440              	.LVL30:
+ 372:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data1,1,10);		//low column start add
+ 441              		.loc 1 372 0
+ 442 02bc CDF80890 		str	r9, [sp, #8]
+ 443 02c0 0197     		str	r7, [sp, #4]
+ 444 02c2 0DF11F03 		add	r3, sp, #31
+ 445 02c6 0093     		str	r3, [sp]
+ 446 02c8 3B46     		mov	r3, r7
+ 447 02ca 0022     		movs	r2, #0
+ 448 02cc 7821     		movs	r1, #120
+ 449 02ce 2046     		mov	r0, r4
+ 450 02d0 FFF7FEFF 		bl	HAL_I2C_Mem_Write
+ 451              	.LVL31:
+ 373:Src/oled_i2c.c ****         HAL_I2C_Mem_Write(hi2c,0x78,0x00,I2C_MEMADD_SIZE_8BIT,&data2,1,10);		//high column start ad
+ 452              		.loc 1 373 0
+ 453 02d4 CDF80890 		str	r9, [sp, #8]
+ 454 02d8 0197     		str	r7, [sp, #4]
+ 455 02da 0DF11E03 		add	r3, sp, #30
+ 456 02de 0093     		str	r3, [sp]
+ 457 02e0 3B46     		mov	r3, r7
+ 458 02e2 0022     		movs	r2, #0
+ 459 02e4 7821     		movs	r1, #120
+ 460 02e6 2046     		mov	r0, r4
+ 461 02e8 FFF7FEFF 		bl	HAL_I2C_Mem_Write
+ 462              	.LVL32:
+ 374:Src/oled_i2c.c **** 
+ 375:Src/oled_i2c.c ****         for(n=0;n<128;n++)
+ 463              		.loc 1 375 0
+ 464 02ec 0027     		movs	r7, #0
+ 465 02ee 36E0     		b	.L14
+ 466              	.LVL33:
+ 467              	.L17:
+ 376:Src/oled_i2c.c ****         {
+ 377:Src/oled_i2c.c ****             if(adc_offset < pow)
+ 468              		.loc 1 377 0
+ 469 02f0 B542     		cmp	r5, r6
+ 470 02f2 19D9     		bls	.L15
+ 378:Src/oled_i2c.c ****             {
+ 379:Src/oled_i2c.c ****                 HAL_I2C_Mem_Write(hi2c,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array2[m / 2 * 16 + n / 8][(
+ 471              		.loc 1 379 0
+ 472 02f4 4FEA5802 		lsr	r2, r8, #1
+ 473 02f8 FB08     		lsrs	r3, r7, #3
+ 474 02fa 03EB0211 		add	r1, r3, r2, lsl #4
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 16
 
 
- 529 0008 00       		.byte	0
- 530 0009 0F       		.byte	15
- 531 000a 10       		.byte	16
- 532 000b 20       		.byte	32
- 533 000c 20       		.byte	32
- 534 000d 10       		.byte	16
- 535 000e 0F       		.byte	15
- 536 000f 00       		.byte	0
- 537 0010 00       		.byte	0
- 538 0011 00       		.byte	0
- 539 0012 10       		.byte	16
- 540 0013 10       		.byte	16
- 541 0014 F8       		.byte	-8
- 542 0015 00       		.byte	0
- 543 0016 00       		.byte	0
- 544 0017 00       		.byte	0
- 545 0018 00       		.byte	0
- 546 0019 00       		.byte	0
- 547 001a 20       		.byte	32
- 548 001b 20       		.byte	32
- 549 001c 3F       		.byte	63
- 550 001d 20       		.byte	32
- 551 001e 20       		.byte	32
- 552 001f 00       		.byte	0
- 553 0020 00       		.byte	0
- 554 0021 70       		.byte	112
- 555 0022 08       		.byte	8
- 556 0023 08       		.byte	8
- 557 0024 08       		.byte	8
- 558 0025 08       		.byte	8
- 559 0026 F0       		.byte	-16
- 560 0027 00       		.byte	0
- 561 0028 00       		.byte	0
- 562 0029 30       		.byte	48
- 563 002a 28       		.byte	40
- 564 002b 24       		.byte	36
- 565 002c 22       		.byte	34
- 566 002d 21       		.byte	33
- 567 002e 30       		.byte	48
- 568 002f 00       		.byte	0
- 569 0030 00       		.byte	0
- 570 0031 30       		.byte	48
- 571 0032 08       		.byte	8
- 572 0033 08       		.byte	8
- 573 0034 08       		.byte	8
- 574 0035 88       		.byte	-120
- 575 0036 70       		.byte	112
- 576 0037 00       		.byte	0
- 577 0038 00       		.byte	0
- 578 0039 18       		.byte	24
- 579 003a 20       		.byte	32
- 580 003b 21       		.byte	33
- 581 003c 21       		.byte	33
- 582 003d 22       		.byte	34
- 583 003e 1C       		.byte	28
- 584 003f 00       		.byte	0
- 585 0040 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 16
+ 475 02fe 08F00102 		and	r2, r8, #1
+ 476 0302 07F00703 		and	r3, r7, #7
+ 477 0306 03EBC202 		add	r2, r3, r2, lsl #3
+ 478 030a 0A23     		movs	r3, #10
+ 479 030c 0293     		str	r3, [sp, #8]
+ 480 030e 0123     		movs	r3, #1
+ 481 0310 0193     		str	r3, [sp, #4]
+ 482 0312 02EB0112 		add	r2, r2, r1, lsl #4
+ 483 0316 1F49     		ldr	r1, .L21+28
+ 484 0318 0A44     		add	r2, r2, r1
+ 485 031a 0092     		str	r2, [sp]
+ 486 031c 4022     		movs	r2, #64
+ 487 031e 7821     		movs	r1, #120
+ 488 0320 2046     		mov	r0, r4
+ 489 0322 FFF7FEFF 		bl	HAL_I2C_Mem_Write
+ 490              	.LVL34:
+ 491 0326 18E0     		b	.L16
+ 492              	.L15:
+ 380:Src/oled_i2c.c ****             }
+ 381:Src/oled_i2c.c ****             else
+ 382:Src/oled_i2c.c ****             {
+ 383:Src/oled_i2c.c ****                 HAL_I2C_Mem_Write(hi2c,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array1[m / 2 * 16 + n / 8][(
+ 493              		.loc 1 383 0
+ 494 0328 4FEA5802 		lsr	r2, r8, #1
+ 495 032c FB08     		lsrs	r3, r7, #3
+ 496 032e 03EB0211 		add	r1, r3, r2, lsl #4
+ 497 0332 08F00102 		and	r2, r8, #1
+ 498 0336 07F00703 		and	r3, r7, #7
+ 499 033a 03EBC202 		add	r2, r3, r2, lsl #3
+ 500 033e 0A23     		movs	r3, #10
+ 501 0340 0293     		str	r3, [sp, #8]
+ 502 0342 0123     		movs	r3, #1
+ 503 0344 0193     		str	r3, [sp, #4]
+ 504 0346 02EB0112 		add	r2, r2, r1, lsl #4
+ 505 034a 0F49     		ldr	r1, .L21+16
+ 506 034c 0A44     		add	r2, r2, r1
+ 507 034e 0092     		str	r2, [sp]
+ 508 0350 4022     		movs	r2, #64
+ 509 0352 7821     		movs	r1, #120
+ 510 0354 2046     		mov	r0, r4
+ 511 0356 FFF7FEFF 		bl	HAL_I2C_Mem_Write
+ 512              	.LVL35:
+ 513              	.L16:
+ 375:Src/oled_i2c.c ****         {
+ 514              		.loc 1 375 0 discriminator 2
+ 515 035a 0137     		adds	r7, r7, #1
+ 516              	.LVL36:
+ 517 035c FFB2     		uxtb	r7, r7
+ 518              	.LVL37:
+ 519              	.L14:
+ 375:Src/oled_i2c.c ****         {
+ 520              		.loc 1 375 0 is_stmt 0 discriminator 1
+ 521 035e 17F0800F 		tst	r7, #128
+ 522 0362 C5D0     		beq	.L17
+ 368:Src/oled_i2c.c **** 	{ 
+ 523              		.loc 1 368 0 is_stmt 1 discriminator 2
+ 524 0364 08F10108 		add	r8, r8, #1
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 17
 
 
- 586 0041 00       		.byte	0
- 587 0042 80       		.byte	-128
- 588 0043 40       		.byte	64
- 589 0044 30       		.byte	48
- 590 0045 F8       		.byte	-8
- 591 0046 00       		.byte	0
- 592 0047 00       		.byte	0
- 593 0048 00       		.byte	0
- 594 0049 06       		.byte	6
- 595 004a 05       		.byte	5
- 596 004b 24       		.byte	36
- 597 004c 24       		.byte	36
- 598 004d 3F       		.byte	63
- 599 004e 24       		.byte	36
- 600 004f 24       		.byte	36
- 601 0050 00       		.byte	0
- 602 0051 F8       		.byte	-8
- 603 0052 88       		.byte	-120
- 604 0053 88       		.byte	-120
- 605 0054 88       		.byte	-120
- 606 0055 08       		.byte	8
- 607 0056 08       		.byte	8
- 608 0057 00       		.byte	0
- 609 0058 00       		.byte	0
- 610 0059 19       		.byte	25
- 611 005a 20       		.byte	32
- 612 005b 20       		.byte	32
- 613 005c 20       		.byte	32
- 614 005d 11       		.byte	17
- 615 005e 0E       		.byte	14
- 616 005f 00       		.byte	0
- 617 0060 00       		.byte	0
- 618 0061 E0       		.byte	-32
- 619 0062 10       		.byte	16
- 620 0063 88       		.byte	-120
- 621 0064 88       		.byte	-120
- 622 0065 90       		.byte	-112
- 623 0066 00       		.byte	0
- 624 0067 00       		.byte	0
- 625 0068 00       		.byte	0
- 626 0069 0F       		.byte	15
- 627 006a 11       		.byte	17
- 628 006b 20       		.byte	32
- 629 006c 20       		.byte	32
- 630 006d 20       		.byte	32
- 631 006e 1F       		.byte	31
- 632 006f 00       		.byte	0
- 633 0070 00       		.byte	0
- 634 0071 18       		.byte	24
- 635 0072 08       		.byte	8
- 636 0073 08       		.byte	8
- 637 0074 88       		.byte	-120
- 638 0075 68       		.byte	104
- 639 0076 18       		.byte	24
- 640 0077 00       		.byte	0
- 641 0078 00       		.byte	0
- 642 0079 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 17
+ 525              	.LVL38:
+ 526 0368 5FFA88F8 		uxtb	r8, r8
+ 527              	.LVL39:
+ 528              	.L13:
+ 368:Src/oled_i2c.c **** 	{ 
+ 529              		.loc 1 368 0 is_stmt 0 discriminator 1
+ 530 036c B8F1070F 		cmp	r8, #7
+ 531 0370 92D9     		bls	.L18
+ 384:Src/oled_i2c.c ****             }
+ 385:Src/oled_i2c.c ****         }
+ 386:Src/oled_i2c.c **** 	}  
+ 387:Src/oled_i2c.c **** }
+ 532              		.loc 1 387 0 is_stmt 1
+ 533 0372 09B0     		add	sp, sp, #36
+ 534              	.LCFI5:
+ 535              		.cfi_def_cfa_offset 36
+ 536              		@ sp needed
+ 537 0374 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 538              	.LVL40:
+ 539              	.L22:
+ 540              		.align	2
+ 541              	.L21:
+ 542 0378 87611886 		.word	-2045222521
+ 543 037c 67666666 		.word	1717986919
+ 544 0380 00000000 		.word	hi2c1
+ 545 0384 00080140 		.word	1073809408
+ 546 0388 00000000 		.word	.LANCHOR2
+ 547 038c 1F85EB51 		.word	1374389535
+ 548 0390 D34D6210 		.word	274877907
+ 549 0394 00000000 		.word	.LANCHOR3
+ 550 0398 CDCCCCCC 		.word	-858993459
+ 551 039c 00000000 		.word	.LANCHOR1
+ 552              		.cfi_endproc
+ 553              	.LFE66:
+ 555              		.section	.rodata
+ 556              		.align	2
+ 557              		.set	.LANCHOR0,. + 0
+ 558              	.LC0:
+ 559 0000 AE       		.byte	-82
+ 560 0001 20       		.byte	32
+ 561 0002 10       		.byte	16
+ 562 0003 B0       		.byte	-80
+ 563 0004 C8       		.byte	-56
+ 564 0005 02       		.byte	2
+ 565 0006 10       		.byte	16
+ 566 0007 40       		.byte	64
+ 567 0008 81       		.byte	-127
+ 568 0009 FF       		.byte	-1
+ 569 000a A1       		.byte	-95
+ 570 000b A6       		.byte	-90
+ 571 000c A8       		.byte	-88
+ 572 000d 3F       		.byte	63
+ 573 000e A4       		.byte	-92
+ 574 000f D3       		.byte	-45
+ 575 0010 00       		.byte	0
+ 576 0011 D5       		.byte	-43
+ 577 0012 F0       		.byte	-16
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 18
 
 
- 643 007a 00       		.byte	0
- 644 007b 3E       		.byte	62
- 645 007c 01       		.byte	1
- 646 007d 00       		.byte	0
- 647 007e 00       		.byte	0
- 648 007f 00       		.byte	0
- 649 0080 00       		.byte	0
- 650 0081 70       		.byte	112
- 651 0082 88       		.byte	-120
- 652 0083 08       		.byte	8
- 653 0084 08       		.byte	8
- 654 0085 88       		.byte	-120
- 655 0086 70       		.byte	112
- 656 0087 00       		.byte	0
- 657 0088 00       		.byte	0
- 658 0089 1C       		.byte	28
- 659 008a 22       		.byte	34
- 660 008b 21       		.byte	33
- 661 008c 21       		.byte	33
- 662 008d 22       		.byte	34
- 663 008e 1C       		.byte	28
- 664 008f 00       		.byte	0
- 665 0090 00       		.byte	0
- 666 0091 F0       		.byte	-16
- 667 0092 08       		.byte	8
- 668 0093 08       		.byte	8
- 669 0094 08       		.byte	8
- 670 0095 10       		.byte	16
- 671 0096 E0       		.byte	-32
- 672 0097 00       		.byte	0
- 673 0098 00       		.byte	0
- 674 0099 01       		.byte	1
- 675 009a 12       		.byte	18
- 676 009b 22       		.byte	34
- 677 009c 22       		.byte	34
- 678 009d 11       		.byte	17
- 679 009e 0F       		.byte	15
- 680 009f 00       		.byte	0
- 681              		.section	.data.array1,"aw",%progbits
- 682              		.align	2
- 683              		.set	.LANCHOR2,. + 0
- 686              	array1:
- 687 0000 00       		.byte	0
- 688 0001 00       		.byte	0
- 689 0002 00       		.byte	0
- 690 0003 00       		.byte	0
- 691 0004 00       		.byte	0
- 692 0005 00       		.byte	0
- 693 0006 00       		.byte	0
- 694 0007 00       		.byte	0
- 695 0008 00       		.byte	0
- 696 0009 00       		.byte	0
- 697 000a 00       		.byte	0
- 698 000b 00       		.byte	0
- 699 000c 00       		.byte	0
- 700 000d 00       		.byte	0
- 701 000e 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 18
+ 578 0013 D9       		.byte	-39
+ 579 0014 22       		.byte	34
+ 580 0015 DA       		.byte	-38
+ 581 0016 12       		.byte	18
+ 582 0017 DB       		.byte	-37
+ 583 0018 20       		.byte	32
+ 584 0019 8D       		.byte	-115
+ 585 001a 14       		.byte	20
+ 586 001b AF       		.byte	-81
+ 587              		.section	.rodata.number,"a",%progbits
+ 588              		.align	2
+ 589              		.set	.LANCHOR1,. + 0
+ 592              	number:
+ 593 0000 00       		.byte	0
+ 594 0001 E0       		.byte	-32
+ 595 0002 10       		.byte	16
+ 596 0003 08       		.byte	8
+ 597 0004 08       		.byte	8
+ 598 0005 10       		.byte	16
+ 599 0006 E0       		.byte	-32
+ 600 0007 00       		.byte	0
+ 601 0008 00       		.byte	0
+ 602 0009 0F       		.byte	15
+ 603 000a 10       		.byte	16
+ 604 000b 20       		.byte	32
+ 605 000c 20       		.byte	32
+ 606 000d 10       		.byte	16
+ 607 000e 0F       		.byte	15
+ 608 000f 00       		.byte	0
+ 609 0010 00       		.byte	0
+ 610 0011 00       		.byte	0
+ 611 0012 10       		.byte	16
+ 612 0013 10       		.byte	16
+ 613 0014 F8       		.byte	-8
+ 614 0015 00       		.byte	0
+ 615 0016 00       		.byte	0
+ 616 0017 00       		.byte	0
+ 617 0018 00       		.byte	0
+ 618 0019 00       		.byte	0
+ 619 001a 20       		.byte	32
+ 620 001b 20       		.byte	32
+ 621 001c 3F       		.byte	63
+ 622 001d 20       		.byte	32
+ 623 001e 20       		.byte	32
+ 624 001f 00       		.byte	0
+ 625 0020 00       		.byte	0
+ 626 0021 70       		.byte	112
+ 627 0022 08       		.byte	8
+ 628 0023 08       		.byte	8
+ 629 0024 08       		.byte	8
+ 630 0025 08       		.byte	8
+ 631 0026 F0       		.byte	-16
+ 632 0027 00       		.byte	0
+ 633 0028 00       		.byte	0
+ 634 0029 30       		.byte	48
+ 635 002a 28       		.byte	40
+ 636 002b 24       		.byte	36
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 19
 
 
- 702 000f 00       		.byte	0
- 703 0010 E0       		.byte	-32
- 704 0011 10       		.byte	16
- 705 0012 08       		.byte	8
- 706 0013 08       		.byte	8
- 707 0014 08       		.byte	8
- 708 0015 10       		.byte	16
- 709 0016 E0       		.byte	-32
- 710 0017 00       		.byte	0
- 711 0018 0F       		.byte	15
- 712 0019 10       		.byte	16
- 713 001a 20       		.byte	32
- 714 001b 20       		.byte	32
- 715 001c 20       		.byte	32
- 716 001d 10       		.byte	16
- 717 001e 0F       		.byte	15
- 718 001f 00       		.byte	0
- 719 0020 08       		.byte	8
- 720 0021 F8       		.byte	-8
- 721 0022 08       		.byte	8
- 722 0023 00       		.byte	0
- 723 0024 00       		.byte	0
- 724 0025 08       		.byte	8
- 725 0026 F8       		.byte	-8
- 726 0027 08       		.byte	8
- 727 0028 00       		.byte	0
- 728 0029 1F       		.byte	31
- 729 002a 20       		.byte	32
- 730 002b 20       		.byte	32
- 731 002c 20       		.byte	32
- 732 002d 20       		.byte	32
- 733 002e 1F       		.byte	31
- 734 002f 00       		.byte	0
- 735 0030 18       		.byte	24
- 736 0031 08       		.byte	8
- 737 0032 08       		.byte	8
- 738 0033 F8       		.byte	-8
- 739 0034 08       		.byte	8
- 740 0035 08       		.byte	8
- 741 0036 18       		.byte	24
- 742 0037 00       		.byte	0
- 743 0038 00       		.byte	0
- 744 0039 00       		.byte	0
- 745 003a 20       		.byte	32
- 746 003b 3F       		.byte	63
- 747 003c 20       		.byte	32
- 748 003d 00       		.byte	0
- 749 003e 00       		.byte	0
- 750 003f 00       		.byte	0
- 751 0040 00       		.byte	0
- 752 0041 00       		.byte	0
- 753 0042 00       		.byte	0
- 754 0043 00       		.byte	0
- 755 0044 00       		.byte	0
- 756 0045 00       		.byte	0
- 757 0046 00       		.byte	0
- 758 0047 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 19
+ 637 002c 22       		.byte	34
+ 638 002d 21       		.byte	33
+ 639 002e 30       		.byte	48
+ 640 002f 00       		.byte	0
+ 641 0030 00       		.byte	0
+ 642 0031 30       		.byte	48
+ 643 0032 08       		.byte	8
+ 644 0033 08       		.byte	8
+ 645 0034 08       		.byte	8
+ 646 0035 88       		.byte	-120
+ 647 0036 70       		.byte	112
+ 648 0037 00       		.byte	0
+ 649 0038 00       		.byte	0
+ 650 0039 18       		.byte	24
+ 651 003a 20       		.byte	32
+ 652 003b 21       		.byte	33
+ 653 003c 21       		.byte	33
+ 654 003d 22       		.byte	34
+ 655 003e 1C       		.byte	28
+ 656 003f 00       		.byte	0
+ 657 0040 00       		.byte	0
+ 658 0041 00       		.byte	0
+ 659 0042 80       		.byte	-128
+ 660 0043 40       		.byte	64
+ 661 0044 30       		.byte	48
+ 662 0045 F8       		.byte	-8
+ 663 0046 00       		.byte	0
+ 664 0047 00       		.byte	0
+ 665 0048 00       		.byte	0
+ 666 0049 06       		.byte	6
+ 667 004a 05       		.byte	5
+ 668 004b 24       		.byte	36
+ 669 004c 24       		.byte	36
+ 670 004d 3F       		.byte	63
+ 671 004e 24       		.byte	36
+ 672 004f 24       		.byte	36
+ 673 0050 00       		.byte	0
+ 674 0051 F8       		.byte	-8
+ 675 0052 88       		.byte	-120
+ 676 0053 88       		.byte	-120
+ 677 0054 88       		.byte	-120
+ 678 0055 08       		.byte	8
+ 679 0056 08       		.byte	8
+ 680 0057 00       		.byte	0
+ 681 0058 00       		.byte	0
+ 682 0059 19       		.byte	25
+ 683 005a 20       		.byte	32
+ 684 005b 20       		.byte	32
+ 685 005c 20       		.byte	32
+ 686 005d 11       		.byte	17
+ 687 005e 0E       		.byte	14
+ 688 005f 00       		.byte	0
+ 689 0060 00       		.byte	0
+ 690 0061 E0       		.byte	-32
+ 691 0062 10       		.byte	16
+ 692 0063 88       		.byte	-120
+ 693 0064 88       		.byte	-120
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 20
 
 
- 759 0048 00       		.byte	0
- 760 0049 00       		.byte	0
- 761 004a 00       		.byte	0
- 762 004b 00       		.byte	0
- 763 004c 00       		.byte	0
- 764 004d 00       		.byte	0
- 765 004e 00       		.byte	0
- 766 004f 00       		.byte	0
- 767 0050 00       		.byte	0
- 768 0051 00       		.byte	0
- 769 0052 00       		.byte	0
- 770 0053 C0       		.byte	-64
- 771 0054 C0       		.byte	-64
- 772 0055 00       		.byte	0
- 773 0056 00       		.byte	0
- 774 0057 00       		.byte	0
- 775 0058 00       		.byte	0
- 776 0059 00       		.byte	0
- 777 005a 00       		.byte	0
- 778 005b 30       		.byte	48
- 779 005c 30       		.byte	48
- 780 005d 00       		.byte	0
- 781 005e 00       		.byte	0
- 782 005f 00       		.byte	0
- 783 0060 00       		.byte	0
- 784 0061 00       		.byte	0
- 785 0062 00       		.byte	0
- 786 0063 00       		.byte	0
- 787 0064 00       		.byte	0
- 788 0065 00       		.byte	0
- 789 0066 00       		.byte	0
- 790 0067 00       		.byte	0
- 791 0068 00       		.byte	0
- 792 0069 00       		.byte	0
- 793 006a 00       		.byte	0
- 794 006b 00       		.byte	0
- 795 006c 00       		.byte	0
- 796 006d 00       		.byte	0
- 797 006e 00       		.byte	0
- 798 006f 00       		.byte	0
- 799 0070 00       		.byte	0
- 800 0071 00       		.byte	0
- 801 0072 C0       		.byte	-64
- 802 0073 38       		.byte	56
- 803 0074 E0       		.byte	-32
- 804 0075 00       		.byte	0
- 805 0076 00       		.byte	0
- 806 0077 00       		.byte	0
- 807 0078 20       		.byte	32
- 808 0079 3C       		.byte	60
- 809 007a 23       		.byte	35
- 810 007b 02       		.byte	2
- 811 007c 02       		.byte	2
- 812 007d 27       		.byte	39
- 813 007e 38       		.byte	56
- 814 007f 20       		.byte	32
- 815 0080 C0       		.byte	-64
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 20
+ 694 0065 90       		.byte	-112
+ 695 0066 00       		.byte	0
+ 696 0067 00       		.byte	0
+ 697 0068 00       		.byte	0
+ 698 0069 0F       		.byte	15
+ 699 006a 11       		.byte	17
+ 700 006b 20       		.byte	32
+ 701 006c 20       		.byte	32
+ 702 006d 20       		.byte	32
+ 703 006e 1F       		.byte	31
+ 704 006f 00       		.byte	0
+ 705 0070 00       		.byte	0
+ 706 0071 18       		.byte	24
+ 707 0072 08       		.byte	8
+ 708 0073 08       		.byte	8
+ 709 0074 88       		.byte	-120
+ 710 0075 68       		.byte	104
+ 711 0076 18       		.byte	24
+ 712 0077 00       		.byte	0
+ 713 0078 00       		.byte	0
+ 714 0079 00       		.byte	0
+ 715 007a 00       		.byte	0
+ 716 007b 3E       		.byte	62
+ 717 007c 01       		.byte	1
+ 718 007d 00       		.byte	0
+ 719 007e 00       		.byte	0
+ 720 007f 00       		.byte	0
+ 721 0080 00       		.byte	0
+ 722 0081 70       		.byte	112
+ 723 0082 88       		.byte	-120
+ 724 0083 08       		.byte	8
+ 725 0084 08       		.byte	8
+ 726 0085 88       		.byte	-120
+ 727 0086 70       		.byte	112
+ 728 0087 00       		.byte	0
+ 729 0088 00       		.byte	0
+ 730 0089 1C       		.byte	28
+ 731 008a 22       		.byte	34
+ 732 008b 21       		.byte	33
+ 733 008c 21       		.byte	33
+ 734 008d 22       		.byte	34
+ 735 008e 1C       		.byte	28
+ 736 008f 00       		.byte	0
+ 737 0090 00       		.byte	0
+ 738 0091 F0       		.byte	-16
+ 739 0092 08       		.byte	8
+ 740 0093 08       		.byte	8
+ 741 0094 08       		.byte	8
+ 742 0095 10       		.byte	16
+ 743 0096 E0       		.byte	-32
+ 744 0097 00       		.byte	0
+ 745 0098 00       		.byte	0
+ 746 0099 01       		.byte	1
+ 747 009a 12       		.byte	18
+ 748 009b 22       		.byte	34
+ 749 009c 22       		.byte	34
+ 750 009d 11       		.byte	17
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 21
 
 
- 816 0081 30       		.byte	48
- 817 0082 08       		.byte	8
- 818 0083 08       		.byte	8
- 819 0084 08       		.byte	8
- 820 0085 08       		.byte	8
- 821 0086 38       		.byte	56
- 822 0087 00       		.byte	0
- 823 0088 07       		.byte	7
- 824 0089 18       		.byte	24
- 825 008a 20       		.byte	32
- 826 008b 20       		.byte	32
- 827 008c 20       		.byte	32
- 828 008d 10       		.byte	16
- 829 008e 08       		.byte	8
- 830 008f 00       		.byte	0
- 831 0090 00       		.byte	0
- 832 0091 00       		.byte	0
- 833 0092 00       		.byte	0
- 834 0093 00       		.byte	0
- 835 0094 00       		.byte	0
- 836 0095 00       		.byte	0
- 837 0096 00       		.byte	0
- 838 0097 00       		.byte	0
- 839 0098 00       		.byte	0
- 840 0099 00       		.byte	0
- 841 009a 00       		.byte	0
- 842 009b 00       		.byte	0
- 843 009c 00       		.byte	0
- 844 009d 00       		.byte	0
- 845 009e 00       		.byte	0
- 846 009f 00       		.byte	0
- 847 00a0 00       		.byte	0
- 848 00a1 E0       		.byte	-32
- 849 00a2 10       		.byte	16
- 850 00a3 08       		.byte	8
- 851 00a4 08       		.byte	8
- 852 00a5 10       		.byte	16
- 853 00a6 E0       		.byte	-32
- 854 00a7 00       		.byte	0
- 855 00a8 00       		.byte	0
- 856 00a9 0F       		.byte	15
- 857 00aa 10       		.byte	16
- 858 00ab 20       		.byte	32
- 859 00ac 20       		.byte	32
- 860 00ad 10       		.byte	16
- 861 00ae 0F       		.byte	15
- 862 00af 00       		.byte	0
- 863 00b0 00       		.byte	0
- 864 00b1 E0       		.byte	-32
- 865 00b2 10       		.byte	16
- 866 00b3 08       		.byte	8
- 867 00b4 08       		.byte	8
- 868 00b5 10       		.byte	16
- 869 00b6 E0       		.byte	-32
- 870 00b7 00       		.byte	0
- 871 00b8 00       		.byte	0
- 872 00b9 0F       		.byte	15
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 21
+ 751 009e 0F       		.byte	15
+ 752 009f 00       		.byte	0
+ 753              		.section	.data.array1,"aw",%progbits
+ 754              		.align	2
+ 755              		.set	.LANCHOR2,. + 0
+ 758              	array1:
+ 759 0000 00       		.byte	0
+ 760 0001 00       		.byte	0
+ 761 0002 00       		.byte	0
+ 762 0003 00       		.byte	0
+ 763 0004 00       		.byte	0
+ 764 0005 00       		.byte	0
+ 765 0006 00       		.byte	0
+ 766 0007 00       		.byte	0
+ 767 0008 00       		.byte	0
+ 768 0009 00       		.byte	0
+ 769 000a 00       		.byte	0
+ 770 000b 00       		.byte	0
+ 771 000c 00       		.byte	0
+ 772 000d 00       		.byte	0
+ 773 000e 00       		.byte	0
+ 774 000f 00       		.byte	0
+ 775 0010 E0       		.byte	-32
+ 776 0011 10       		.byte	16
+ 777 0012 08       		.byte	8
+ 778 0013 08       		.byte	8
+ 779 0014 08       		.byte	8
+ 780 0015 10       		.byte	16
+ 781 0016 E0       		.byte	-32
+ 782 0017 00       		.byte	0
+ 783 0018 0F       		.byte	15
+ 784 0019 10       		.byte	16
+ 785 001a 20       		.byte	32
+ 786 001b 20       		.byte	32
+ 787 001c 20       		.byte	32
+ 788 001d 10       		.byte	16
+ 789 001e 0F       		.byte	15
+ 790 001f 00       		.byte	0
+ 791 0020 08       		.byte	8
+ 792 0021 F8       		.byte	-8
+ 793 0022 08       		.byte	8
+ 794 0023 00       		.byte	0
+ 795 0024 00       		.byte	0
+ 796 0025 08       		.byte	8
+ 797 0026 F8       		.byte	-8
+ 798 0027 08       		.byte	8
+ 799 0028 00       		.byte	0
+ 800 0029 1F       		.byte	31
+ 801 002a 20       		.byte	32
+ 802 002b 20       		.byte	32
+ 803 002c 20       		.byte	32
+ 804 002d 20       		.byte	32
+ 805 002e 1F       		.byte	31
+ 806 002f 00       		.byte	0
+ 807 0030 18       		.byte	24
+ 808 0031 08       		.byte	8
+ 809 0032 08       		.byte	8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 22
 
 
- 873 00ba 10       		.byte	16
- 874 00bb 20       		.byte	32
- 875 00bc 20       		.byte	32
- 876 00bd 10       		.byte	16
- 877 00be 0F       		.byte	15
- 878 00bf 00       		.byte	0
- 879 00c0 08       		.byte	8
- 880 00c1 F8       		.byte	-8
- 881 00c2 08       		.byte	8
- 882 00c3 00       		.byte	0
- 883 00c4 00       		.byte	0
- 884 00c5 08       		.byte	8
- 885 00c6 F8       		.byte	-8
- 886 00c7 08       		.byte	8
- 887 00c8 20       		.byte	32
- 888 00c9 3F       		.byte	63
- 889 00ca 21       		.byte	33
- 890 00cb 01       		.byte	1
- 891 00cc 01       		.byte	1
- 892 00cd 21       		.byte	33
- 893 00ce 3F       		.byte	63
- 894 00cf 20       		.byte	32
- 895 00d0 00       		.byte	0
- 896 00d1 80       		.byte	-128
- 897 00d2 80       		.byte	-128
- 898 00d3 80       		.byte	-128
- 899 00d4 80       		.byte	-128
- 900 00d5 80       		.byte	-128
- 901 00d6 80       		.byte	-128
- 902 00d7 00       		.byte	0
- 903 00d8 00       		.byte	0
- 904 00d9 21       		.byte	33
- 905 00da 30       		.byte	48
- 906 00db 2C       		.byte	44
- 907 00dc 22       		.byte	34
- 908 00dd 21       		.byte	33
- 909 00de 30       		.byte	48
- 910 00df 00       		.byte	0
- 911 00e0 00       		.byte	0
- 912 00e1 00       		.byte	0
- 913 00e2 00       		.byte	0
- 914 00e3 00       		.byte	0
- 915 00e4 00       		.byte	0
- 916 00e5 00       		.byte	0
- 917 00e6 00       		.byte	0
- 918 00e7 00       		.byte	0
- 919 00e8 00       		.byte	0
- 920 00e9 00       		.byte	0
- 921 00ea 00       		.byte	0
- 922 00eb 00       		.byte	0
- 923 00ec 00       		.byte	0
- 924 00ed 00       		.byte	0
- 925 00ee 00       		.byte	0
- 926 00ef 00       		.byte	0
- 927 00f0 00       		.byte	0
- 928 00f1 00       		.byte	0
- 929 00f2 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 22
+ 810 0033 F8       		.byte	-8
+ 811 0034 08       		.byte	8
+ 812 0035 08       		.byte	8
+ 813 0036 18       		.byte	24
+ 814 0037 00       		.byte	0
+ 815 0038 00       		.byte	0
+ 816 0039 00       		.byte	0
+ 817 003a 20       		.byte	32
+ 818 003b 3F       		.byte	63
+ 819 003c 20       		.byte	32
+ 820 003d 00       		.byte	0
+ 821 003e 00       		.byte	0
+ 822 003f 00       		.byte	0
+ 823 0040 00       		.byte	0
+ 824 0041 00       		.byte	0
+ 825 0042 00       		.byte	0
+ 826 0043 00       		.byte	0
+ 827 0044 00       		.byte	0
+ 828 0045 00       		.byte	0
+ 829 0046 00       		.byte	0
+ 830 0047 00       		.byte	0
+ 831 0048 00       		.byte	0
+ 832 0049 00       		.byte	0
+ 833 004a 00       		.byte	0
+ 834 004b 00       		.byte	0
+ 835 004c 00       		.byte	0
+ 836 004d 00       		.byte	0
+ 837 004e 00       		.byte	0
+ 838 004f 00       		.byte	0
+ 839 0050 00       		.byte	0
+ 840 0051 00       		.byte	0
+ 841 0052 00       		.byte	0
+ 842 0053 C0       		.byte	-64
+ 843 0054 C0       		.byte	-64
+ 844 0055 00       		.byte	0
+ 845 0056 00       		.byte	0
+ 846 0057 00       		.byte	0
+ 847 0058 00       		.byte	0
+ 848 0059 00       		.byte	0
+ 849 005a 00       		.byte	0
+ 850 005b 30       		.byte	48
+ 851 005c 30       		.byte	48
+ 852 005d 00       		.byte	0
+ 853 005e 00       		.byte	0
+ 854 005f 00       		.byte	0
+ 855 0060 00       		.byte	0
+ 856 0061 00       		.byte	0
+ 857 0062 00       		.byte	0
+ 858 0063 00       		.byte	0
+ 859 0064 00       		.byte	0
+ 860 0065 00       		.byte	0
+ 861 0066 00       		.byte	0
+ 862 0067 00       		.byte	0
+ 863 0068 00       		.byte	0
+ 864 0069 00       		.byte	0
+ 865 006a 00       		.byte	0
+ 866 006b 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 23
 
 
- 930 00f3 00       		.byte	0
- 931 00f4 00       		.byte	0
- 932 00f5 00       		.byte	0
- 933 00f6 00       		.byte	0
- 934 00f7 00       		.byte	0
- 935 00f8 00       		.byte	0
- 936 00f9 00       		.byte	0
- 937 00fa 00       		.byte	0
- 938 00fb 00       		.byte	0
- 939 00fc 00       		.byte	0
- 940 00fd 00       		.byte	0
- 941 00fe 00       		.byte	0
- 942 00ff 00       		.byte	0
- 943 0100 00       		.byte	0
- 944 0101 00       		.byte	0
- 945 0102 00       		.byte	0
- 946 0103 00       		.byte	0
- 947 0104 00       		.byte	0
- 948 0105 00       		.byte	0
- 949 0106 00       		.byte	0
- 950 0107 00       		.byte	0
- 951 0108 00       		.byte	0
- 952 0109 00       		.byte	0
- 953 010a 00       		.byte	0
- 954 010b 00       		.byte	0
- 955 010c 00       		.byte	0
- 956 010d 00       		.byte	0
- 957 010e 00       		.byte	0
- 958 010f 00       		.byte	0
- 959 0110 08       		.byte	8
- 960 0111 78       		.byte	120
- 961 0112 88       		.byte	-120
- 962 0113 00       		.byte	0
- 963 0114 00       		.byte	0
- 964 0115 C8       		.byte	-56
- 965 0116 38       		.byte	56
- 966 0117 08       		.byte	8
- 967 0118 00       		.byte	0
- 968 0119 00       		.byte	0
- 969 011a 07       		.byte	7
- 970 011b 38       		.byte	56
- 971 011c 0E       		.byte	14
- 972 011d 01       		.byte	1
- 973 011e 00       		.byte	0
- 974 011f 00       		.byte	0
- 975 0120 E0       		.byte	-32
- 976 0121 10       		.byte	16
- 977 0122 08       		.byte	8
- 978 0123 08       		.byte	8
- 979 0124 08       		.byte	8
- 980 0125 10       		.byte	16
- 981 0126 E0       		.byte	-32
- 982 0127 00       		.byte	0
- 983 0128 0F       		.byte	15
- 984 0129 10       		.byte	16
- 985 012a 20       		.byte	32
- 986 012b 20       		.byte	32
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 23
+ 867 006c 00       		.byte	0
+ 868 006d 00       		.byte	0
+ 869 006e 00       		.byte	0
+ 870 006f 00       		.byte	0
+ 871 0070 00       		.byte	0
+ 872 0071 00       		.byte	0
+ 873 0072 C0       		.byte	-64
+ 874 0073 38       		.byte	56
+ 875 0074 E0       		.byte	-32
+ 876 0075 00       		.byte	0
+ 877 0076 00       		.byte	0
+ 878 0077 00       		.byte	0
+ 879 0078 20       		.byte	32
+ 880 0079 3C       		.byte	60
+ 881 007a 23       		.byte	35
+ 882 007b 02       		.byte	2
+ 883 007c 02       		.byte	2
+ 884 007d 27       		.byte	39
+ 885 007e 38       		.byte	56
+ 886 007f 20       		.byte	32
+ 887 0080 C0       		.byte	-64
+ 888 0081 30       		.byte	48
+ 889 0082 08       		.byte	8
+ 890 0083 08       		.byte	8
+ 891 0084 08       		.byte	8
+ 892 0085 08       		.byte	8
+ 893 0086 38       		.byte	56
+ 894 0087 00       		.byte	0
+ 895 0088 07       		.byte	7
+ 896 0089 18       		.byte	24
+ 897 008a 20       		.byte	32
+ 898 008b 20       		.byte	32
+ 899 008c 20       		.byte	32
+ 900 008d 10       		.byte	16
+ 901 008e 08       		.byte	8
+ 902 008f 00       		.byte	0
+ 903 0090 00       		.byte	0
+ 904 0091 00       		.byte	0
+ 905 0092 00       		.byte	0
+ 906 0093 00       		.byte	0
+ 907 0094 00       		.byte	0
+ 908 0095 00       		.byte	0
+ 909 0096 00       		.byte	0
+ 910 0097 00       		.byte	0
+ 911 0098 00       		.byte	0
+ 912 0099 00       		.byte	0
+ 913 009a 00       		.byte	0
+ 914 009b 00       		.byte	0
+ 915 009c 00       		.byte	0
+ 916 009d 00       		.byte	0
+ 917 009e 00       		.byte	0
+ 918 009f 00       		.byte	0
+ 919 00a0 00       		.byte	0
+ 920 00a1 E0       		.byte	-32
+ 921 00a2 10       		.byte	16
+ 922 00a3 08       		.byte	8
+ 923 00a4 08       		.byte	8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 24
 
 
- 987 012c 20       		.byte	32
- 988 012d 10       		.byte	16
- 989 012e 0F       		.byte	15
- 990 012f 00       		.byte	0
- 991 0130 08       		.byte	8
- 992 0131 F8       		.byte	-8
- 993 0132 08       		.byte	8
- 994 0133 00       		.byte	0
- 995 0134 00       		.byte	0
- 996 0135 00       		.byte	0
- 997 0136 00       		.byte	0
- 998 0137 00       		.byte	0
- 999 0138 20       		.byte	32
- 1000 0139 3F       		.byte	63
- 1001 013a 20       		.byte	32
- 1002 013b 20       		.byte	32
- 1003 013c 20       		.byte	32
- 1004 013d 20       		.byte	32
- 1005 013e 30       		.byte	48
- 1006 013f 00       		.byte	0
- 1007 0140 00       		.byte	0
- 1008 0141 00       		.byte	0
- 1009 0142 00       		.byte	0
- 1010 0143 00       		.byte	0
- 1011 0144 00       		.byte	0
- 1012 0145 00       		.byte	0
- 1013 0146 00       		.byte	0
- 1014 0147 00       		.byte	0
- 1015 0148 00       		.byte	0
- 1016 0149 00       		.byte	0
- 1017 014a 00       		.byte	0
- 1018 014b 00       		.byte	0
- 1019 014c 00       		.byte	0
- 1020 014d 00       		.byte	0
- 1021 014e 00       		.byte	0
- 1022 014f 00       		.byte	0
- 1023 0150 00       		.byte	0
- 1024 0151 00       		.byte	0
- 1025 0152 00       		.byte	0
- 1026 0153 C0       		.byte	-64
- 1027 0154 C0       		.byte	-64
- 1028 0155 00       		.byte	0
- 1029 0156 00       		.byte	0
- 1030 0157 00       		.byte	0
- 1031 0158 00       		.byte	0
- 1032 0159 00       		.byte	0
- 1033 015a 00       		.byte	0
- 1034 015b 30       		.byte	48
- 1035 015c 30       		.byte	48
- 1036 015d 00       		.byte	0
- 1037 015e 00       		.byte	0
- 1038 015f 00       		.byte	0
- 1039 0160 00       		.byte	0
- 1040 0161 00       		.byte	0
- 1041 0162 00       		.byte	0
- 1042 0163 00       		.byte	0
- 1043 0164 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 24
+ 924 00a5 10       		.byte	16
+ 925 00a6 E0       		.byte	-32
+ 926 00a7 00       		.byte	0
+ 927 00a8 00       		.byte	0
+ 928 00a9 0F       		.byte	15
+ 929 00aa 10       		.byte	16
+ 930 00ab 20       		.byte	32
+ 931 00ac 20       		.byte	32
+ 932 00ad 10       		.byte	16
+ 933 00ae 0F       		.byte	15
+ 934 00af 00       		.byte	0
+ 935 00b0 00       		.byte	0
+ 936 00b1 E0       		.byte	-32
+ 937 00b2 10       		.byte	16
+ 938 00b3 08       		.byte	8
+ 939 00b4 08       		.byte	8
+ 940 00b5 10       		.byte	16
+ 941 00b6 E0       		.byte	-32
+ 942 00b7 00       		.byte	0
+ 943 00b8 00       		.byte	0
+ 944 00b9 0F       		.byte	15
+ 945 00ba 10       		.byte	16
+ 946 00bb 20       		.byte	32
+ 947 00bc 20       		.byte	32
+ 948 00bd 10       		.byte	16
+ 949 00be 0F       		.byte	15
+ 950 00bf 00       		.byte	0
+ 951 00c0 08       		.byte	8
+ 952 00c1 F8       		.byte	-8
+ 953 00c2 08       		.byte	8
+ 954 00c3 00       		.byte	0
+ 955 00c4 00       		.byte	0
+ 956 00c5 08       		.byte	8
+ 957 00c6 F8       		.byte	-8
+ 958 00c7 08       		.byte	8
+ 959 00c8 20       		.byte	32
+ 960 00c9 3F       		.byte	63
+ 961 00ca 21       		.byte	33
+ 962 00cb 01       		.byte	1
+ 963 00cc 01       		.byte	1
+ 964 00cd 21       		.byte	33
+ 965 00ce 3F       		.byte	63
+ 966 00cf 20       		.byte	32
+ 967 00d0 00       		.byte	0
+ 968 00d1 80       		.byte	-128
+ 969 00d2 80       		.byte	-128
+ 970 00d3 80       		.byte	-128
+ 971 00d4 80       		.byte	-128
+ 972 00d5 80       		.byte	-128
+ 973 00d6 80       		.byte	-128
+ 974 00d7 00       		.byte	0
+ 975 00d8 00       		.byte	0
+ 976 00d9 21       		.byte	33
+ 977 00da 30       		.byte	48
+ 978 00db 2C       		.byte	44
+ 979 00dc 22       		.byte	34
+ 980 00dd 21       		.byte	33
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 25
 
 
- 1044 0165 00       		.byte	0
- 1045 0166 00       		.byte	0
- 1046 0167 00       		.byte	0
- 1047 0168 00       		.byte	0
- 1048 0169 00       		.byte	0
- 1049 016a 00       		.byte	0
- 1050 016b 00       		.byte	0
- 1051 016c 00       		.byte	0
- 1052 016d 00       		.byte	0
- 1053 016e 00       		.byte	0
- 1054 016f 00       		.byte	0
- 1055 0170 00       		.byte	0
- 1056 0171 E0       		.byte	-32
- 1057 0172 10       		.byte	16
- 1058 0173 08       		.byte	8
- 1059 0174 08       		.byte	8
- 1060 0175 10       		.byte	16
- 1061 0176 E0       		.byte	-32
- 1062 0177 00       		.byte	0
- 1063 0178 00       		.byte	0
- 1064 0179 0F       		.byte	15
- 1065 017a 10       		.byte	16
- 1066 017b 20       		.byte	32
- 1067 017c 20       		.byte	32
- 1068 017d 10       		.byte	16
- 1069 017e 0F       		.byte	15
- 1070 017f 00       		.byte	0
- 1071 0180 00       		.byte	0
- 1072 0181 E0       		.byte	-32
- 1073 0182 10       		.byte	16
- 1074 0183 08       		.byte	8
- 1075 0184 08       		.byte	8
- 1076 0185 10       		.byte	16
- 1077 0186 E0       		.byte	-32
- 1078 0187 00       		.byte	0
- 1079 0188 00       		.byte	0
- 1080 0189 0F       		.byte	15
- 1081 018a 10       		.byte	16
- 1082 018b 20       		.byte	32
- 1083 018c 20       		.byte	32
- 1084 018d 10       		.byte	16
- 1085 018e 0F       		.byte	15
- 1086 018f 00       		.byte	0
- 1087 0190 00       		.byte	0
- 1088 0191 E0       		.byte	-32
- 1089 0192 10       		.byte	16
- 1090 0193 08       		.byte	8
- 1091 0194 08       		.byte	8
- 1092 0195 10       		.byte	16
- 1093 0196 E0       		.byte	-32
- 1094 0197 00       		.byte	0
- 1095 0198 00       		.byte	0
- 1096 0199 0F       		.byte	15
- 1097 019a 10       		.byte	16
- 1098 019b 20       		.byte	32
- 1099 019c 20       		.byte	32
- 1100 019d 10       		.byte	16
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 25
+ 981 00de 30       		.byte	48
+ 982 00df 00       		.byte	0
+ 983 00e0 00       		.byte	0
+ 984 00e1 00       		.byte	0
+ 985 00e2 00       		.byte	0
+ 986 00e3 00       		.byte	0
+ 987 00e4 00       		.byte	0
+ 988 00e5 00       		.byte	0
+ 989 00e6 00       		.byte	0
+ 990 00e7 00       		.byte	0
+ 991 00e8 00       		.byte	0
+ 992 00e9 00       		.byte	0
+ 993 00ea 00       		.byte	0
+ 994 00eb 00       		.byte	0
+ 995 00ec 00       		.byte	0
+ 996 00ed 00       		.byte	0
+ 997 00ee 00       		.byte	0
+ 998 00ef 00       		.byte	0
+ 999 00f0 00       		.byte	0
+ 1000 00f1 00       		.byte	0
+ 1001 00f2 00       		.byte	0
+ 1002 00f3 00       		.byte	0
+ 1003 00f4 00       		.byte	0
+ 1004 00f5 00       		.byte	0
+ 1005 00f6 00       		.byte	0
+ 1006 00f7 00       		.byte	0
+ 1007 00f8 00       		.byte	0
+ 1008 00f9 00       		.byte	0
+ 1009 00fa 00       		.byte	0
+ 1010 00fb 00       		.byte	0
+ 1011 00fc 00       		.byte	0
+ 1012 00fd 00       		.byte	0
+ 1013 00fe 00       		.byte	0
+ 1014 00ff 00       		.byte	0
+ 1015 0100 00       		.byte	0
+ 1016 0101 00       		.byte	0
+ 1017 0102 00       		.byte	0
+ 1018 0103 00       		.byte	0
+ 1019 0104 00       		.byte	0
+ 1020 0105 00       		.byte	0
+ 1021 0106 00       		.byte	0
+ 1022 0107 00       		.byte	0
+ 1023 0108 00       		.byte	0
+ 1024 0109 00       		.byte	0
+ 1025 010a 00       		.byte	0
+ 1026 010b 00       		.byte	0
+ 1027 010c 00       		.byte	0
+ 1028 010d 00       		.byte	0
+ 1029 010e 00       		.byte	0
+ 1030 010f 00       		.byte	0
+ 1031 0110 08       		.byte	8
+ 1032 0111 78       		.byte	120
+ 1033 0112 88       		.byte	-120
+ 1034 0113 00       		.byte	0
+ 1035 0114 00       		.byte	0
+ 1036 0115 C8       		.byte	-56
+ 1037 0116 38       		.byte	56
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 26
 
 
- 1101 019e 0F       		.byte	15
- 1102 019f 00       		.byte	0
- 1103 01a0 00       		.byte	0
- 1104 01a1 00       		.byte	0
- 1105 01a2 00       		.byte	0
- 1106 01a3 00       		.byte	0
- 1107 01a4 00       		.byte	0
- 1108 01a5 00       		.byte	0
- 1109 01a6 00       		.byte	0
- 1110 01a7 00       		.byte	0
- 1111 01a8 00       		.byte	0
- 1112 01a9 00       		.byte	0
- 1113 01aa 00       		.byte	0
- 1114 01ab 00       		.byte	0
- 1115 01ac 00       		.byte	0
- 1116 01ad 00       		.byte	0
- 1117 01ae 00       		.byte	0
- 1118 01af 00       		.byte	0
- 1119 01b0 00       		.byte	0
- 1120 01b1 00       		.byte	0
- 1121 01b2 00       		.byte	0
- 1122 01b3 00       		.byte	0
- 1123 01b4 00       		.byte	0
- 1124 01b5 00       		.byte	0
- 1125 01b6 00       		.byte	0
- 1126 01b7 00       		.byte	0
- 1127 01b8 00       		.byte	0
- 1128 01b9 00       		.byte	0
- 1129 01ba 00       		.byte	0
- 1130 01bb 00       		.byte	0
- 1131 01bc 00       		.byte	0
- 1132 01bd 00       		.byte	0
- 1133 01be 00       		.byte	0
- 1134 01bf 00       		.byte	0
- 1135 01c0 08       		.byte	8
- 1136 01c1 78       		.byte	120
- 1137 01c2 88       		.byte	-120
- 1138 01c3 00       		.byte	0
- 1139 01c4 00       		.byte	0
- 1140 01c5 C8       		.byte	-56
- 1141 01c6 38       		.byte	56
- 1142 01c7 08       		.byte	8
- 1143 01c8 00       		.byte	0
- 1144 01c9 00       		.byte	0
- 1145 01ca 07       		.byte	7
- 1146 01cb 38       		.byte	56
- 1147 01cc 0E       		.byte	14
- 1148 01cd 01       		.byte	1
- 1149 01ce 00       		.byte	0
- 1150 01cf 00       		.byte	0
- 1151 01d0 00       		.byte	0
- 1152 01d1 00       		.byte	0
- 1153 01d2 00       		.byte	0
- 1154 01d3 00       		.byte	0
- 1155 01d4 00       		.byte	0
- 1156 01d5 00       		.byte	0
- 1157 01d6 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 26
+ 1038 0117 08       		.byte	8
+ 1039 0118 00       		.byte	0
+ 1040 0119 00       		.byte	0
+ 1041 011a 07       		.byte	7
+ 1042 011b 38       		.byte	56
+ 1043 011c 0E       		.byte	14
+ 1044 011d 01       		.byte	1
+ 1045 011e 00       		.byte	0
+ 1046 011f 00       		.byte	0
+ 1047 0120 E0       		.byte	-32
+ 1048 0121 10       		.byte	16
+ 1049 0122 08       		.byte	8
+ 1050 0123 08       		.byte	8
+ 1051 0124 08       		.byte	8
+ 1052 0125 10       		.byte	16
+ 1053 0126 E0       		.byte	-32
+ 1054 0127 00       		.byte	0
+ 1055 0128 0F       		.byte	15
+ 1056 0129 10       		.byte	16
+ 1057 012a 20       		.byte	32
+ 1058 012b 20       		.byte	32
+ 1059 012c 20       		.byte	32
+ 1060 012d 10       		.byte	16
+ 1061 012e 0F       		.byte	15
+ 1062 012f 00       		.byte	0
+ 1063 0130 08       		.byte	8
+ 1064 0131 F8       		.byte	-8
+ 1065 0132 08       		.byte	8
+ 1066 0133 00       		.byte	0
+ 1067 0134 00       		.byte	0
+ 1068 0135 00       		.byte	0
+ 1069 0136 00       		.byte	0
+ 1070 0137 00       		.byte	0
+ 1071 0138 20       		.byte	32
+ 1072 0139 3F       		.byte	63
+ 1073 013a 20       		.byte	32
+ 1074 013b 20       		.byte	32
+ 1075 013c 20       		.byte	32
+ 1076 013d 20       		.byte	32
+ 1077 013e 30       		.byte	48
+ 1078 013f 00       		.byte	0
+ 1079 0140 00       		.byte	0
+ 1080 0141 00       		.byte	0
+ 1081 0142 00       		.byte	0
+ 1082 0143 00       		.byte	0
+ 1083 0144 00       		.byte	0
+ 1084 0145 00       		.byte	0
+ 1085 0146 00       		.byte	0
+ 1086 0147 00       		.byte	0
+ 1087 0148 00       		.byte	0
+ 1088 0149 00       		.byte	0
+ 1089 014a 00       		.byte	0
+ 1090 014b 00       		.byte	0
+ 1091 014c 00       		.byte	0
+ 1092 014d 00       		.byte	0
+ 1093 014e 00       		.byte	0
+ 1094 014f 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 27
 
 
- 1158 01d7 00       		.byte	0
- 1159 01d8 00       		.byte	0
- 1160 01d9 00       		.byte	0
- 1161 01da 00       		.byte	0
- 1162 01db 00       		.byte	0
- 1163 01dc 00       		.byte	0
- 1164 01dd 00       		.byte	0
- 1165 01de 00       		.byte	0
- 1166 01df 00       		.byte	0
- 1167 01e0 00       		.byte	0
- 1168 01e1 00       		.byte	0
- 1169 01e2 00       		.byte	0
- 1170 01e3 00       		.byte	0
- 1171 01e4 00       		.byte	0
- 1172 01e5 00       		.byte	0
- 1173 01e6 00       		.byte	0
- 1174 01e7 00       		.byte	0
- 1175 01e8 00       		.byte	0
- 1176 01e9 00       		.byte	0
- 1177 01ea 00       		.byte	0
- 1178 01eb 00       		.byte	0
- 1179 01ec 00       		.byte	0
- 1180 01ed 00       		.byte	0
- 1181 01ee 00       		.byte	0
- 1182 01ef 00       		.byte	0
- 1183 01f0 00       		.byte	0
- 1184 01f1 00       		.byte	0
- 1185 01f2 00       		.byte	0
- 1186 01f3 00       		.byte	0
- 1187 01f4 00       		.byte	0
- 1188 01f5 00       		.byte	0
- 1189 01f6 00       		.byte	0
- 1190 01f7 00       		.byte	0
- 1191 01f8 00       		.byte	0
- 1192 01f9 00       		.byte	0
- 1193 01fa 00       		.byte	0
- 1194 01fb 00       		.byte	0
- 1195 01fc 00       		.byte	0
- 1196 01fd 00       		.byte	0
- 1197 01fe 00       		.byte	0
- 1198 01ff 00       		.byte	0
- 1199 0200 00       		.byte	0
- 1200 0201 00       		.byte	0
- 1201 0202 00       		.byte	0
- 1202 0203 00       		.byte	0
- 1203 0204 00       		.byte	0
- 1204 0205 00       		.byte	0
- 1205 0206 00       		.byte	0
- 1206 0207 00       		.byte	0
- 1207 0208 00       		.byte	0
- 1208 0209 00       		.byte	0
- 1209 020a 00       		.byte	0
- 1210 020b 00       		.byte	0
- 1211 020c 00       		.byte	0
- 1212 020d 00       		.byte	0
- 1213 020e 00       		.byte	0
- 1214 020f 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 27
+ 1095 0150 00       		.byte	0
+ 1096 0151 00       		.byte	0
+ 1097 0152 00       		.byte	0
+ 1098 0153 C0       		.byte	-64
+ 1099 0154 C0       		.byte	-64
+ 1100 0155 00       		.byte	0
+ 1101 0156 00       		.byte	0
+ 1102 0157 00       		.byte	0
+ 1103 0158 00       		.byte	0
+ 1104 0159 00       		.byte	0
+ 1105 015a 00       		.byte	0
+ 1106 015b 30       		.byte	48
+ 1107 015c 30       		.byte	48
+ 1108 015d 00       		.byte	0
+ 1109 015e 00       		.byte	0
+ 1110 015f 00       		.byte	0
+ 1111 0160 00       		.byte	0
+ 1112 0161 00       		.byte	0
+ 1113 0162 00       		.byte	0
+ 1114 0163 00       		.byte	0
+ 1115 0164 00       		.byte	0
+ 1116 0165 00       		.byte	0
+ 1117 0166 00       		.byte	0
+ 1118 0167 00       		.byte	0
+ 1119 0168 00       		.byte	0
+ 1120 0169 00       		.byte	0
+ 1121 016a 00       		.byte	0
+ 1122 016b 00       		.byte	0
+ 1123 016c 00       		.byte	0
+ 1124 016d 00       		.byte	0
+ 1125 016e 00       		.byte	0
+ 1126 016f 00       		.byte	0
+ 1127 0170 00       		.byte	0
+ 1128 0171 E0       		.byte	-32
+ 1129 0172 10       		.byte	16
+ 1130 0173 08       		.byte	8
+ 1131 0174 08       		.byte	8
+ 1132 0175 10       		.byte	16
+ 1133 0176 E0       		.byte	-32
+ 1134 0177 00       		.byte	0
+ 1135 0178 00       		.byte	0
+ 1136 0179 0F       		.byte	15
+ 1137 017a 10       		.byte	16
+ 1138 017b 20       		.byte	32
+ 1139 017c 20       		.byte	32
+ 1140 017d 10       		.byte	16
+ 1141 017e 0F       		.byte	15
+ 1142 017f 00       		.byte	0
+ 1143 0180 00       		.byte	0
+ 1144 0181 E0       		.byte	-32
+ 1145 0182 10       		.byte	16
+ 1146 0183 08       		.byte	8
+ 1147 0184 08       		.byte	8
+ 1148 0185 10       		.byte	16
+ 1149 0186 E0       		.byte	-32
+ 1150 0187 00       		.byte	0
+ 1151 0188 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 28
 
 
- 1215 0210 08       		.byte	8
- 1216 0211 F8       		.byte	-8
- 1217 0212 08       		.byte	8
- 1218 0213 08       		.byte	8
- 1219 0214 08       		.byte	8
- 1220 0215 08       		.byte	8
- 1221 0216 F0       		.byte	-16
- 1222 0217 00       		.byte	0
- 1223 0218 20       		.byte	32
- 1224 0219 3F       		.byte	63
- 1225 021a 21       		.byte	33
- 1226 021b 01       		.byte	1
- 1227 021c 01       		.byte	1
- 1228 021d 01       		.byte	1
- 1229 021e 00       		.byte	0
- 1230 021f 00       		.byte	0
- 1231 0220 E0       		.byte	-32
- 1232 0221 10       		.byte	16
- 1233 0222 08       		.byte	8
- 1234 0223 08       		.byte	8
- 1235 0224 08       		.byte	8
- 1236 0225 10       		.byte	16
- 1237 0226 E0       		.byte	-32
- 1238 0227 00       		.byte	0
- 1239 0228 0F       		.byte	15
- 1240 0229 10       		.byte	16
- 1241 022a 20       		.byte	32
- 1242 022b 20       		.byte	32
- 1243 022c 20       		.byte	32
- 1244 022d 10       		.byte	16
- 1245 022e 0F       		.byte	15
- 1246 022f 00       		.byte	0
- 1247 0230 08       		.byte	8
- 1248 0231 F8       		.byte	-8
- 1249 0232 00       		.byte	0
- 1250 0233 F8       		.byte	-8
- 1251 0234 00       		.byte	0
- 1252 0235 F8       		.byte	-8
- 1253 0236 08       		.byte	8
- 1254 0237 00       		.byte	0
- 1255 0238 00       		.byte	0
- 1256 0239 03       		.byte	3
- 1257 023a 3E       		.byte	62
- 1258 023b 01       		.byte	1
- 1259 023c 3E       		.byte	62
- 1260 023d 03       		.byte	3
- 1261 023e 00       		.byte	0
- 1262 023f 00       		.byte	0
- 1263 0240 00       		.byte	0
- 1264 0241 00       		.byte	0
- 1265 0242 00       		.byte	0
- 1266 0243 00       		.byte	0
- 1267 0244 00       		.byte	0
- 1268 0245 00       		.byte	0
- 1269 0246 00       		.byte	0
- 1270 0247 00       		.byte	0
- 1271 0248 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 28
+ 1152 0189 0F       		.byte	15
+ 1153 018a 10       		.byte	16
+ 1154 018b 20       		.byte	32
+ 1155 018c 20       		.byte	32
+ 1156 018d 10       		.byte	16
+ 1157 018e 0F       		.byte	15
+ 1158 018f 00       		.byte	0
+ 1159 0190 00       		.byte	0
+ 1160 0191 E0       		.byte	-32
+ 1161 0192 10       		.byte	16
+ 1162 0193 08       		.byte	8
+ 1163 0194 08       		.byte	8
+ 1164 0195 10       		.byte	16
+ 1165 0196 E0       		.byte	-32
+ 1166 0197 00       		.byte	0
+ 1167 0198 00       		.byte	0
+ 1168 0199 0F       		.byte	15
+ 1169 019a 10       		.byte	16
+ 1170 019b 20       		.byte	32
+ 1171 019c 20       		.byte	32
+ 1172 019d 10       		.byte	16
+ 1173 019e 0F       		.byte	15
+ 1174 019f 00       		.byte	0
+ 1175 01a0 00       		.byte	0
+ 1176 01a1 00       		.byte	0
+ 1177 01a2 00       		.byte	0
+ 1178 01a3 00       		.byte	0
+ 1179 01a4 00       		.byte	0
+ 1180 01a5 00       		.byte	0
+ 1181 01a6 00       		.byte	0
+ 1182 01a7 00       		.byte	0
+ 1183 01a8 00       		.byte	0
+ 1184 01a9 00       		.byte	0
+ 1185 01aa 00       		.byte	0
+ 1186 01ab 00       		.byte	0
+ 1187 01ac 00       		.byte	0
+ 1188 01ad 00       		.byte	0
+ 1189 01ae 00       		.byte	0
+ 1190 01af 00       		.byte	0
+ 1191 01b0 00       		.byte	0
+ 1192 01b1 00       		.byte	0
+ 1193 01b2 00       		.byte	0
+ 1194 01b3 00       		.byte	0
+ 1195 01b4 00       		.byte	0
+ 1196 01b5 00       		.byte	0
+ 1197 01b6 00       		.byte	0
+ 1198 01b7 00       		.byte	0
+ 1199 01b8 00       		.byte	0
+ 1200 01b9 00       		.byte	0
+ 1201 01ba 00       		.byte	0
+ 1202 01bb 00       		.byte	0
+ 1203 01bc 00       		.byte	0
+ 1204 01bd 00       		.byte	0
+ 1205 01be 00       		.byte	0
+ 1206 01bf 00       		.byte	0
+ 1207 01c0 08       		.byte	8
+ 1208 01c1 78       		.byte	120
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 29
 
 
- 1272 0249 00       		.byte	0
- 1273 024a 00       		.byte	0
- 1274 024b 00       		.byte	0
- 1275 024c 00       		.byte	0
- 1276 024d 00       		.byte	0
- 1277 024e 00       		.byte	0
- 1278 024f 00       		.byte	0
- 1279 0250 00       		.byte	0
- 1280 0251 00       		.byte	0
- 1281 0252 00       		.byte	0
- 1282 0253 C0       		.byte	-64
- 1283 0254 C0       		.byte	-64
- 1284 0255 00       		.byte	0
- 1285 0256 00       		.byte	0
- 1286 0257 00       		.byte	0
- 1287 0258 00       		.byte	0
- 1288 0259 00       		.byte	0
- 1289 025a 00       		.byte	0
- 1290 025b 30       		.byte	48
- 1291 025c 30       		.byte	48
- 1292 025d 00       		.byte	0
- 1293 025e 00       		.byte	0
- 1294 025f 00       		.byte	0
- 1295 0260 00       		.byte	0
- 1296 0261 00       		.byte	0
- 1297 0262 00       		.byte	0
- 1298 0263 00       		.byte	0
- 1299 0264 00       		.byte	0
- 1300 0265 00       		.byte	0
- 1301 0266 00       		.byte	0
- 1302 0267 00       		.byte	0
- 1303 0268 00       		.byte	0
- 1304 0269 00       		.byte	0
- 1305 026a 00       		.byte	0
- 1306 026b 00       		.byte	0
- 1307 026c 00       		.byte	0
- 1308 026d 00       		.byte	0
- 1309 026e 00       		.byte	0
- 1310 026f 00       		.byte	0
- 1311 0270 00       		.byte	0
- 1312 0271 E0       		.byte	-32
- 1313 0272 10       		.byte	16
- 1314 0273 08       		.byte	8
- 1315 0274 08       		.byte	8
- 1316 0275 10       		.byte	16
- 1317 0276 E0       		.byte	-32
- 1318 0277 00       		.byte	0
- 1319 0278 00       		.byte	0
- 1320 0279 0F       		.byte	15
- 1321 027a 10       		.byte	16
- 1322 027b 20       		.byte	32
- 1323 027c 20       		.byte	32
- 1324 027d 10       		.byte	16
- 1325 027e 0F       		.byte	15
- 1326 027f 00       		.byte	0
- 1327 0280 00       		.byte	0
- 1328 0281 E0       		.byte	-32
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 29
+ 1209 01c2 88       		.byte	-120
+ 1210 01c3 00       		.byte	0
+ 1211 01c4 00       		.byte	0
+ 1212 01c5 C8       		.byte	-56
+ 1213 01c6 38       		.byte	56
+ 1214 01c7 08       		.byte	8
+ 1215 01c8 00       		.byte	0
+ 1216 01c9 00       		.byte	0
+ 1217 01ca 07       		.byte	7
+ 1218 01cb 38       		.byte	56
+ 1219 01cc 0E       		.byte	14
+ 1220 01cd 01       		.byte	1
+ 1221 01ce 00       		.byte	0
+ 1222 01cf 00       		.byte	0
+ 1223 01d0 00       		.byte	0
+ 1224 01d1 00       		.byte	0
+ 1225 01d2 00       		.byte	0
+ 1226 01d3 00       		.byte	0
+ 1227 01d4 00       		.byte	0
+ 1228 01d5 00       		.byte	0
+ 1229 01d6 00       		.byte	0
+ 1230 01d7 00       		.byte	0
+ 1231 01d8 00       		.byte	0
+ 1232 01d9 00       		.byte	0
+ 1233 01da 00       		.byte	0
+ 1234 01db 00       		.byte	0
+ 1235 01dc 00       		.byte	0
+ 1236 01dd 00       		.byte	0
+ 1237 01de 00       		.byte	0
+ 1238 01df 00       		.byte	0
+ 1239 01e0 00       		.byte	0
+ 1240 01e1 00       		.byte	0
+ 1241 01e2 00       		.byte	0
+ 1242 01e3 00       		.byte	0
+ 1243 01e4 00       		.byte	0
+ 1244 01e5 00       		.byte	0
+ 1245 01e6 00       		.byte	0
+ 1246 01e7 00       		.byte	0
+ 1247 01e8 00       		.byte	0
+ 1248 01e9 00       		.byte	0
+ 1249 01ea 00       		.byte	0
+ 1250 01eb 00       		.byte	0
+ 1251 01ec 00       		.byte	0
+ 1252 01ed 00       		.byte	0
+ 1253 01ee 00       		.byte	0
+ 1254 01ef 00       		.byte	0
+ 1255 01f0 00       		.byte	0
+ 1256 01f1 00       		.byte	0
+ 1257 01f2 00       		.byte	0
+ 1258 01f3 00       		.byte	0
+ 1259 01f4 00       		.byte	0
+ 1260 01f5 00       		.byte	0
+ 1261 01f6 00       		.byte	0
+ 1262 01f7 00       		.byte	0
+ 1263 01f8 00       		.byte	0
+ 1264 01f9 00       		.byte	0
+ 1265 01fa 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 30
 
 
- 1329 0282 10       		.byte	16
- 1330 0283 08       		.byte	8
- 1331 0284 08       		.byte	8
- 1332 0285 10       		.byte	16
- 1333 0286 E0       		.byte	-32
- 1334 0287 00       		.byte	0
- 1335 0288 00       		.byte	0
- 1336 0289 0F       		.byte	15
- 1337 028a 10       		.byte	16
- 1338 028b 20       		.byte	32
- 1339 028c 20       		.byte	32
- 1340 028d 10       		.byte	16
- 1341 028e 0F       		.byte	15
- 1342 028f 00       		.byte	0
- 1343 0290 00       		.byte	0
- 1344 0291 E0       		.byte	-32
- 1345 0292 10       		.byte	16
- 1346 0293 08       		.byte	8
- 1347 0294 08       		.byte	8
- 1348 0295 10       		.byte	16
- 1349 0296 E0       		.byte	-32
- 1350 0297 00       		.byte	0
- 1351 0298 00       		.byte	0
- 1352 0299 0F       		.byte	15
- 1353 029a 10       		.byte	16
- 1354 029b 20       		.byte	32
- 1355 029c 20       		.byte	32
- 1356 029d 10       		.byte	16
- 1357 029e 0F       		.byte	15
- 1358 029f 00       		.byte	0
- 1359 02a0 00       		.byte	0
- 1360 02a1 E0       		.byte	-32
- 1361 02a2 10       		.byte	16
- 1362 02a3 08       		.byte	8
- 1363 02a4 08       		.byte	8
- 1364 02a5 10       		.byte	16
- 1365 02a6 E0       		.byte	-32
- 1366 02a7 00       		.byte	0
- 1367 02a8 00       		.byte	0
- 1368 02a9 0F       		.byte	15
- 1369 02aa 10       		.byte	16
- 1370 02ab 20       		.byte	32
- 1371 02ac 20       		.byte	32
- 1372 02ad 10       		.byte	16
- 1373 02ae 0F       		.byte	15
- 1374 02af 00       		.byte	0
- 1375 02b0 00       		.byte	0
- 1376 02b1 00       		.byte	0
- 1377 02b2 00       		.byte	0
- 1378 02b3 00       		.byte	0
- 1379 02b4 00       		.byte	0
- 1380 02b5 00       		.byte	0
- 1381 02b6 00       		.byte	0
- 1382 02b7 00       		.byte	0
- 1383 02b8 00       		.byte	0
- 1384 02b9 00       		.byte	0
- 1385 02ba 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 30
+ 1266 01fb 00       		.byte	0
+ 1267 01fc 00       		.byte	0
+ 1268 01fd 00       		.byte	0
+ 1269 01fe 00       		.byte	0
+ 1270 01ff 00       		.byte	0
+ 1271 0200 00       		.byte	0
+ 1272 0201 00       		.byte	0
+ 1273 0202 00       		.byte	0
+ 1274 0203 00       		.byte	0
+ 1275 0204 00       		.byte	0
+ 1276 0205 00       		.byte	0
+ 1277 0206 00       		.byte	0
+ 1278 0207 00       		.byte	0
+ 1279 0208 00       		.byte	0
+ 1280 0209 00       		.byte	0
+ 1281 020a 00       		.byte	0
+ 1282 020b 00       		.byte	0
+ 1283 020c 00       		.byte	0
+ 1284 020d 00       		.byte	0
+ 1285 020e 00       		.byte	0
+ 1286 020f 00       		.byte	0
+ 1287 0210 08       		.byte	8
+ 1288 0211 F8       		.byte	-8
+ 1289 0212 08       		.byte	8
+ 1290 0213 08       		.byte	8
+ 1291 0214 08       		.byte	8
+ 1292 0215 08       		.byte	8
+ 1293 0216 F0       		.byte	-16
+ 1294 0217 00       		.byte	0
+ 1295 0218 20       		.byte	32
+ 1296 0219 3F       		.byte	63
+ 1297 021a 21       		.byte	33
+ 1298 021b 01       		.byte	1
+ 1299 021c 01       		.byte	1
+ 1300 021d 01       		.byte	1
+ 1301 021e 00       		.byte	0
+ 1302 021f 00       		.byte	0
+ 1303 0220 E0       		.byte	-32
+ 1304 0221 10       		.byte	16
+ 1305 0222 08       		.byte	8
+ 1306 0223 08       		.byte	8
+ 1307 0224 08       		.byte	8
+ 1308 0225 10       		.byte	16
+ 1309 0226 E0       		.byte	-32
+ 1310 0227 00       		.byte	0
+ 1311 0228 0F       		.byte	15
+ 1312 0229 10       		.byte	16
+ 1313 022a 20       		.byte	32
+ 1314 022b 20       		.byte	32
+ 1315 022c 20       		.byte	32
+ 1316 022d 10       		.byte	16
+ 1317 022e 0F       		.byte	15
+ 1318 022f 00       		.byte	0
+ 1319 0230 08       		.byte	8
+ 1320 0231 F8       		.byte	-8
+ 1321 0232 00       		.byte	0
+ 1322 0233 F8       		.byte	-8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 31
 
 
- 1386 02bb 00       		.byte	0
- 1387 02bc 00       		.byte	0
- 1388 02bd 00       		.byte	0
- 1389 02be 00       		.byte	0
- 1390 02bf 00       		.byte	0
- 1391 02c0 08       		.byte	8
- 1392 02c1 F8       		.byte	-8
- 1393 02c2 00       		.byte	0
- 1394 02c3 F8       		.byte	-8
- 1395 02c4 00       		.byte	0
- 1396 02c5 F8       		.byte	-8
- 1397 02c6 08       		.byte	8
- 1398 02c7 00       		.byte	0
- 1399 02c8 00       		.byte	0
- 1400 02c9 03       		.byte	3
- 1401 02ca 3E       		.byte	62
- 1402 02cb 01       		.byte	1
- 1403 02cc 3E       		.byte	62
- 1404 02cd 03       		.byte	3
- 1405 02ce 00       		.byte	0
- 1406 02cf 00       		.byte	0
- 1407 02d0 00       		.byte	0
- 1408 02d1 00       		.byte	0
- 1409 02d2 00       		.byte	0
- 1410 02d3 00       		.byte	0
- 1411 02d4 00       		.byte	0
- 1412 02d5 00       		.byte	0
- 1413 02d6 00       		.byte	0
- 1414 02d7 00       		.byte	0
- 1415 02d8 00       		.byte	0
- 1416 02d9 00       		.byte	0
- 1417 02da 00       		.byte	0
- 1418 02db 00       		.byte	0
- 1419 02dc 00       		.byte	0
- 1420 02dd 00       		.byte	0
- 1421 02de 00       		.byte	0
- 1422 02df 00       		.byte	0
- 1423 02e0 00       		.byte	0
- 1424 02e1 00       		.byte	0
- 1425 02e2 00       		.byte	0
- 1426 02e3 00       		.byte	0
- 1427 02e4 00       		.byte	0
- 1428 02e5 00       		.byte	0
- 1429 02e6 00       		.byte	0
- 1430 02e7 00       		.byte	0
- 1431 02e8 00       		.byte	0
- 1432 02e9 00       		.byte	0
- 1433 02ea 00       		.byte	0
- 1434 02eb 00       		.byte	0
- 1435 02ec 00       		.byte	0
- 1436 02ed 00       		.byte	0
- 1437 02ee 00       		.byte	0
- 1438 02ef 00       		.byte	0
- 1439 02f0 00       		.byte	0
- 1440 02f1 00       		.byte	0
- 1441 02f2 00       		.byte	0
- 1442 02f3 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 31
+ 1323 0234 00       		.byte	0
+ 1324 0235 F8       		.byte	-8
+ 1325 0236 08       		.byte	8
+ 1326 0237 00       		.byte	0
+ 1327 0238 00       		.byte	0
+ 1328 0239 03       		.byte	3
+ 1329 023a 3E       		.byte	62
+ 1330 023b 01       		.byte	1
+ 1331 023c 3E       		.byte	62
+ 1332 023d 03       		.byte	3
+ 1333 023e 00       		.byte	0
+ 1334 023f 00       		.byte	0
+ 1335 0240 00       		.byte	0
+ 1336 0241 00       		.byte	0
+ 1337 0242 00       		.byte	0
+ 1338 0243 00       		.byte	0
+ 1339 0244 00       		.byte	0
+ 1340 0245 00       		.byte	0
+ 1341 0246 00       		.byte	0
+ 1342 0247 00       		.byte	0
+ 1343 0248 00       		.byte	0
+ 1344 0249 00       		.byte	0
+ 1345 024a 00       		.byte	0
+ 1346 024b 00       		.byte	0
+ 1347 024c 00       		.byte	0
+ 1348 024d 00       		.byte	0
+ 1349 024e 00       		.byte	0
+ 1350 024f 00       		.byte	0
+ 1351 0250 00       		.byte	0
+ 1352 0251 00       		.byte	0
+ 1353 0252 00       		.byte	0
+ 1354 0253 C0       		.byte	-64
+ 1355 0254 C0       		.byte	-64
+ 1356 0255 00       		.byte	0
+ 1357 0256 00       		.byte	0
+ 1358 0257 00       		.byte	0
+ 1359 0258 00       		.byte	0
+ 1360 0259 00       		.byte	0
+ 1361 025a 00       		.byte	0
+ 1362 025b 30       		.byte	48
+ 1363 025c 30       		.byte	48
+ 1364 025d 00       		.byte	0
+ 1365 025e 00       		.byte	0
+ 1366 025f 00       		.byte	0
+ 1367 0260 00       		.byte	0
+ 1368 0261 00       		.byte	0
+ 1369 0262 00       		.byte	0
+ 1370 0263 00       		.byte	0
+ 1371 0264 00       		.byte	0
+ 1372 0265 00       		.byte	0
+ 1373 0266 00       		.byte	0
+ 1374 0267 00       		.byte	0
+ 1375 0268 00       		.byte	0
+ 1376 0269 00       		.byte	0
+ 1377 026a 00       		.byte	0
+ 1378 026b 00       		.byte	0
+ 1379 026c 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 32
 
 
- 1443 02f4 00       		.byte	0
- 1444 02f5 00       		.byte	0
- 1445 02f6 00       		.byte	0
- 1446 02f7 00       		.byte	0
- 1447 02f8 00       		.byte	0
- 1448 02f9 00       		.byte	0
- 1449 02fa 00       		.byte	0
- 1450 02fb 00       		.byte	0
- 1451 02fc 00       		.byte	0
- 1452 02fd 00       		.byte	0
- 1453 02fe 00       		.byte	0
- 1454 02ff 00       		.byte	0
- 1455 0300 00       		.byte	0
- 1456 0301 00       		.byte	0
- 1457 0302 00       		.byte	0
- 1458 0303 00       		.byte	0
- 1459 0304 00       		.byte	0
- 1460 0305 00       		.byte	0
- 1461 0306 00       		.byte	0
- 1462 0307 00       		.byte	0
- 1463 0308 00       		.byte	0
- 1464 0309 00       		.byte	0
- 1465 030a 00       		.byte	0
- 1466 030b 00       		.byte	0
- 1467 030c 00       		.byte	0
- 1468 030d 00       		.byte	0
- 1469 030e 00       		.byte	0
- 1470 030f 00       		.byte	0
- 1471 0310 00       		.byte	0
- 1472 0311 70       		.byte	112
- 1473 0312 88       		.byte	-120
- 1474 0313 08       		.byte	8
- 1475 0314 08       		.byte	8
- 1476 0315 08       		.byte	8
- 1477 0316 38       		.byte	56
- 1478 0317 00       		.byte	0
- 1479 0318 00       		.byte	0
- 1480 0319 38       		.byte	56
- 1481 031a 20       		.byte	32
- 1482 031b 21       		.byte	33
- 1483 031c 21       		.byte	33
- 1484 031d 22       		.byte	34
- 1485 031e 1C       		.byte	28
- 1486 031f 00       		.byte	0
- 1487 0320 08       		.byte	8
- 1488 0321 F8       		.byte	-8
- 1489 0322 88       		.byte	-120
- 1490 0323 88       		.byte	-120
- 1491 0324 E8       		.byte	-24
- 1492 0325 08       		.byte	8
- 1493 0326 10       		.byte	16
- 1494 0327 00       		.byte	0
- 1495 0328 20       		.byte	32
- 1496 0329 3F       		.byte	63
- 1497 032a 20       		.byte	32
- 1498 032b 20       		.byte	32
- 1499 032c 23       		.byte	35
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 32
+ 1380 026d 00       		.byte	0
+ 1381 026e 00       		.byte	0
+ 1382 026f 00       		.byte	0
+ 1383 0270 00       		.byte	0
+ 1384 0271 E0       		.byte	-32
+ 1385 0272 10       		.byte	16
+ 1386 0273 08       		.byte	8
+ 1387 0274 08       		.byte	8
+ 1388 0275 10       		.byte	16
+ 1389 0276 E0       		.byte	-32
+ 1390 0277 00       		.byte	0
+ 1391 0278 00       		.byte	0
+ 1392 0279 0F       		.byte	15
+ 1393 027a 10       		.byte	16
+ 1394 027b 20       		.byte	32
+ 1395 027c 20       		.byte	32
+ 1396 027d 10       		.byte	16
+ 1397 027e 0F       		.byte	15
+ 1398 027f 00       		.byte	0
+ 1399 0280 00       		.byte	0
+ 1400 0281 E0       		.byte	-32
+ 1401 0282 10       		.byte	16
+ 1402 0283 08       		.byte	8
+ 1403 0284 08       		.byte	8
+ 1404 0285 10       		.byte	16
+ 1405 0286 E0       		.byte	-32
+ 1406 0287 00       		.byte	0
+ 1407 0288 00       		.byte	0
+ 1408 0289 0F       		.byte	15
+ 1409 028a 10       		.byte	16
+ 1410 028b 20       		.byte	32
+ 1411 028c 20       		.byte	32
+ 1412 028d 10       		.byte	16
+ 1413 028e 0F       		.byte	15
+ 1414 028f 00       		.byte	0
+ 1415 0290 00       		.byte	0
+ 1416 0291 E0       		.byte	-32
+ 1417 0292 10       		.byte	16
+ 1418 0293 08       		.byte	8
+ 1419 0294 08       		.byte	8
+ 1420 0295 10       		.byte	16
+ 1421 0296 E0       		.byte	-32
+ 1422 0297 00       		.byte	0
+ 1423 0298 00       		.byte	0
+ 1424 0299 0F       		.byte	15
+ 1425 029a 10       		.byte	16
+ 1426 029b 20       		.byte	32
+ 1427 029c 20       		.byte	32
+ 1428 029d 10       		.byte	16
+ 1429 029e 0F       		.byte	15
+ 1430 029f 00       		.byte	0
+ 1431 02a0 00       		.byte	0
+ 1432 02a1 E0       		.byte	-32
+ 1433 02a2 10       		.byte	16
+ 1434 02a3 08       		.byte	8
+ 1435 02a4 08       		.byte	8
+ 1436 02a5 10       		.byte	16
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 33
 
 
- 1500 032d 20       		.byte	32
- 1501 032e 18       		.byte	24
- 1502 032f 00       		.byte	0
- 1503 0330 18       		.byte	24
- 1504 0331 08       		.byte	8
- 1505 0332 08       		.byte	8
- 1506 0333 F8       		.byte	-8
- 1507 0334 08       		.byte	8
- 1508 0335 08       		.byte	8
- 1509 0336 18       		.byte	24
- 1510 0337 00       		.byte	0
- 1511 0338 00       		.byte	0
- 1512 0339 00       		.byte	0
- 1513 033a 20       		.byte	32
- 1514 033b 3F       		.byte	63
- 1515 033c 20       		.byte	32
- 1516 033d 00       		.byte	0
- 1517 033e 00       		.byte	0
- 1518 033f 00       		.byte	0
- 1519 0340 00       		.byte	0
- 1520 0341 00       		.byte	0
- 1521 0342 00       		.byte	0
- 1522 0343 00       		.byte	0
- 1523 0344 00       		.byte	0
- 1524 0345 00       		.byte	0
- 1525 0346 00       		.byte	0
- 1526 0347 00       		.byte	0
- 1527 0348 00       		.byte	0
- 1528 0349 00       		.byte	0
- 1529 034a 00       		.byte	0
- 1530 034b 00       		.byte	0
- 1531 034c 00       		.byte	0
- 1532 034d 00       		.byte	0
- 1533 034e 00       		.byte	0
- 1534 034f 00       		.byte	0
- 1535 0350 00       		.byte	0
- 1536 0351 00       		.byte	0
- 1537 0352 00       		.byte	0
- 1538 0353 C0       		.byte	-64
- 1539 0354 C0       		.byte	-64
- 1540 0355 00       		.byte	0
- 1541 0356 00       		.byte	0
- 1542 0357 00       		.byte	0
- 1543 0358 00       		.byte	0
- 1544 0359 00       		.byte	0
- 1545 035a 00       		.byte	0
- 1546 035b 30       		.byte	48
- 1547 035c 30       		.byte	48
- 1548 035d 00       		.byte	0
- 1549 035e 00       		.byte	0
- 1550 035f 00       		.byte	0
- 1551 0360 00       		.byte	0
- 1552 0361 00       		.byte	0
- 1553 0362 00       		.byte	0
- 1554 0363 00       		.byte	0
- 1555 0364 00       		.byte	0
- 1556 0365 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 33
+ 1437 02a6 E0       		.byte	-32
+ 1438 02a7 00       		.byte	0
+ 1439 02a8 00       		.byte	0
+ 1440 02a9 0F       		.byte	15
+ 1441 02aa 10       		.byte	16
+ 1442 02ab 20       		.byte	32
+ 1443 02ac 20       		.byte	32
+ 1444 02ad 10       		.byte	16
+ 1445 02ae 0F       		.byte	15
+ 1446 02af 00       		.byte	0
+ 1447 02b0 00       		.byte	0
+ 1448 02b1 00       		.byte	0
+ 1449 02b2 00       		.byte	0
+ 1450 02b3 00       		.byte	0
+ 1451 02b4 00       		.byte	0
+ 1452 02b5 00       		.byte	0
+ 1453 02b6 00       		.byte	0
+ 1454 02b7 00       		.byte	0
+ 1455 02b8 00       		.byte	0
+ 1456 02b9 00       		.byte	0
+ 1457 02ba 00       		.byte	0
+ 1458 02bb 00       		.byte	0
+ 1459 02bc 00       		.byte	0
+ 1460 02bd 00       		.byte	0
+ 1461 02be 00       		.byte	0
+ 1462 02bf 00       		.byte	0
+ 1463 02c0 08       		.byte	8
+ 1464 02c1 F8       		.byte	-8
+ 1465 02c2 00       		.byte	0
+ 1466 02c3 F8       		.byte	-8
+ 1467 02c4 00       		.byte	0
+ 1468 02c5 F8       		.byte	-8
+ 1469 02c6 08       		.byte	8
+ 1470 02c7 00       		.byte	0
+ 1471 02c8 00       		.byte	0
+ 1472 02c9 03       		.byte	3
+ 1473 02ca 3E       		.byte	62
+ 1474 02cb 01       		.byte	1
+ 1475 02cc 3E       		.byte	62
+ 1476 02cd 03       		.byte	3
+ 1477 02ce 00       		.byte	0
+ 1478 02cf 00       		.byte	0
+ 1479 02d0 00       		.byte	0
+ 1480 02d1 00       		.byte	0
+ 1481 02d2 00       		.byte	0
+ 1482 02d3 00       		.byte	0
+ 1483 02d4 00       		.byte	0
+ 1484 02d5 00       		.byte	0
+ 1485 02d6 00       		.byte	0
+ 1486 02d7 00       		.byte	0
+ 1487 02d8 00       		.byte	0
+ 1488 02d9 00       		.byte	0
+ 1489 02da 00       		.byte	0
+ 1490 02db 00       		.byte	0
+ 1491 02dc 00       		.byte	0
+ 1492 02dd 00       		.byte	0
+ 1493 02de 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 34
 
 
- 1557 0366 00       		.byte	0
- 1558 0367 00       		.byte	0
- 1559 0368 00       		.byte	0
- 1560 0369 00       		.byte	0
- 1561 036a 00       		.byte	0
- 1562 036b 00       		.byte	0
- 1563 036c 00       		.byte	0
- 1564 036d 00       		.byte	0
- 1565 036e 00       		.byte	0
- 1566 036f 00       		.byte	0
- 1567 0370 00       		.byte	0
- 1568 0371 E0       		.byte	-32
- 1569 0372 10       		.byte	16
- 1570 0373 08       		.byte	8
- 1571 0374 08       		.byte	8
- 1572 0375 10       		.byte	16
- 1573 0376 E0       		.byte	-32
- 1574 0377 00       		.byte	0
- 1575 0378 00       		.byte	0
- 1576 0379 0F       		.byte	15
- 1577 037a 10       		.byte	16
- 1578 037b 20       		.byte	32
- 1579 037c 20       		.byte	32
- 1580 037d 10       		.byte	16
- 1581 037e 0F       		.byte	15
- 1582 037f 00       		.byte	0
- 1583 0380 00       		.byte	0
- 1584 0381 E0       		.byte	-32
- 1585 0382 10       		.byte	16
- 1586 0383 08       		.byte	8
- 1587 0384 08       		.byte	8
- 1588 0385 10       		.byte	16
- 1589 0386 E0       		.byte	-32
- 1590 0387 00       		.byte	0
- 1591 0388 00       		.byte	0
- 1592 0389 0F       		.byte	15
- 1593 038a 10       		.byte	16
- 1594 038b 20       		.byte	32
- 1595 038c 20       		.byte	32
- 1596 038d 10       		.byte	16
- 1597 038e 0F       		.byte	15
- 1598 038f 00       		.byte	0
- 1599 0390 00       		.byte	0
- 1600 0391 E0       		.byte	-32
- 1601 0392 10       		.byte	16
- 1602 0393 08       		.byte	8
- 1603 0394 08       		.byte	8
- 1604 0395 10       		.byte	16
- 1605 0396 E0       		.byte	-32
- 1606 0397 00       		.byte	0
- 1607 0398 00       		.byte	0
- 1608 0399 0F       		.byte	15
- 1609 039a 10       		.byte	16
- 1610 039b 20       		.byte	32
- 1611 039c 20       		.byte	32
- 1612 039d 10       		.byte	16
- 1613 039e 0F       		.byte	15
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 34
+ 1494 02df 00       		.byte	0
+ 1495 02e0 00       		.byte	0
+ 1496 02e1 00       		.byte	0
+ 1497 02e2 00       		.byte	0
+ 1498 02e3 00       		.byte	0
+ 1499 02e4 00       		.byte	0
+ 1500 02e5 00       		.byte	0
+ 1501 02e6 00       		.byte	0
+ 1502 02e7 00       		.byte	0
+ 1503 02e8 00       		.byte	0
+ 1504 02e9 00       		.byte	0
+ 1505 02ea 00       		.byte	0
+ 1506 02eb 00       		.byte	0
+ 1507 02ec 00       		.byte	0
+ 1508 02ed 00       		.byte	0
+ 1509 02ee 00       		.byte	0
+ 1510 02ef 00       		.byte	0
+ 1511 02f0 00       		.byte	0
+ 1512 02f1 00       		.byte	0
+ 1513 02f2 00       		.byte	0
+ 1514 02f3 00       		.byte	0
+ 1515 02f4 00       		.byte	0
+ 1516 02f5 00       		.byte	0
+ 1517 02f6 00       		.byte	0
+ 1518 02f7 00       		.byte	0
+ 1519 02f8 00       		.byte	0
+ 1520 02f9 00       		.byte	0
+ 1521 02fa 00       		.byte	0
+ 1522 02fb 00       		.byte	0
+ 1523 02fc 00       		.byte	0
+ 1524 02fd 00       		.byte	0
+ 1525 02fe 00       		.byte	0
+ 1526 02ff 00       		.byte	0
+ 1527 0300 00       		.byte	0
+ 1528 0301 00       		.byte	0
+ 1529 0302 00       		.byte	0
+ 1530 0303 00       		.byte	0
+ 1531 0304 00       		.byte	0
+ 1532 0305 00       		.byte	0
+ 1533 0306 00       		.byte	0
+ 1534 0307 00       		.byte	0
+ 1535 0308 00       		.byte	0
+ 1536 0309 00       		.byte	0
+ 1537 030a 00       		.byte	0
+ 1538 030b 00       		.byte	0
+ 1539 030c 00       		.byte	0
+ 1540 030d 00       		.byte	0
+ 1541 030e 00       		.byte	0
+ 1542 030f 00       		.byte	0
+ 1543 0310 00       		.byte	0
+ 1544 0311 70       		.byte	112
+ 1545 0312 88       		.byte	-120
+ 1546 0313 08       		.byte	8
+ 1547 0314 08       		.byte	8
+ 1548 0315 08       		.byte	8
+ 1549 0316 38       		.byte	56
+ 1550 0317 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 35
 
 
- 1614 039f 00       		.byte	0
- 1615 03a0 00       		.byte	0
- 1616 03a1 E0       		.byte	-32
- 1617 03a2 10       		.byte	16
- 1618 03a3 08       		.byte	8
- 1619 03a4 08       		.byte	8
- 1620 03a5 10       		.byte	16
- 1621 03a6 E0       		.byte	-32
- 1622 03a7 00       		.byte	0
- 1623 03a8 00       		.byte	0
- 1624 03a9 0F       		.byte	15
- 1625 03aa 10       		.byte	16
- 1626 03ab 20       		.byte	32
- 1627 03ac 20       		.byte	32
- 1628 03ad 10       		.byte	16
- 1629 03ae 0F       		.byte	15
- 1630 03af 00       		.byte	0
- 1631 03b0 00       		.byte	0
- 1632 03b1 00       		.byte	0
- 1633 03b2 00       		.byte	0
- 1634 03b3 00       		.byte	0
- 1635 03b4 00       		.byte	0
- 1636 03b5 00       		.byte	0
- 1637 03b6 00       		.byte	0
- 1638 03b7 00       		.byte	0
- 1639 03b8 00       		.byte	0
- 1640 03b9 00       		.byte	0
- 1641 03ba 00       		.byte	0
- 1642 03bb 00       		.byte	0
- 1643 03bc 00       		.byte	0
- 1644 03bd 00       		.byte	0
- 1645 03be 00       		.byte	0
- 1646 03bf 00       		.byte	0
- 1647 03c0 08       		.byte	8
- 1648 03c1 F8       		.byte	-8
- 1649 03c2 00       		.byte	0
- 1650 03c3 F8       		.byte	-8
- 1651 03c4 00       		.byte	0
- 1652 03c5 F8       		.byte	-8
- 1653 03c6 08       		.byte	8
- 1654 03c7 00       		.byte	0
- 1655 03c8 00       		.byte	0
- 1656 03c9 03       		.byte	3
- 1657 03ca 3E       		.byte	62
- 1658 03cb 01       		.byte	1
- 1659 03cc 3E       		.byte	62
- 1660 03cd 03       		.byte	3
- 1661 03ce 00       		.byte	0
- 1662 03cf 00       		.byte	0
- 1663 03d0 00       		.byte	0
- 1664 03d1 00       		.byte	0
- 1665 03d2 00       		.byte	0
- 1666 03d3 00       		.byte	0
- 1667 03d4 00       		.byte	0
- 1668 03d5 00       		.byte	0
- 1669 03d6 00       		.byte	0
- 1670 03d7 00       		.byte	0
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 35
+ 1551 0318 00       		.byte	0
+ 1552 0319 38       		.byte	56
+ 1553 031a 20       		.byte	32
+ 1554 031b 21       		.byte	33
+ 1555 031c 21       		.byte	33
+ 1556 031d 22       		.byte	34
+ 1557 031e 1C       		.byte	28
+ 1558 031f 00       		.byte	0
+ 1559 0320 08       		.byte	8
+ 1560 0321 F8       		.byte	-8
+ 1561 0322 88       		.byte	-120
+ 1562 0323 88       		.byte	-120
+ 1563 0324 E8       		.byte	-24
+ 1564 0325 08       		.byte	8
+ 1565 0326 10       		.byte	16
+ 1566 0327 00       		.byte	0
+ 1567 0328 20       		.byte	32
+ 1568 0329 3F       		.byte	63
+ 1569 032a 20       		.byte	32
+ 1570 032b 20       		.byte	32
+ 1571 032c 23       		.byte	35
+ 1572 032d 20       		.byte	32
+ 1573 032e 18       		.byte	24
+ 1574 032f 00       		.byte	0
+ 1575 0330 18       		.byte	24
+ 1576 0331 08       		.byte	8
+ 1577 0332 08       		.byte	8
+ 1578 0333 F8       		.byte	-8
+ 1579 0334 08       		.byte	8
+ 1580 0335 08       		.byte	8
+ 1581 0336 18       		.byte	24
+ 1582 0337 00       		.byte	0
+ 1583 0338 00       		.byte	0
+ 1584 0339 00       		.byte	0
+ 1585 033a 20       		.byte	32
+ 1586 033b 3F       		.byte	63
+ 1587 033c 20       		.byte	32
+ 1588 033d 00       		.byte	0
+ 1589 033e 00       		.byte	0
+ 1590 033f 00       		.byte	0
+ 1591 0340 00       		.byte	0
+ 1592 0341 00       		.byte	0
+ 1593 0342 00       		.byte	0
+ 1594 0343 00       		.byte	0
+ 1595 0344 00       		.byte	0
+ 1596 0345 00       		.byte	0
+ 1597 0346 00       		.byte	0
+ 1598 0347 00       		.byte	0
+ 1599 0348 00       		.byte	0
+ 1600 0349 00       		.byte	0
+ 1601 034a 00       		.byte	0
+ 1602 034b 00       		.byte	0
+ 1603 034c 00       		.byte	0
+ 1604 034d 00       		.byte	0
+ 1605 034e 00       		.byte	0
+ 1606 034f 00       		.byte	0
+ 1607 0350 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 36
 
 
- 1671 03d8 00       		.byte	0
- 1672 03d9 00       		.byte	0
- 1673 03da 00       		.byte	0
- 1674 03db 00       		.byte	0
- 1675 03dc 00       		.byte	0
- 1676 03dd 00       		.byte	0
- 1677 03de 00       		.byte	0
- 1678 03df 00       		.byte	0
- 1679 03e0 00       		.byte	0
- 1680 03e1 00       		.byte	0
- 1681 03e2 00       		.byte	0
- 1682 03e3 00       		.byte	0
- 1683 03e4 00       		.byte	0
- 1684 03e5 00       		.byte	0
- 1685 03e6 00       		.byte	0
- 1686 03e7 00       		.byte	0
- 1687 03e8 00       		.byte	0
- 1688 03e9 00       		.byte	0
- 1689 03ea 00       		.byte	0
- 1690 03eb 00       		.byte	0
- 1691 03ec 00       		.byte	0
- 1692 03ed 00       		.byte	0
- 1693 03ee 00       		.byte	0
- 1694 03ef 00       		.byte	0
- 1695 03f0 00       		.byte	0
- 1696 03f1 00       		.byte	0
- 1697 03f2 00       		.byte	0
- 1698 03f3 00       		.byte	0
- 1699 03f4 00       		.byte	0
- 1700 03f5 00       		.byte	0
- 1701 03f6 00       		.byte	0
- 1702 03f7 00       		.byte	0
- 1703 03f8 00       		.byte	0
- 1704 03f9 00       		.byte	0
- 1705 03fa 00       		.byte	0
- 1706 03fb 00       		.byte	0
- 1707 03fc 00       		.byte	0
- 1708 03fd 00       		.byte	0
- 1709 03fe 00       		.byte	0
- 1710 03ff 00       		.byte	0
- 1711              		.text
- 1712              	.Letext0:
- 1713              		.file 2 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h"
- 1714              		.file 3 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h"
- 1715              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
- 1716              		.file 5 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h"
- 1717              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
- 1718              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
- 1719              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
- 1720              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h"
- 1721              		.file 10 "Drivers/CMSIS/Include/core_cm3.h"
- 1722              		.file 11 "Inc/i2c.h"
- 1723              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
- 1724              		.file 13 "Inc/gpio.h"
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s 			page 36
+ 1608 0351 00       		.byte	0
+ 1609 0352 00       		.byte	0
+ 1610 0353 C0       		.byte	-64
+ 1611 0354 C0       		.byte	-64
+ 1612 0355 00       		.byte	0
+ 1613 0356 00       		.byte	0
+ 1614 0357 00       		.byte	0
+ 1615 0358 00       		.byte	0
+ 1616 0359 00       		.byte	0
+ 1617 035a 00       		.byte	0
+ 1618 035b 30       		.byte	48
+ 1619 035c 30       		.byte	48
+ 1620 035d 00       		.byte	0
+ 1621 035e 00       		.byte	0
+ 1622 035f 00       		.byte	0
+ 1623 0360 00       		.byte	0
+ 1624 0361 00       		.byte	0
+ 1625 0362 00       		.byte	0
+ 1626 0363 00       		.byte	0
+ 1627 0364 00       		.byte	0
+ 1628 0365 00       		.byte	0
+ 1629 0366 00       		.byte	0
+ 1630 0367 00       		.byte	0
+ 1631 0368 00       		.byte	0
+ 1632 0369 00       		.byte	0
+ 1633 036a 00       		.byte	0
+ 1634 036b 00       		.byte	0
+ 1635 036c 00       		.byte	0
+ 1636 036d 00       		.byte	0
+ 1637 036e 00       		.byte	0
+ 1638 036f 00       		.byte	0
+ 1639 0370 00       		.byte	0
+ 1640 0371 E0       		.byte	-32
+ 1641 0372 10       		.byte	16
+ 1642 0373 08       		.byte	8
+ 1643 0374 08       		.byte	8
+ 1644 0375 10       		.byte	16
+ 1645 0376 E0       		.byte	-32
+ 1646 0377 00       		.byte	0
+ 1647 0378 00       		.byte	0
+ 1648 0379 0F       		.byte	15
+ 1649 037a 10       		.byte	16
+ 1650 037b 20       		.byte	32
+ 1651 037c 20       		.byte	32
+ 1652 037d 10       		.byte	16
+ 1653 037e 0F       		.byte	15
+ 1654 037f 00       		.byte	0
+ 1655 0380 00       		.byte	0
+ 1656 0381 E0       		.byte	-32
+ 1657 0382 10       		.byte	16
+ 1658 0383 08       		.byte	8
+ 1659 0384 08       		.byte	8
+ 1660 0385 10       		.byte	16
+ 1661 0386 E0       		.byte	-32
+ 1662 0387 00       		.byte	0
+ 1663 0388 00       		.byte	0
+ 1664 0389 0F       		.byte	15
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 37
+
+
+ 1665 038a 10       		.byte	16
+ 1666 038b 20       		.byte	32
+ 1667 038c 20       		.byte	32
+ 1668 038d 10       		.byte	16
+ 1669 038e 0F       		.byte	15
+ 1670 038f 00       		.byte	0
+ 1671 0390 00       		.byte	0
+ 1672 0391 E0       		.byte	-32
+ 1673 0392 10       		.byte	16
+ 1674 0393 08       		.byte	8
+ 1675 0394 08       		.byte	8
+ 1676 0395 10       		.byte	16
+ 1677 0396 E0       		.byte	-32
+ 1678 0397 00       		.byte	0
+ 1679 0398 00       		.byte	0
+ 1680 0399 0F       		.byte	15
+ 1681 039a 10       		.byte	16
+ 1682 039b 20       		.byte	32
+ 1683 039c 20       		.byte	32
+ 1684 039d 10       		.byte	16
+ 1685 039e 0F       		.byte	15
+ 1686 039f 00       		.byte	0
+ 1687 03a0 00       		.byte	0
+ 1688 03a1 E0       		.byte	-32
+ 1689 03a2 10       		.byte	16
+ 1690 03a3 08       		.byte	8
+ 1691 03a4 08       		.byte	8
+ 1692 03a5 10       		.byte	16
+ 1693 03a6 E0       		.byte	-32
+ 1694 03a7 00       		.byte	0
+ 1695 03a8 00       		.byte	0
+ 1696 03a9 0F       		.byte	15
+ 1697 03aa 10       		.byte	16
+ 1698 03ab 20       		.byte	32
+ 1699 03ac 20       		.byte	32
+ 1700 03ad 10       		.byte	16
+ 1701 03ae 0F       		.byte	15
+ 1702 03af 00       		.byte	0
+ 1703 03b0 00       		.byte	0
+ 1704 03b1 00       		.byte	0
+ 1705 03b2 00       		.byte	0
+ 1706 03b3 00       		.byte	0
+ 1707 03b4 00       		.byte	0
+ 1708 03b5 00       		.byte	0
+ 1709 03b6 00       		.byte	0
+ 1710 03b7 00       		.byte	0
+ 1711 03b8 00       		.byte	0
+ 1712 03b9 00       		.byte	0
+ 1713 03ba 00       		.byte	0
+ 1714 03bb 00       		.byte	0
+ 1715 03bc 00       		.byte	0
+ 1716 03bd 00       		.byte	0
+ 1717 03be 00       		.byte	0
+ 1718 03bf 00       		.byte	0
+ 1719 03c0 08       		.byte	8
+ 1720 03c1 F8       		.byte	-8
+ 1721 03c2 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 38
+
+
+ 1722 03c3 F8       		.byte	-8
+ 1723 03c4 00       		.byte	0
+ 1724 03c5 F8       		.byte	-8
+ 1725 03c6 08       		.byte	8
+ 1726 03c7 00       		.byte	0
+ 1727 03c8 00       		.byte	0
+ 1728 03c9 03       		.byte	3
+ 1729 03ca 3E       		.byte	62
+ 1730 03cb 01       		.byte	1
+ 1731 03cc 3E       		.byte	62
+ 1732 03cd 03       		.byte	3
+ 1733 03ce 00       		.byte	0
+ 1734 03cf 00       		.byte	0
+ 1735 03d0 00       		.byte	0
+ 1736 03d1 00       		.byte	0
+ 1737 03d2 00       		.byte	0
+ 1738 03d3 00       		.byte	0
+ 1739 03d4 00       		.byte	0
+ 1740 03d5 00       		.byte	0
+ 1741 03d6 00       		.byte	0
+ 1742 03d7 00       		.byte	0
+ 1743 03d8 00       		.byte	0
+ 1744 03d9 00       		.byte	0
+ 1745 03da 00       		.byte	0
+ 1746 03db 00       		.byte	0
+ 1747 03dc 00       		.byte	0
+ 1748 03dd 00       		.byte	0
+ 1749 03de 00       		.byte	0
+ 1750 03df 00       		.byte	0
+ 1751 03e0 00       		.byte	0
+ 1752 03e1 00       		.byte	0
+ 1753 03e2 00       		.byte	0
+ 1754 03e3 00       		.byte	0
+ 1755 03e4 00       		.byte	0
+ 1756 03e5 00       		.byte	0
+ 1757 03e6 00       		.byte	0
+ 1758 03e7 00       		.byte	0
+ 1759 03e8 00       		.byte	0
+ 1760 03e9 00       		.byte	0
+ 1761 03ea 00       		.byte	0
+ 1762 03eb 00       		.byte	0
+ 1763 03ec 00       		.byte	0
+ 1764 03ed 00       		.byte	0
+ 1765 03ee 00       		.byte	0
+ 1766 03ef 00       		.byte	0
+ 1767 03f0 00       		.byte	0
+ 1768 03f1 00       		.byte	0
+ 1769 03f2 00       		.byte	0
+ 1770 03f3 00       		.byte	0
+ 1771 03f4 00       		.byte	0
+ 1772 03f5 00       		.byte	0
+ 1773 03f6 00       		.byte	0
+ 1774 03f7 00       		.byte	0
+ 1775 03f8 00       		.byte	0
+ 1776 03f9 00       		.byte	0
+ 1777 03fa 00       		.byte	0
+ 1778 03fb 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 39
+
+
+ 1779 03fc 00       		.byte	0
+ 1780 03fd 00       		.byte	0
+ 1781 03fe 00       		.byte	0
+ 1782 03ff 00       		.byte	0
+ 1783              		.section	.data.array2,"aw",%progbits
+ 1784              		.align	2
+ 1785              		.set	.LANCHOR3,. + 0
+ 1788              	array2:
+ 1789 0000 00       		.byte	0
+ 1790 0001 00       		.byte	0
+ 1791 0002 00       		.byte	0
+ 1792 0003 00       		.byte	0
+ 1793 0004 00       		.byte	0
+ 1794 0005 00       		.byte	0
+ 1795 0006 00       		.byte	0
+ 1796 0007 00       		.byte	0
+ 1797 0008 00       		.byte	0
+ 1798 0009 00       		.byte	0
+ 1799 000a 00       		.byte	0
+ 1800 000b 00       		.byte	0
+ 1801 000c 00       		.byte	0
+ 1802 000d 00       		.byte	0
+ 1803 000e 00       		.byte	0
+ 1804 000f 00       		.byte	0
+ 1805 0010 00       		.byte	0
+ 1806 0011 00       		.byte	0
+ 1807 0012 00       		.byte	0
+ 1808 0013 00       		.byte	0
+ 1809 0014 00       		.byte	0
+ 1810 0015 00       		.byte	0
+ 1811 0016 00       		.byte	0
+ 1812 0017 00       		.byte	0
+ 1813 0018 00       		.byte	0
+ 1814 0019 00       		.byte	0
+ 1815 001a 00       		.byte	0
+ 1816 001b 00       		.byte	0
+ 1817 001c 00       		.byte	0
+ 1818 001d 00       		.byte	0
+ 1819 001e 00       		.byte	0
+ 1820 001f 00       		.byte	0
+ 1821 0020 00       		.byte	0
+ 1822 0021 00       		.byte	0
+ 1823 0022 00       		.byte	0
+ 1824 0023 00       		.byte	0
+ 1825 0024 00       		.byte	0
+ 1826 0025 00       		.byte	0
+ 1827 0026 00       		.byte	0
+ 1828 0027 00       		.byte	0
+ 1829 0028 00       		.byte	0
+ 1830 0029 00       		.byte	0
+ 1831 002a 00       		.byte	0
+ 1832 002b 00       		.byte	0
+ 1833 002c 00       		.byte	0
+ 1834 002d 00       		.byte	0
+ 1835 002e 00       		.byte	0
+ 1836 002f 00       		.byte	0
+ 1837 0030 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 40
+
+
+ 1838 0031 00       		.byte	0
+ 1839 0032 00       		.byte	0
+ 1840 0033 00       		.byte	0
+ 1841 0034 00       		.byte	0
+ 1842 0035 00       		.byte	0
+ 1843 0036 00       		.byte	0
+ 1844 0037 00       		.byte	0
+ 1845 0038 00       		.byte	0
+ 1846 0039 00       		.byte	0
+ 1847 003a 00       		.byte	0
+ 1848 003b 00       		.byte	0
+ 1849 003c 00       		.byte	0
+ 1850 003d 00       		.byte	0
+ 1851 003e 00       		.byte	0
+ 1852 003f 00       		.byte	0
+ 1853 0040 00       		.byte	0
+ 1854 0041 00       		.byte	0
+ 1855 0042 00       		.byte	0
+ 1856 0043 00       		.byte	0
+ 1857 0044 00       		.byte	0
+ 1858 0045 00       		.byte	0
+ 1859 0046 00       		.byte	0
+ 1860 0047 00       		.byte	0
+ 1861 0048 00       		.byte	0
+ 1862 0049 00       		.byte	0
+ 1863 004a 00       		.byte	0
+ 1864 004b 00       		.byte	0
+ 1865 004c 00       		.byte	0
+ 1866 004d 00       		.byte	0
+ 1867 004e 00       		.byte	0
+ 1868 004f 00       		.byte	0
+ 1869 0050 00       		.byte	0
+ 1870 0051 00       		.byte	0
+ 1871 0052 00       		.byte	0
+ 1872 0053 00       		.byte	0
+ 1873 0054 00       		.byte	0
+ 1874 0055 00       		.byte	0
+ 1875 0056 00       		.byte	0
+ 1876 0057 00       		.byte	0
+ 1877 0058 00       		.byte	0
+ 1878 0059 00       		.byte	0
+ 1879 005a 00       		.byte	0
+ 1880 005b 00       		.byte	0
+ 1881 005c 00       		.byte	0
+ 1882 005d 00       		.byte	0
+ 1883 005e 00       		.byte	0
+ 1884 005f 00       		.byte	0
+ 1885 0060 00       		.byte	0
+ 1886 0061 00       		.byte	0
+ 1887 0062 00       		.byte	0
+ 1888 0063 00       		.byte	0
+ 1889 0064 00       		.byte	0
+ 1890 0065 00       		.byte	0
+ 1891 0066 00       		.byte	0
+ 1892 0067 00       		.byte	0
+ 1893 0068 00       		.byte	0
+ 1894 0069 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 41
+
+
+ 1895 006a 00       		.byte	0
+ 1896 006b 00       		.byte	0
+ 1897 006c 00       		.byte	0
+ 1898 006d 00       		.byte	0
+ 1899 006e 00       		.byte	0
+ 1900 006f 00       		.byte	0
+ 1901 0070 00       		.byte	0
+ 1902 0071 00       		.byte	0
+ 1903 0072 00       		.byte	0
+ 1904 0073 00       		.byte	0
+ 1905 0074 00       		.byte	0
+ 1906 0075 00       		.byte	0
+ 1907 0076 00       		.byte	0
+ 1908 0077 00       		.byte	0
+ 1909 0078 00       		.byte	0
+ 1910 0079 00       		.byte	0
+ 1911 007a 00       		.byte	0
+ 1912 007b 00       		.byte	0
+ 1913 007c 00       		.byte	0
+ 1914 007d 00       		.byte	0
+ 1915 007e 00       		.byte	0
+ 1916 007f 00       		.byte	0
+ 1917 0080 00       		.byte	0
+ 1918 0081 00       		.byte	0
+ 1919 0082 00       		.byte	0
+ 1920 0083 00       		.byte	0
+ 1921 0084 00       		.byte	0
+ 1922 0085 00       		.byte	0
+ 1923 0086 00       		.byte	0
+ 1924 0087 00       		.byte	0
+ 1925 0088 00       		.byte	0
+ 1926 0089 00       		.byte	0
+ 1927 008a 00       		.byte	0
+ 1928 008b 00       		.byte	0
+ 1929 008c 00       		.byte	0
+ 1930 008d 00       		.byte	0
+ 1931 008e 00       		.byte	0
+ 1932 008f 00       		.byte	0
+ 1933 0090 00       		.byte	0
+ 1934 0091 00       		.byte	0
+ 1935 0092 00       		.byte	0
+ 1936 0093 00       		.byte	0
+ 1937 0094 00       		.byte	0
+ 1938 0095 00       		.byte	0
+ 1939 0096 00       		.byte	0
+ 1940 0097 00       		.byte	0
+ 1941 0098 00       		.byte	0
+ 1942 0099 00       		.byte	0
+ 1943 009a 00       		.byte	0
+ 1944 009b 00       		.byte	0
+ 1945 009c 00       		.byte	0
+ 1946 009d 00       		.byte	0
+ 1947 009e 00       		.byte	0
+ 1948 009f 00       		.byte	0
+ 1949 00a0 00       		.byte	0
+ 1950 00a1 00       		.byte	0
+ 1951 00a2 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 42
+
+
+ 1952 00a3 00       		.byte	0
+ 1953 00a4 00       		.byte	0
+ 1954 00a5 00       		.byte	0
+ 1955 00a6 00       		.byte	0
+ 1956 00a7 00       		.byte	0
+ 1957 00a8 00       		.byte	0
+ 1958 00a9 00       		.byte	0
+ 1959 00aa 00       		.byte	0
+ 1960 00ab 00       		.byte	0
+ 1961 00ac 00       		.byte	0
+ 1962 00ad 00       		.byte	0
+ 1963 00ae 00       		.byte	0
+ 1964 00af 00       		.byte	0
+ 1965 00b0 00       		.byte	0
+ 1966 00b1 00       		.byte	0
+ 1967 00b2 00       		.byte	0
+ 1968 00b3 00       		.byte	0
+ 1969 00b4 00       		.byte	0
+ 1970 00b5 00       		.byte	0
+ 1971 00b6 00       		.byte	0
+ 1972 00b7 00       		.byte	0
+ 1973 00b8 00       		.byte	0
+ 1974 00b9 00       		.byte	0
+ 1975 00ba 00       		.byte	0
+ 1976 00bb 00       		.byte	0
+ 1977 00bc 00       		.byte	0
+ 1978 00bd 00       		.byte	0
+ 1979 00be 00       		.byte	0
+ 1980 00bf 00       		.byte	0
+ 1981 00c0 00       		.byte	0
+ 1982 00c1 00       		.byte	0
+ 1983 00c2 00       		.byte	0
+ 1984 00c3 00       		.byte	0
+ 1985 00c4 00       		.byte	0
+ 1986 00c5 00       		.byte	0
+ 1987 00c6 00       		.byte	0
+ 1988 00c7 00       		.byte	0
+ 1989 00c8 00       		.byte	0
+ 1990 00c9 00       		.byte	0
+ 1991 00ca 00       		.byte	0
+ 1992 00cb 00       		.byte	0
+ 1993 00cc 00       		.byte	0
+ 1994 00cd 00       		.byte	0
+ 1995 00ce 00       		.byte	0
+ 1996 00cf 00       		.byte	0
+ 1997 00d0 00       		.byte	0
+ 1998 00d1 00       		.byte	0
+ 1999 00d2 00       		.byte	0
+ 2000 00d3 00       		.byte	0
+ 2001 00d4 00       		.byte	0
+ 2002 00d5 00       		.byte	0
+ 2003 00d6 00       		.byte	0
+ 2004 00d7 00       		.byte	0
+ 2005 00d8 00       		.byte	0
+ 2006 00d9 00       		.byte	0
+ 2007 00da 00       		.byte	0
+ 2008 00db 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 43
+
+
+ 2009 00dc 00       		.byte	0
+ 2010 00dd 00       		.byte	0
+ 2011 00de 00       		.byte	0
+ 2012 00df 00       		.byte	0
+ 2013 00e0 00       		.byte	0
+ 2014 00e1 00       		.byte	0
+ 2015 00e2 00       		.byte	0
+ 2016 00e3 00       		.byte	0
+ 2017 00e4 00       		.byte	0
+ 2018 00e5 00       		.byte	0
+ 2019 00e6 00       		.byte	0
+ 2020 00e7 00       		.byte	0
+ 2021 00e8 00       		.byte	0
+ 2022 00e9 00       		.byte	0
+ 2023 00ea 00       		.byte	0
+ 2024 00eb 00       		.byte	0
+ 2025 00ec 00       		.byte	0
+ 2026 00ed 00       		.byte	0
+ 2027 00ee 00       		.byte	0
+ 2028 00ef 00       		.byte	0
+ 2029 00f0 00       		.byte	0
+ 2030 00f1 00       		.byte	0
+ 2031 00f2 00       		.byte	0
+ 2032 00f3 00       		.byte	0
+ 2033 00f4 00       		.byte	0
+ 2034 00f5 00       		.byte	0
+ 2035 00f6 00       		.byte	0
+ 2036 00f7 00       		.byte	0
+ 2037 00f8 00       		.byte	0
+ 2038 00f9 00       		.byte	0
+ 2039 00fa 00       		.byte	0
+ 2040 00fb 00       		.byte	0
+ 2041 00fc 00       		.byte	0
+ 2042 00fd 00       		.byte	0
+ 2043 00fe 00       		.byte	0
+ 2044 00ff 00       		.byte	0
+ 2045 0100 00       		.byte	0
+ 2046 0101 00       		.byte	0
+ 2047 0102 00       		.byte	0
+ 2048 0103 00       		.byte	0
+ 2049 0104 00       		.byte	0
+ 2050 0105 00       		.byte	0
+ 2051 0106 00       		.byte	0
+ 2052 0107 00       		.byte	0
+ 2053 0108 00       		.byte	0
+ 2054 0109 00       		.byte	0
+ 2055 010a 00       		.byte	0
+ 2056 010b 00       		.byte	0
+ 2057 010c 00       		.byte	0
+ 2058 010d 00       		.byte	0
+ 2059 010e 00       		.byte	0
+ 2060 010f 00       		.byte	0
+ 2061 0110 E0       		.byte	-32
+ 2062 0111 10       		.byte	16
+ 2063 0112 08       		.byte	8
+ 2064 0113 08       		.byte	8
+ 2065 0114 08       		.byte	8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 44
+
+
+ 2066 0115 10       		.byte	16
+ 2067 0116 E0       		.byte	-32
+ 2068 0117 00       		.byte	0
+ 2069 0118 0F       		.byte	15
+ 2070 0119 10       		.byte	16
+ 2071 011a 20       		.byte	32
+ 2072 011b 20       		.byte	32
+ 2073 011c 20       		.byte	32
+ 2074 011d 10       		.byte	16
+ 2075 011e 0F       		.byte	15
+ 2076 011f 00       		.byte	0
+ 2077 0120 08       		.byte	8
+ 2078 0121 78       		.byte	120
+ 2079 0122 88       		.byte	-120
+ 2080 0123 00       		.byte	0
+ 2081 0124 00       		.byte	0
+ 2082 0125 C8       		.byte	-56
+ 2083 0126 38       		.byte	56
+ 2084 0127 08       		.byte	8
+ 2085 0128 00       		.byte	0
+ 2086 0129 00       		.byte	0
+ 2087 012a 07       		.byte	7
+ 2088 012b 38       		.byte	56
+ 2089 012c 0E       		.byte	14
+ 2090 012d 01       		.byte	1
+ 2091 012e 00       		.byte	0
+ 2092 012f 00       		.byte	0
+ 2093 0130 08       		.byte	8
+ 2094 0131 F8       		.byte	-8
+ 2095 0132 88       		.byte	-120
+ 2096 0133 88       		.byte	-120
+ 2097 0134 E8       		.byte	-24
+ 2098 0135 08       		.byte	8
+ 2099 0136 10       		.byte	16
+ 2100 0137 00       		.byte	0
+ 2101 0138 20       		.byte	32
+ 2102 0139 3F       		.byte	63
+ 2103 013a 20       		.byte	32
+ 2104 013b 20       		.byte	32
+ 2105 013c 23       		.byte	35
+ 2106 013d 20       		.byte	32
+ 2107 013e 18       		.byte	24
+ 2108 013f 00       		.byte	0
+ 2109 0140 08       		.byte	8
+ 2110 0141 F8       		.byte	-8
+ 2111 0142 88       		.byte	-120
+ 2112 0143 88       		.byte	-120
+ 2113 0144 88       		.byte	-120
+ 2114 0145 88       		.byte	-120
+ 2115 0146 70       		.byte	112
+ 2116 0147 00       		.byte	0
+ 2117 0148 20       		.byte	32
+ 2118 0149 3F       		.byte	63
+ 2119 014a 20       		.byte	32
+ 2120 014b 00       		.byte	0
+ 2121 014c 03       		.byte	3
+ 2122 014d 0C       		.byte	12
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 45
+
+
+ 2123 014e 30       		.byte	48
+ 2124 014f 20       		.byte	32
+ 2125 0150 00       		.byte	0
+ 2126 0151 00       		.byte	0
+ 2127 0152 00       		.byte	0
+ 2128 0153 00       		.byte	0
+ 2129 0154 00       		.byte	0
+ 2130 0155 00       		.byte	0
+ 2131 0156 00       		.byte	0
+ 2132 0157 00       		.byte	0
+ 2133 0158 00       		.byte	0
+ 2134 0159 90       		.byte	-112
+ 2135 015a 70       		.byte	112
+ 2136 015b 00       		.byte	0
+ 2137 015c 00       		.byte	0
+ 2138 015d 00       		.byte	0
+ 2139 015e 00       		.byte	0
+ 2140 015f 00       		.byte	0
+ 2141 0160 08       		.byte	8
+ 2142 0161 F8       		.byte	-8
+ 2143 0162 08       		.byte	8
+ 2144 0163 08       		.byte	8
+ 2145 0164 08       		.byte	8
+ 2146 0165 08       		.byte	8
+ 2147 0166 F0       		.byte	-16
+ 2148 0167 00       		.byte	0
+ 2149 0168 20       		.byte	32
+ 2150 0169 3F       		.byte	63
+ 2151 016a 21       		.byte	33
+ 2152 016b 01       		.byte	1
+ 2153 016c 01       		.byte	1
+ 2154 016d 01       		.byte	1
+ 2155 016e 00       		.byte	0
+ 2156 016f 00       		.byte	0
+ 2157 0170 E0       		.byte	-32
+ 2158 0171 10       		.byte	16
+ 2159 0172 08       		.byte	8
+ 2160 0173 08       		.byte	8
+ 2161 0174 08       		.byte	8
+ 2162 0175 10       		.byte	16
+ 2163 0176 E0       		.byte	-32
+ 2164 0177 00       		.byte	0
+ 2165 0178 0F       		.byte	15
+ 2166 0179 10       		.byte	16
+ 2167 017a 20       		.byte	32
+ 2168 017b 20       		.byte	32
+ 2169 017c 20       		.byte	32
+ 2170 017d 10       		.byte	16
+ 2171 017e 0F       		.byte	15
+ 2172 017f 00       		.byte	0
+ 2173 0180 08       		.byte	8
+ 2174 0181 F8       		.byte	-8
+ 2175 0182 00       		.byte	0
+ 2176 0183 F8       		.byte	-8
+ 2177 0184 00       		.byte	0
+ 2178 0185 F8       		.byte	-8
+ 2179 0186 08       		.byte	8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 46
+
+
+ 2180 0187 00       		.byte	0
+ 2181 0188 00       		.byte	0
+ 2182 0189 03       		.byte	3
+ 2183 018a 3E       		.byte	62
+ 2184 018b 01       		.byte	1
+ 2185 018c 3E       		.byte	62
+ 2186 018d 03       		.byte	3
+ 2187 018e 00       		.byte	0
+ 2188 018f 00       		.byte	0
+ 2189 0190 08       		.byte	8
+ 2190 0191 F8       		.byte	-8
+ 2191 0192 88       		.byte	-120
+ 2192 0193 88       		.byte	-120
+ 2193 0194 E8       		.byte	-24
+ 2194 0195 08       		.byte	8
+ 2195 0196 10       		.byte	16
+ 2196 0197 00       		.byte	0
+ 2197 0198 20       		.byte	32
+ 2198 0199 3F       		.byte	63
+ 2199 019a 20       		.byte	32
+ 2200 019b 20       		.byte	32
+ 2201 019c 23       		.byte	35
+ 2202 019d 20       		.byte	32
+ 2203 019e 18       		.byte	24
+ 2204 019f 00       		.byte	0
+ 2205 01a0 08       		.byte	8
+ 2206 01a1 F8       		.byte	-8
+ 2207 01a2 88       		.byte	-120
+ 2208 01a3 88       		.byte	-120
+ 2209 01a4 88       		.byte	-120
+ 2210 01a5 88       		.byte	-120
+ 2211 01a6 70       		.byte	112
+ 2212 01a7 00       		.byte	0
+ 2213 01a8 20       		.byte	32
+ 2214 01a9 3F       		.byte	63
+ 2215 01aa 20       		.byte	32
+ 2216 01ab 00       		.byte	0
+ 2217 01ac 03       		.byte	3
+ 2218 01ad 0C       		.byte	12
+ 2219 01ae 30       		.byte	48
+ 2220 01af 20       		.byte	32
+ 2221 01b0 00       		.byte	0
+ 2222 01b1 00       		.byte	0
+ 2223 01b2 00       		.byte	0
+ 2224 01b3 00       		.byte	0
+ 2225 01b4 00       		.byte	0
+ 2226 01b5 00       		.byte	0
+ 2227 01b6 00       		.byte	0
+ 2228 01b7 00       		.byte	0
+ 2229 01b8 00       		.byte	0
+ 2230 01b9 00       		.byte	0
+ 2231 01ba 00       		.byte	0
+ 2232 01bb 00       		.byte	0
+ 2233 01bc 00       		.byte	0
+ 2234 01bd 00       		.byte	0
+ 2235 01be 00       		.byte	0
+ 2236 01bf 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 47
+
+
+ 2237 01c0 00       		.byte	0
+ 2238 01c1 00       		.byte	0
+ 2239 01c2 00       		.byte	0
+ 2240 01c3 00       		.byte	0
+ 2241 01c4 00       		.byte	0
+ 2242 01c5 00       		.byte	0
+ 2243 01c6 00       		.byte	0
+ 2244 01c7 00       		.byte	0
+ 2245 01c8 00       		.byte	0
+ 2246 01c9 00       		.byte	0
+ 2247 01ca 00       		.byte	0
+ 2248 01cb 00       		.byte	0
+ 2249 01cc 00       		.byte	0
+ 2250 01cd 00       		.byte	0
+ 2251 01ce 00       		.byte	0
+ 2252 01cf 00       		.byte	0
+ 2253 01d0 00       		.byte	0
+ 2254 01d1 00       		.byte	0
+ 2255 01d2 00       		.byte	0
+ 2256 01d3 00       		.byte	0
+ 2257 01d4 00       		.byte	0
+ 2258 01d5 00       		.byte	0
+ 2259 01d6 00       		.byte	0
+ 2260 01d7 00       		.byte	0
+ 2261 01d8 00       		.byte	0
+ 2262 01d9 00       		.byte	0
+ 2263 01da 00       		.byte	0
+ 2264 01db 00       		.byte	0
+ 2265 01dc 00       		.byte	0
+ 2266 01dd 00       		.byte	0
+ 2267 01de 00       		.byte	0
+ 2268 01df 00       		.byte	0
+ 2269 01e0 00       		.byte	0
+ 2270 01e1 00       		.byte	0
+ 2271 01e2 00       		.byte	0
+ 2272 01e3 00       		.byte	0
+ 2273 01e4 00       		.byte	0
+ 2274 01e5 00       		.byte	0
+ 2275 01e6 00       		.byte	0
+ 2276 01e7 00       		.byte	0
+ 2277 01e8 00       		.byte	0
+ 2278 01e9 00       		.byte	0
+ 2279 01ea 00       		.byte	0
+ 2280 01eb 00       		.byte	0
+ 2281 01ec 00       		.byte	0
+ 2282 01ed 00       		.byte	0
+ 2283 01ee 00       		.byte	0
+ 2284 01ef 00       		.byte	0
+ 2285 01f0 00       		.byte	0
+ 2286 01f1 00       		.byte	0
+ 2287 01f2 00       		.byte	0
+ 2288 01f3 00       		.byte	0
+ 2289 01f4 00       		.byte	0
+ 2290 01f5 00       		.byte	0
+ 2291 01f6 00       		.byte	0
+ 2292 01f7 00       		.byte	0
+ 2293 01f8 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 48
+
+
+ 2294 01f9 00       		.byte	0
+ 2295 01fa 00       		.byte	0
+ 2296 01fb 00       		.byte	0
+ 2297 01fc 00       		.byte	0
+ 2298 01fd 00       		.byte	0
+ 2299 01fe 00       		.byte	0
+ 2300 01ff 00       		.byte	0
+ 2301 0200 00       		.byte	0
+ 2302 0201 00       		.byte	0
+ 2303 0202 00       		.byte	0
+ 2304 0203 00       		.byte	0
+ 2305 0204 00       		.byte	0
+ 2306 0205 00       		.byte	0
+ 2307 0206 00       		.byte	0
+ 2308 0207 00       		.byte	0
+ 2309 0208 00       		.byte	0
+ 2310 0209 00       		.byte	0
+ 2311 020a 00       		.byte	0
+ 2312 020b 00       		.byte	0
+ 2313 020c 00       		.byte	0
+ 2314 020d 00       		.byte	0
+ 2315 020e 00       		.byte	0
+ 2316 020f 00       		.byte	0
+ 2317 0210 08       		.byte	8
+ 2318 0211 F8       		.byte	-8
+ 2319 0212 08       		.byte	8
+ 2320 0213 08       		.byte	8
+ 2321 0214 08       		.byte	8
+ 2322 0215 08       		.byte	8
+ 2323 0216 F0       		.byte	-16
+ 2324 0217 00       		.byte	0
+ 2325 0218 20       		.byte	32
+ 2326 0219 3F       		.byte	63
+ 2327 021a 21       		.byte	33
+ 2328 021b 01       		.byte	1
+ 2329 021c 01       		.byte	1
+ 2330 021d 01       		.byte	1
+ 2331 021e 00       		.byte	0
+ 2332 021f 00       		.byte	0
+ 2333 0220 08       		.byte	8
+ 2334 0221 F8       		.byte	-8
+ 2335 0222 08       		.byte	8
+ 2336 0223 00       		.byte	0
+ 2337 0224 00       		.byte	0
+ 2338 0225 00       		.byte	0
+ 2339 0226 00       		.byte	0
+ 2340 0227 00       		.byte	0
+ 2341 0228 20       		.byte	32
+ 2342 0229 3F       		.byte	63
+ 2343 022a 20       		.byte	32
+ 2344 022b 20       		.byte	32
+ 2345 022c 20       		.byte	32
+ 2346 022d 20       		.byte	32
+ 2347 022e 30       		.byte	48
+ 2348 022f 00       		.byte	0
+ 2349 0230 08       		.byte	8
+ 2350 0231 F8       		.byte	-8
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 49
+
+
+ 2351 0232 88       		.byte	-120
+ 2352 0233 88       		.byte	-120
+ 2353 0234 E8       		.byte	-24
+ 2354 0235 08       		.byte	8
+ 2355 0236 10       		.byte	16
+ 2356 0237 00       		.byte	0
+ 2357 0238 20       		.byte	32
+ 2358 0239 3F       		.byte	63
+ 2359 023a 20       		.byte	32
+ 2360 023b 20       		.byte	32
+ 2361 023c 23       		.byte	35
+ 2362 023d 20       		.byte	32
+ 2363 023e 18       		.byte	24
+ 2364 023f 00       		.byte	0
+ 2365 0240 00       		.byte	0
+ 2366 0241 00       		.byte	0
+ 2367 0242 C0       		.byte	-64
+ 2368 0243 38       		.byte	56
+ 2369 0244 E0       		.byte	-32
+ 2370 0245 00       		.byte	0
+ 2371 0246 00       		.byte	0
+ 2372 0247 00       		.byte	0
+ 2373 0248 20       		.byte	32
+ 2374 0249 3C       		.byte	60
+ 2375 024a 23       		.byte	35
+ 2376 024b 02       		.byte	2
+ 2377 024c 02       		.byte	2
+ 2378 024d 27       		.byte	39
+ 2379 024e 38       		.byte	56
+ 2380 024f 20       		.byte	32
+ 2381 0250 00       		.byte	0
+ 2382 0251 70       		.byte	112
+ 2383 0252 88       		.byte	-120
+ 2384 0253 08       		.byte	8
+ 2385 0254 08       		.byte	8
+ 2386 0255 08       		.byte	8
+ 2387 0256 38       		.byte	56
+ 2388 0257 00       		.byte	0
+ 2389 0258 00       		.byte	0
+ 2390 0259 38       		.byte	56
+ 2391 025a 20       		.byte	32
+ 2392 025b 21       		.byte	33
+ 2393 025c 21       		.byte	33
+ 2394 025d 22       		.byte	34
+ 2395 025e 1C       		.byte	28
+ 2396 025f 00       		.byte	0
+ 2397 0260 08       		.byte	8
+ 2398 0261 F8       		.byte	-8
+ 2399 0262 88       		.byte	-120
+ 2400 0263 88       		.byte	-120
+ 2401 0264 E8       		.byte	-24
+ 2402 0265 08       		.byte	8
+ 2403 0266 10       		.byte	16
+ 2404 0267 00       		.byte	0
+ 2405 0268 20       		.byte	32
+ 2406 0269 3F       		.byte	63
+ 2407 026a 20       		.byte	32
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 50
+
+
+ 2408 026b 20       		.byte	32
+ 2409 026c 23       		.byte	35
+ 2410 026d 20       		.byte	32
+ 2411 026e 18       		.byte	24
+ 2412 026f 00       		.byte	0
+ 2413 0270 00       		.byte	0
+ 2414 0271 00       		.byte	0
+ 2415 0272 00       		.byte	0
+ 2416 0273 00       		.byte	0
+ 2417 0274 00       		.byte	0
+ 2418 0275 00       		.byte	0
+ 2419 0276 00       		.byte	0
+ 2420 0277 00       		.byte	0
+ 2421 0278 00       		.byte	0
+ 2422 0279 90       		.byte	-112
+ 2423 027a 70       		.byte	112
+ 2424 027b 00       		.byte	0
+ 2425 027c 00       		.byte	0
+ 2426 027d 00       		.byte	0
+ 2427 027e 00       		.byte	0
+ 2428 027f 00       		.byte	0
+ 2429 0280 00       		.byte	0
+ 2430 0281 00       		.byte	0
+ 2431 0282 00       		.byte	0
+ 2432 0283 00       		.byte	0
+ 2433 0284 00       		.byte	0
+ 2434 0285 00       		.byte	0
+ 2435 0286 00       		.byte	0
+ 2436 0287 00       		.byte	0
+ 2437 0288 00       		.byte	0
+ 2438 0289 00       		.byte	0
+ 2439 028a 00       		.byte	0
+ 2440 028b 00       		.byte	0
+ 2441 028c 00       		.byte	0
+ 2442 028d 00       		.byte	0
+ 2443 028e 00       		.byte	0
+ 2444 028f 00       		.byte	0
+ 2445 0290 08       		.byte	8
+ 2446 0291 F8       		.byte	-8
+ 2447 0292 88       		.byte	-120
+ 2448 0293 88       		.byte	-120
+ 2449 0294 88       		.byte	-120
+ 2450 0295 88       		.byte	-120
+ 2451 0296 70       		.byte	112
+ 2452 0297 00       		.byte	0
+ 2453 0298 20       		.byte	32
+ 2454 0299 3F       		.byte	63
+ 2455 029a 20       		.byte	32
+ 2456 029b 00       		.byte	0
+ 2457 029c 03       		.byte	3
+ 2458 029d 0C       		.byte	12
+ 2459 029e 30       		.byte	48
+ 2460 029f 20       		.byte	32
+ 2461 02a0 08       		.byte	8
+ 2462 02a1 F8       		.byte	-8
+ 2463 02a2 88       		.byte	-120
+ 2464 02a3 88       		.byte	-120
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 51
+
+
+ 2465 02a4 E8       		.byte	-24
+ 2466 02a5 08       		.byte	8
+ 2467 02a6 10       		.byte	16
+ 2468 02a7 00       		.byte	0
+ 2469 02a8 20       		.byte	32
+ 2470 02a9 3F       		.byte	63
+ 2471 02aa 20       		.byte	32
+ 2472 02ab 20       		.byte	32
+ 2473 02ac 23       		.byte	35
+ 2474 02ad 20       		.byte	32
+ 2475 02ae 18       		.byte	24
+ 2476 02af 00       		.byte	0
+ 2477 02b0 00       		.byte	0
+ 2478 02b1 70       		.byte	112
+ 2479 02b2 88       		.byte	-120
+ 2480 02b3 08       		.byte	8
+ 2481 02b4 08       		.byte	8
+ 2482 02b5 08       		.byte	8
+ 2483 02b6 38       		.byte	56
+ 2484 02b7 00       		.byte	0
+ 2485 02b8 00       		.byte	0
+ 2486 02b9 38       		.byte	56
+ 2487 02ba 20       		.byte	32
+ 2488 02bb 21       		.byte	33
+ 2489 02bc 21       		.byte	33
+ 2490 02bd 22       		.byte	34
+ 2491 02be 1C       		.byte	28
+ 2492 02bf 00       		.byte	0
+ 2493 02c0 08       		.byte	8
+ 2494 02c1 F8       		.byte	-8
+ 2495 02c2 88       		.byte	-120
+ 2496 02c3 88       		.byte	-120
+ 2497 02c4 E8       		.byte	-24
+ 2498 02c5 08       		.byte	8
+ 2499 02c6 10       		.byte	16
+ 2500 02c7 00       		.byte	0
+ 2501 02c8 20       		.byte	32
+ 2502 02c9 3F       		.byte	63
+ 2503 02ca 20       		.byte	32
+ 2504 02cb 20       		.byte	32
+ 2505 02cc 23       		.byte	35
+ 2506 02cd 20       		.byte	32
+ 2507 02ce 18       		.byte	24
+ 2508 02cf 00       		.byte	0
+ 2509 02d0 18       		.byte	24
+ 2510 02d1 08       		.byte	8
+ 2511 02d2 08       		.byte	8
+ 2512 02d3 F8       		.byte	-8
+ 2513 02d4 08       		.byte	8
+ 2514 02d5 08       		.byte	8
+ 2515 02d6 18       		.byte	24
+ 2516 02d7 00       		.byte	0
+ 2517 02d8 00       		.byte	0
+ 2518 02d9 00       		.byte	0
+ 2519 02da 20       		.byte	32
+ 2520 02db 3F       		.byte	63
+ 2521 02dc 20       		.byte	32
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 52
+
+
+ 2522 02dd 00       		.byte	0
+ 2523 02de 00       		.byte	0
+ 2524 02df 00       		.byte	0
+ 2525 02e0 00       		.byte	0
+ 2526 02e1 00       		.byte	0
+ 2527 02e2 00       		.byte	0
+ 2528 02e3 F8       		.byte	-8
+ 2529 02e4 00       		.byte	0
+ 2530 02e5 00       		.byte	0
+ 2531 02e6 00       		.byte	0
+ 2532 02e7 00       		.byte	0
+ 2533 02e8 00       		.byte	0
+ 2534 02e9 00       		.byte	0
+ 2535 02ea 00       		.byte	0
+ 2536 02eb 33       		.byte	51
+ 2537 02ec 00       		.byte	0
+ 2538 02ed 00       		.byte	0
+ 2539 02ee 00       		.byte	0
+ 2540 02ef 00       		.byte	0
+ 2541 02f0 00       		.byte	0
+ 2542 02f1 00       		.byte	0
+ 2543 02f2 00       		.byte	0
+ 2544 02f3 F8       		.byte	-8
+ 2545 02f4 00       		.byte	0
+ 2546 02f5 00       		.byte	0
+ 2547 02f6 00       		.byte	0
+ 2548 02f7 00       		.byte	0
+ 2549 02f8 00       		.byte	0
+ 2550 02f9 00       		.byte	0
+ 2551 02fa 00       		.byte	0
+ 2552 02fb 33       		.byte	51
+ 2553 02fc 00       		.byte	0
+ 2554 02fd 00       		.byte	0
+ 2555 02fe 00       		.byte	0
+ 2556 02ff 00       		.byte	0
+ 2557 0300 00       		.byte	0
+ 2558 0301 00       		.byte	0
+ 2559 0302 00       		.byte	0
+ 2560 0303 00       		.byte	0
+ 2561 0304 00       		.byte	0
+ 2562 0305 00       		.byte	0
+ 2563 0306 00       		.byte	0
+ 2564 0307 00       		.byte	0
+ 2565 0308 00       		.byte	0
+ 2566 0309 00       		.byte	0
+ 2567 030a 00       		.byte	0
+ 2568 030b 00       		.byte	0
+ 2569 030c 00       		.byte	0
+ 2570 030d 00       		.byte	0
+ 2571 030e 00       		.byte	0
+ 2572 030f 00       		.byte	0
+ 2573 0310 00       		.byte	0
+ 2574 0311 00       		.byte	0
+ 2575 0312 00       		.byte	0
+ 2576 0313 00       		.byte	0
+ 2577 0314 00       		.byte	0
+ 2578 0315 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 53
+
+
+ 2579 0316 00       		.byte	0
+ 2580 0317 00       		.byte	0
+ 2581 0318 00       		.byte	0
+ 2582 0319 00       		.byte	0
+ 2583 031a 00       		.byte	0
+ 2584 031b 00       		.byte	0
+ 2585 031c 00       		.byte	0
+ 2586 031d 00       		.byte	0
+ 2587 031e 00       		.byte	0
+ 2588 031f 00       		.byte	0
+ 2589 0320 00       		.byte	0
+ 2590 0321 00       		.byte	0
+ 2591 0322 00       		.byte	0
+ 2592 0323 00       		.byte	0
+ 2593 0324 00       		.byte	0
+ 2594 0325 00       		.byte	0
+ 2595 0326 00       		.byte	0
+ 2596 0327 00       		.byte	0
+ 2597 0328 00       		.byte	0
+ 2598 0329 00       		.byte	0
+ 2599 032a 00       		.byte	0
+ 2600 032b 00       		.byte	0
+ 2601 032c 00       		.byte	0
+ 2602 032d 00       		.byte	0
+ 2603 032e 00       		.byte	0
+ 2604 032f 00       		.byte	0
+ 2605 0330 00       		.byte	0
+ 2606 0331 00       		.byte	0
+ 2607 0332 00       		.byte	0
+ 2608 0333 00       		.byte	0
+ 2609 0334 00       		.byte	0
+ 2610 0335 00       		.byte	0
+ 2611 0336 00       		.byte	0
+ 2612 0337 00       		.byte	0
+ 2613 0338 00       		.byte	0
+ 2614 0339 00       		.byte	0
+ 2615 033a 00       		.byte	0
+ 2616 033b 00       		.byte	0
+ 2617 033c 00       		.byte	0
+ 2618 033d 00       		.byte	0
+ 2619 033e 00       		.byte	0
+ 2620 033f 00       		.byte	0
+ 2621 0340 00       		.byte	0
+ 2622 0341 00       		.byte	0
+ 2623 0342 00       		.byte	0
+ 2624 0343 00       		.byte	0
+ 2625 0344 00       		.byte	0
+ 2626 0345 00       		.byte	0
+ 2627 0346 00       		.byte	0
+ 2628 0347 00       		.byte	0
+ 2629 0348 00       		.byte	0
+ 2630 0349 00       		.byte	0
+ 2631 034a 00       		.byte	0
+ 2632 034b 00       		.byte	0
+ 2633 034c 00       		.byte	0
+ 2634 034d 00       		.byte	0
+ 2635 034e 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 54
+
+
+ 2636 034f 00       		.byte	0
+ 2637 0350 00       		.byte	0
+ 2638 0351 00       		.byte	0
+ 2639 0352 00       		.byte	0
+ 2640 0353 00       		.byte	0
+ 2641 0354 00       		.byte	0
+ 2642 0355 00       		.byte	0
+ 2643 0356 00       		.byte	0
+ 2644 0357 00       		.byte	0
+ 2645 0358 00       		.byte	0
+ 2646 0359 00       		.byte	0
+ 2647 035a 00       		.byte	0
+ 2648 035b 00       		.byte	0
+ 2649 035c 00       		.byte	0
+ 2650 035d 00       		.byte	0
+ 2651 035e 00       		.byte	0
+ 2652 035f 00       		.byte	0
+ 2653 0360 00       		.byte	0
+ 2654 0361 00       		.byte	0
+ 2655 0362 00       		.byte	0
+ 2656 0363 00       		.byte	0
+ 2657 0364 00       		.byte	0
+ 2658 0365 00       		.byte	0
+ 2659 0366 00       		.byte	0
+ 2660 0367 00       		.byte	0
+ 2661 0368 00       		.byte	0
+ 2662 0369 00       		.byte	0
+ 2663 036a 00       		.byte	0
+ 2664 036b 00       		.byte	0
+ 2665 036c 00       		.byte	0
+ 2666 036d 00       		.byte	0
+ 2667 036e 00       		.byte	0
+ 2668 036f 00       		.byte	0
+ 2669 0370 00       		.byte	0
+ 2670 0371 00       		.byte	0
+ 2671 0372 00       		.byte	0
+ 2672 0373 00       		.byte	0
+ 2673 0374 00       		.byte	0
+ 2674 0375 00       		.byte	0
+ 2675 0376 00       		.byte	0
+ 2676 0377 00       		.byte	0
+ 2677 0378 00       		.byte	0
+ 2678 0379 00       		.byte	0
+ 2679 037a 00       		.byte	0
+ 2680 037b 00       		.byte	0
+ 2681 037c 00       		.byte	0
+ 2682 037d 00       		.byte	0
+ 2683 037e 00       		.byte	0
+ 2684 037f 00       		.byte	0
+ 2685 0380 00       		.byte	0
+ 2686 0381 00       		.byte	0
+ 2687 0382 00       		.byte	0
+ 2688 0383 00       		.byte	0
+ 2689 0384 00       		.byte	0
+ 2690 0385 00       		.byte	0
+ 2691 0386 00       		.byte	0
+ 2692 0387 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 55
+
+
+ 2693 0388 00       		.byte	0
+ 2694 0389 00       		.byte	0
+ 2695 038a 00       		.byte	0
+ 2696 038b 00       		.byte	0
+ 2697 038c 00       		.byte	0
+ 2698 038d 00       		.byte	0
+ 2699 038e 00       		.byte	0
+ 2700 038f 00       		.byte	0
+ 2701 0390 00       		.byte	0
+ 2702 0391 00       		.byte	0
+ 2703 0392 00       		.byte	0
+ 2704 0393 00       		.byte	0
+ 2705 0394 00       		.byte	0
+ 2706 0395 00       		.byte	0
+ 2707 0396 00       		.byte	0
+ 2708 0397 00       		.byte	0
+ 2709 0398 00       		.byte	0
+ 2710 0399 00       		.byte	0
+ 2711 039a 00       		.byte	0
+ 2712 039b 00       		.byte	0
+ 2713 039c 00       		.byte	0
+ 2714 039d 00       		.byte	0
+ 2715 039e 00       		.byte	0
+ 2716 039f 00       		.byte	0
+ 2717 03a0 00       		.byte	0
+ 2718 03a1 00       		.byte	0
+ 2719 03a2 00       		.byte	0
+ 2720 03a3 00       		.byte	0
+ 2721 03a4 00       		.byte	0
+ 2722 03a5 00       		.byte	0
+ 2723 03a6 00       		.byte	0
+ 2724 03a7 00       		.byte	0
+ 2725 03a8 00       		.byte	0
+ 2726 03a9 00       		.byte	0
+ 2727 03aa 00       		.byte	0
+ 2728 03ab 00       		.byte	0
+ 2729 03ac 00       		.byte	0
+ 2730 03ad 00       		.byte	0
+ 2731 03ae 00       		.byte	0
+ 2732 03af 00       		.byte	0
+ 2733 03b0 00       		.byte	0
+ 2734 03b1 00       		.byte	0
+ 2735 03b2 00       		.byte	0
+ 2736 03b3 00       		.byte	0
+ 2737 03b4 00       		.byte	0
+ 2738 03b5 00       		.byte	0
+ 2739 03b6 00       		.byte	0
+ 2740 03b7 00       		.byte	0
+ 2741 03b8 00       		.byte	0
+ 2742 03b9 00       		.byte	0
+ 2743 03ba 00       		.byte	0
+ 2744 03bb 00       		.byte	0
+ 2745 03bc 00       		.byte	0
+ 2746 03bd 00       		.byte	0
+ 2747 03be 00       		.byte	0
+ 2748 03bf 00       		.byte	0
+ 2749 03c0 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 56
+
+
+ 2750 03c1 00       		.byte	0
+ 2751 03c2 00       		.byte	0
+ 2752 03c3 00       		.byte	0
+ 2753 03c4 00       		.byte	0
+ 2754 03c5 00       		.byte	0
+ 2755 03c6 00       		.byte	0
+ 2756 03c7 00       		.byte	0
+ 2757 03c8 00       		.byte	0
+ 2758 03c9 00       		.byte	0
+ 2759 03ca 00       		.byte	0
+ 2760 03cb 00       		.byte	0
+ 2761 03cc 00       		.byte	0
+ 2762 03cd 00       		.byte	0
+ 2763 03ce 00       		.byte	0
+ 2764 03cf 00       		.byte	0
+ 2765 03d0 00       		.byte	0
+ 2766 03d1 00       		.byte	0
+ 2767 03d2 00       		.byte	0
+ 2768 03d3 00       		.byte	0
+ 2769 03d4 00       		.byte	0
+ 2770 03d5 00       		.byte	0
+ 2771 03d6 00       		.byte	0
+ 2772 03d7 00       		.byte	0
+ 2773 03d8 00       		.byte	0
+ 2774 03d9 00       		.byte	0
+ 2775 03da 00       		.byte	0
+ 2776 03db 00       		.byte	0
+ 2777 03dc 00       		.byte	0
+ 2778 03dd 00       		.byte	0
+ 2779 03de 00       		.byte	0
+ 2780 03df 00       		.byte	0
+ 2781 03e0 00       		.byte	0
+ 2782 03e1 00       		.byte	0
+ 2783 03e2 00       		.byte	0
+ 2784 03e3 00       		.byte	0
+ 2785 03e4 00       		.byte	0
+ 2786 03e5 00       		.byte	0
+ 2787 03e6 00       		.byte	0
+ 2788 03e7 00       		.byte	0
+ 2789 03e8 00       		.byte	0
+ 2790 03e9 00       		.byte	0
+ 2791 03ea 00       		.byte	0
+ 2792 03eb 00       		.byte	0
+ 2793 03ec 00       		.byte	0
+ 2794 03ed 00       		.byte	0
+ 2795 03ee 00       		.byte	0
+ 2796 03ef 00       		.byte	0
+ 2797 03f0 00       		.byte	0
+ 2798 03f1 00       		.byte	0
+ 2799 03f2 00       		.byte	0
+ 2800 03f3 00       		.byte	0
+ 2801 03f4 00       		.byte	0
+ 2802 03f5 00       		.byte	0
+ 2803 03f6 00       		.byte	0
+ 2804 03f7 00       		.byte	0
+ 2805 03f8 00       		.byte	0
+ 2806 03f9 00       		.byte	0
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 57
+
+
+ 2807 03fa 00       		.byte	0
+ 2808 03fb 00       		.byte	0
+ 2809 03fc 00       		.byte	0
+ 2810 03fd 00       		.byte	0
+ 2811 03fe 00       		.byte	0
+ 2812 03ff 00       		.byte	0
+ 2813              		.text
+ 2814              	.Letext0:
+ 2815              		.file 2 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h"
+ 2816              		.file 3 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h"
+ 2817              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
+ 2818              		.file 5 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h"
+ 2819              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+ 2820              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
+ 2821              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
+ 2822              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h"
+ 2823              		.file 10 "Drivers/CMSIS/Include/core_cm3.h"
+ 2824              		.file 11 "Inc/i2c.h"
+ 2825              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ 2826              		.file 13 "Inc/gpio.h"
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s 			page 58
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 oled_i2c.c
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:20     .text.OLED_Init:0000000000000000 $t
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:25     .text.OLED_Init:0000000000000000 OLED_Init
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:107    .text.OLED_Init:000000000000005c $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:114    .text.display_ctrl:0000000000000000 $t
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:119    .text.display_ctrl:0000000000000000 display_ctrl
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:472    .text.display_ctrl:00000000000002c8 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:484    .rodata:0000000000000000 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:516    .rodata.number:0000000000000000 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:520    .rodata.number:0000000000000000 number
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:682    .data.array1:0000000000000000 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc4NzEF1.s:686    .data.array1:0000000000000000 array1
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:20     .text.OLED_Init:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:25     .text.OLED_Init:0000000000000000 OLED_Init
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:107    .text.OLED_Init:000000000000005c $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:114    .text.display_ctrl:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:119    .text.display_ctrl:0000000000000000 display_ctrl
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:542    .text.display_ctrl:0000000000000378 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:556    .rodata:0000000000000000 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:588    .rodata.number:0000000000000000 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:592    .rodata.number:0000000000000000 number
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:754    .data.array1:0000000000000000 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:758    .data.array1:0000000000000000 array1
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:1784   .data.array2:0000000000000000 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccd5ByeG.s:1788   .data.array2:0000000000000000 array2
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -2119,4 +3407,5 @@ HAL_I2C_Mem_Write
 hi2c1
 hi2c2
 MX_GPIO1_TEST_Error
+HAL_GPIO_ReadPin
 MX_GPIO2_TEST_Error
