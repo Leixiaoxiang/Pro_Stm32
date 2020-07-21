@@ -32,7 +32,7 @@
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN Private defines */
-
+extern __IO uint8_t beer_flag;
 /* USER CODE END Private defines */
 
 void MX_GPIO_Init(void);

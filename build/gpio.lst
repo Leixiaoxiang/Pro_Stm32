@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 1
 
 
    1              		.syntax unified
@@ -49,7 +49,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
   20:Src/gpio.c    **** /* Includes ------------------------------------------------------------------*/
   21:Src/gpio.c    **** #include "gpio.h"
   22:Src/gpio.c    **** /* USER CODE BEGIN 0 */
-  23:Src/gpio.c    **** 
+  23:Src/gpio.c    **** __IO uint8_t beer_flag = 0x00;
   24:Src/gpio.c    **** /* USER CODE END 0 */
   25:Src/gpio.c    **** 
   26:Src/gpio.c    **** /*----------------------------------------------------------------------------*/
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
   29:Src/gpio.c    **** /* USER CODE BEGIN 1 */
   30:Src/gpio.c    **** 
   31:Src/gpio.c    **** /* USER CODE END 1 */
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 2
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 2
 
 
   32:Src/gpio.c    **** 
@@ -100,7 +100,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
   45:Src/gpio.c    ****   /* GPIO Ports Clock Enable */
   46:Src/gpio.c    ****   __HAL_RCC_GPIOC_CLK_ENABLE();
   51              		.loc 1 46 0
-  52 0010 2F4B     		ldr	r3, .L3
+  52 0010 2E4B     		ldr	r3, .L3
   53 0012 9A69     		ldr	r2, [r3, #24]
   54 0014 42F01002 		orr	r2, r2, #16
   55 0018 9A61     		str	r2, [r3, #24]
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
   66 002c 9A69     		ldr	r2, [r3, #24]
   67 002e 02F00802 		and	r2, r2, #8
   68 0032 0192     		str	r2, [sp, #4]
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 3
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 3
 
 
   69 0034 019A     		ldr	r2, [sp, #4]
@@ -149,247 +149,293 @@ ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 1
   51:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
   52:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8|GPIO_PIN_9, GPIO_PIN_RESET);
   91              		.loc 1 52 0
-  92 005a 1E4F     		ldr	r7, .L3+4
-  93 005c 2246     		mov	r2, r4
-  94 005e 4FF44071 		mov	r1, #768
-  95 0062 3846     		mov	r0, r7
-  96 0064 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  92 005a DFF87C80 		ldr	r8, .L3+12
+  93 005e 2246     		mov	r2, r4
+  94 0060 4FF44071 		mov	r1, #768
+  95 0064 4046     		mov	r0, r8
+  96 0066 FFF7FEFF 		bl	HAL_GPIO_WritePin
   97              	.LVL0:
   53:Src/gpio.c    **** 
   54:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
   55:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
   98              		.loc 1 55 0
-  99 0068 1B4D     		ldr	r5, .L3+8
- 100 006a 2246     		mov	r2, r4
- 101 006c 4FF48071 		mov	r1, #256
- 102 0070 2846     		mov	r0, r5
- 103 0072 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  99 006a 194D     		ldr	r5, .L3+4
+ 100 006c 2246     		mov	r2, r4
+ 101 006e 4FF48071 		mov	r1, #256
+ 102 0072 2846     		mov	r0, r5
+ 103 0074 FFF7FEFF 		bl	HAL_GPIO_WritePin
  104              	.LVL1:
   56:Src/gpio.c    **** 
   57:Src/gpio.c    ****   /*Configure GPIO pins : PC8 PC9 */
   58:Src/gpio.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9;
  105              		.loc 1 58 0
- 106 0076 4FF44073 		mov	r3, #768
- 107 007a 0493     		str	r3, [sp, #16]
+ 106 0078 4FF44073 		mov	r3, #768
+ 107 007c 0493     		str	r3, [sp, #16]
   59:Src/gpio.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
  108              		.loc 1 59 0
- 109 007c 0126     		movs	r6, #1
- 110 007e 0596     		str	r6, [sp, #20]
+ 109 007e 0126     		movs	r6, #1
+ 110 0080 0596     		str	r6, [sp, #20]
   60:Src/gpio.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  111              		.loc 1 60 0
- 112 0080 0694     		str	r4, [sp, #24]
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 4
+ 112 0082 0694     		str	r4, [sp, #24]
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 4
 
 
   61:Src/gpio.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  113              		.loc 1 61 0
- 114 0082 4FF00208 		mov	r8, #2
- 115 0086 CDF81C80 		str	r8, [sp, #28]
+ 114 0084 0227     		movs	r7, #2
+ 115 0086 0797     		str	r7, [sp, #28]
   62:Src/gpio.c    ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
  116              		.loc 1 62 0
- 117 008a 04A9     		add	r1, sp, #16
- 118 008c 3846     		mov	r0, r7
- 119 008e FFF7FEFF 		bl	HAL_GPIO_Init
+ 117 0088 04A9     		add	r1, sp, #16
+ 118 008a 4046     		mov	r0, r8
+ 119 008c FFF7FEFF 		bl	HAL_GPIO_Init
  120              	.LVL2:
   63:Src/gpio.c    **** 
   64:Src/gpio.c    ****   /*Configure GPIO pin : PA8 */
   65:Src/gpio.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_8;
  121              		.loc 1 65 0
- 122 0092 4FF48073 		mov	r3, #256
- 123 0096 0493     		str	r3, [sp, #16]
+ 122 0090 4FF48073 		mov	r3, #256
+ 123 0094 0493     		str	r3, [sp, #16]
   66:Src/gpio.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
  124              		.loc 1 66 0
- 125 0098 0596     		str	r6, [sp, #20]
+ 125 0096 0596     		str	r6, [sp, #20]
   67:Src/gpio.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  126              		.loc 1 67 0
- 127 009a 0694     		str	r4, [sp, #24]
+ 127 0098 0694     		str	r4, [sp, #24]
   68:Src/gpio.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  128              		.loc 1 68 0
- 129 009c CDF81C80 		str	r8, [sp, #28]
+ 129 009a 0797     		str	r7, [sp, #28]
   69:Src/gpio.c    ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  130              		.loc 1 69 0
- 131 00a0 04A9     		add	r1, sp, #16
- 132 00a2 2846     		mov	r0, r5
- 133 00a4 FFF7FEFF 		bl	HAL_GPIO_Init
+ 131 009c 04A9     		add	r1, sp, #16
+ 132 009e 2846     		mov	r0, r5
+ 133 00a0 FFF7FEFF 		bl	HAL_GPIO_Init
  134              	.LVL3:
   70:Src/gpio.c    **** 
-  71:Src/gpio.c    ****   /*Configure GPIO pin : PC13 */
-  72:Src/gpio.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_13;
+  71:Src/gpio.c    ****     /*Configure GPIO pin : PA0 */
+  72:Src/gpio.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_0;
  135              		.loc 1 72 0
- 136 00a8 4FF40053 		mov	r3, #8192
- 137 00ac 0493     		str	r3, [sp, #16]
-  73:Src/gpio.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
- 138              		.loc 1 73 0
- 139 00ae 0594     		str	r4, [sp, #20]
+ 136 00a4 0496     		str	r6, [sp, #16]
+  73:Src/gpio.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+ 137              		.loc 1 73 0
+ 138 00a6 0B4B     		ldr	r3, .L3+8
+ 139 00a8 0593     		str	r3, [sp, #20]
   74:Src/gpio.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  140              		.loc 1 74 0
- 141 00b0 0694     		str	r4, [sp, #24]
-  75:Src/gpio.c    ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+ 141 00aa 0694     		str	r4, [sp, #24]
+  75:Src/gpio.c    ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  142              		.loc 1 75 0
- 143 00b2 04A9     		add	r1, sp, #16
- 144 00b4 3846     		mov	r0, r7
- 145 00b6 FFF7FEFF 		bl	HAL_GPIO_Init
+ 143 00ac 04A9     		add	r1, sp, #16
+ 144 00ae 2846     		mov	r0, r5
+ 145 00b0 FFF7FEFF 		bl	HAL_GPIO_Init
  146              	.LVL4:
   76:Src/gpio.c    **** 
-  77:Src/gpio.c    ****   /*Configure GPIO pin : PA0 */
-  78:Src/gpio.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_0;
+  77:Src/gpio.c    ****   /* EXTI interrupt init*/
+  78:Src/gpio.c    ****   HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
  147              		.loc 1 78 0
- 148 00ba 0496     		str	r6, [sp, #16]
-  79:Src/gpio.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
- 149              		.loc 1 79 0
- 150 00bc 0594     		str	r4, [sp, #20]
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 5
+ 148 00b4 2246     		mov	r2, r4
+ 149 00b6 2146     		mov	r1, r4
+ 150 00b8 0620     		movs	r0, #6
+ 151 00ba FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 5
 
 
-  80:Src/gpio.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 151              		.loc 1 80 0
- 152 00be 0694     		str	r4, [sp, #24]
-  81:Src/gpio.c    ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
- 153              		.loc 1 81 0
- 154 00c0 04A9     		add	r1, sp, #16
- 155 00c2 2846     		mov	r0, r5
- 156 00c4 FFF7FEFF 		bl	HAL_GPIO_Init
- 157              	.LVL5:
-  82:Src/gpio.c    **** }
- 158              		.loc 1 82 0
- 159 00c8 08B0     		add	sp, sp, #32
- 160              	.LCFI2:
- 161              		.cfi_def_cfa_offset 24
- 162              		@ sp needed
- 163 00ca BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 164              	.L4:
- 165 00ce 00BF     		.align	2
- 166              	.L3:
- 167 00d0 00100240 		.word	1073876992
- 168 00d4 00100140 		.word	1073811456
- 169 00d8 00080140 		.word	1073809408
+ 152              	.LVL5:
+  79:Src/gpio.c    ****   HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+ 153              		.loc 1 79 0
+ 154 00be 0620     		movs	r0, #6
+ 155 00c0 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 156              	.LVL6:
+  80:Src/gpio.c    **** }
+ 157              		.loc 1 80 0
+ 158 00c4 08B0     		add	sp, sp, #32
+ 159              	.LCFI2:
+ 160              		.cfi_def_cfa_offset 24
+ 161              		@ sp needed
+ 162 00c6 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 163              	.L4:
+ 164 00ca 00BF     		.align	2
+ 165              	.L3:
+ 166 00cc 00100240 		.word	1073876992
+ 167 00d0 00080140 		.word	1073809408
+ 168 00d4 00001110 		.word	269549568
+ 169 00d8 00100140 		.word	1073811456
  170              		.cfi_endproc
  171              	.LFE65:
- 173              		.section	.text.MX_GPIO1_TEST_Error,"ax",%progbits
+ 173              		.section	.text.HAL_GPIO_EXTI_Callback,"ax",%progbits
  174              		.align	2
- 175              		.global	MX_GPIO1_TEST_Error
+ 175              		.global	HAL_GPIO_EXTI_Callback
  176              		.thumb
  177              		.thumb_func
- 179              	MX_GPIO1_TEST_Error:
+ 179              	HAL_GPIO_EXTI_Callback:
  180              	.LFB66:
-  83:Src/gpio.c    **** 
-  84:Src/gpio.c    **** /* USER CODE BEGIN 2 */
-  85:Src/gpio.c    **** void MX_GPIO1_TEST_Error(GPIO_PinState state)
-  86:Src/gpio.c    **** {
- 181              		.loc 1 86 0
+  81:Src/gpio.c    **** 
+  82:Src/gpio.c    **** /* USER CODE BEGIN 2 */
+  83:Src/gpio.c    **** void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+  84:Src/gpio.c    **** {
+ 181              		.loc 1 84 0
  182              		.cfi_startproc
  183              		@ args = 0, pretend = 0, frame = 0
  184              		@ frame_needed = 0, uses_anonymous_args = 0
- 185              	.LVL6:
- 186 0000 10B5     		push	{r4, lr}
- 187              	.LCFI3:
- 188              		.cfi_def_cfa_offset 8
- 189              		.cfi_offset 4, -8
- 190              		.cfi_offset 14, -4
- 191 0002 0446     		mov	r4, r0
-  87:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
-  88:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, state);
- 192              		.loc 1 88 0
- 193 0004 0246     		mov	r2, r0
- 194 0006 4FF40071 		mov	r1, #512
- 195 000a 0548     		ldr	r0, .L7
- 196              	.LVL7:
- 197 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
- 198              	.LVL8:
-  89:Src/gpio.c    **** 
-  90:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 6
+ 185              		@ link register save eliminated.
+ 186              	.LVL7:
+  85:Src/gpio.c    ****   if(GPIO_Pin == GPIO_PIN_0)
+ 187              		.loc 1 85 0
+ 188 0000 0128     		cmp	r0, #1
+ 189 0002 02D1     		bne	.L5
+  86:Src/gpio.c    ****   {
+  87:Src/gpio.c    ****     beer_flag = 0x00;
+ 190              		.loc 1 87 0
+ 191 0004 0022     		movs	r2, #0
+ 192 0006 014B     		ldr	r3, .L7
+ 193 0008 1A70     		strb	r2, [r3]
+ 194              	.L5:
+ 195 000a 7047     		bx	lr
+ 196              	.L8:
+ 197              		.align	2
+ 198              	.L7:
+ 199 000c 00000000 		.word	.LANCHOR0
+ 200              		.cfi_endproc
+ 201              	.LFE66:
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 6
 
 
-  91:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, state);
- 199              		.loc 1 91 0
- 200 0010 2246     		mov	r2, r4
- 201 0012 4FF48071 		mov	r1, #256
- 202 0016 0348     		ldr	r0, .L7+4
- 203 0018 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 204              	.LVL9:
- 205 001c 10BD     		pop	{r4, pc}
- 206              	.L8:
- 207 001e 00BF     		.align	2
- 208              	.L7:
- 209 0020 00100140 		.word	1073811456
- 210 0024 00080140 		.word	1073809408
- 211              		.cfi_endproc
- 212              	.LFE66:
- 214              		.section	.text.MX_GPIO2_TEST_Error,"ax",%progbits
- 215              		.align	2
- 216              		.global	MX_GPIO2_TEST_Error
- 217              		.thumb
- 218              		.thumb_func
- 220              	MX_GPIO2_TEST_Error:
- 221              	.LFB67:
-  92:Src/gpio.c    **** }
-  93:Src/gpio.c    **** 
-  94:Src/gpio.c    **** void MX_GPIO2_TEST_Error(GPIO_PinState state)
-  95:Src/gpio.c    **** {
- 222              		.loc 1 95 0
- 223              		.cfi_startproc
- 224              		@ args = 0, pretend = 0, frame = 0
- 225              		@ frame_needed = 0, uses_anonymous_args = 0
- 226              	.LVL10:
- 227 0000 10B5     		push	{r4, lr}
- 228              	.LCFI4:
- 229              		.cfi_def_cfa_offset 8
- 230              		.cfi_offset 4, -8
- 231              		.cfi_offset 14, -4
- 232 0002 0446     		mov	r4, r0
-  96:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
-  97:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, state);
- 233              		.loc 1 97 0
- 234 0004 0246     		mov	r2, r0
- 235 0006 4FF48071 		mov	r1, #256
- 236 000a 0548     		ldr	r0, .L11
- 237              	.LVL11:
- 238 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
- 239              	.LVL12:
+ 203              		.section	.text.MX_GPIO1_TEST_Error,"ax",%progbits
+ 204              		.align	2
+ 205              		.global	MX_GPIO1_TEST_Error
+ 206              		.thumb
+ 207              		.thumb_func
+ 209              	MX_GPIO1_TEST_Error:
+ 210              	.LFB67:
+  88:Src/gpio.c    ****   }
+  89:Src/gpio.c    **** }
+  90:Src/gpio.c    **** void MX_GPIO1_TEST_Error(GPIO_PinState state)
+  91:Src/gpio.c    **** {
+ 211              		.loc 1 91 0
+ 212              		.cfi_startproc
+ 213              		@ args = 0, pretend = 0, frame = 0
+ 214              		@ frame_needed = 0, uses_anonymous_args = 0
+ 215              	.LVL8:
+ 216 0000 10B5     		push	{r4, lr}
+ 217              	.LCFI3:
+ 218              		.cfi_def_cfa_offset 8
+ 219              		.cfi_offset 4, -8
+ 220              		.cfi_offset 14, -4
+ 221 0002 0446     		mov	r4, r0
+  92:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
+  93:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, state);
+ 222              		.loc 1 93 0
+ 223 0004 0246     		mov	r2, r0
+ 224 0006 4FF40071 		mov	r1, #512
+ 225 000a 0548     		ldr	r0, .L11
+ 226              	.LVL9:
+ 227 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 228              	.LVL10:
+  94:Src/gpio.c    **** 
+  95:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
+  96:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, state);
+ 229              		.loc 1 96 0
+ 230 0010 2246     		mov	r2, r4
+ 231 0012 4FF48071 		mov	r1, #256
+ 232 0016 0348     		ldr	r0, .L11+4
+ 233 0018 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 234              	.LVL11:
+ 235 001c 10BD     		pop	{r4, pc}
+ 236              	.L12:
+ 237 001e 00BF     		.align	2
+ 238              	.L11:
+ 239 0020 00100140 		.word	1073811456
+ 240 0024 00080140 		.word	1073809408
+ 241              		.cfi_endproc
+ 242              	.LFE67:
+ 244              		.section	.text.MX_GPIO2_TEST_Error,"ax",%progbits
+ 245              		.align	2
+ 246              		.global	MX_GPIO2_TEST_Error
+ 247              		.thumb
+ 248              		.thumb_func
+ 250              	MX_GPIO2_TEST_Error:
+ 251              	.LFB68:
+  97:Src/gpio.c    **** }
   98:Src/gpio.c    **** 
-  99:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
- 100:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, state);
- 240              		.loc 1 100 0
- 241 0010 2246     		mov	r2, r4
- 242 0012 4FF48071 		mov	r1, #256
- 243 0016 0348     		ldr	r0, .L11+4
- 244 0018 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 245              	.LVL13:
- 246 001c 10BD     		pop	{r4, pc}
- 247              	.L12:
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 7
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 7
 
 
- 248 001e 00BF     		.align	2
- 249              	.L11:
- 250 0020 00100140 		.word	1073811456
- 251 0024 00080140 		.word	1073809408
- 252              		.cfi_endproc
- 253              	.LFE67:
- 255              		.text
- 256              	.Letext0:
- 257              		.file 2 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h"
- 258              		.file 3 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h"
- 259              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
- 260              		.file 5 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
- 261              		.file 6 "Drivers/CMSIS/Include/core_cm3.h"
-ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s 			page 8
+  99:Src/gpio.c    **** void MX_GPIO2_TEST_Error(GPIO_PinState state)
+ 100:Src/gpio.c    **** {
+ 252              		.loc 1 100 0
+ 253              		.cfi_startproc
+ 254              		@ args = 0, pretend = 0, frame = 0
+ 255              		@ frame_needed = 0, uses_anonymous_args = 0
+ 256              	.LVL12:
+ 257 0000 10B5     		push	{r4, lr}
+ 258              	.LCFI4:
+ 259              		.cfi_def_cfa_offset 8
+ 260              		.cfi_offset 4, -8
+ 261              		.cfi_offset 14, -4
+ 262 0002 0446     		mov	r4, r0
+ 101:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
+ 102:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, state);
+ 263              		.loc 1 102 0
+ 264 0004 0246     		mov	r2, r0
+ 265 0006 4FF48071 		mov	r1, #256
+ 266 000a 0548     		ldr	r0, .L15
+ 267              	.LVL13:
+ 268 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 269              	.LVL14:
+ 103:Src/gpio.c    **** 
+ 104:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
+ 105:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, state);
+ 270              		.loc 1 105 0
+ 271 0010 2246     		mov	r2, r4
+ 272 0012 4FF48071 		mov	r1, #256
+ 273 0016 0348     		ldr	r0, .L15+4
+ 274 0018 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 275              	.LVL15:
+ 276 001c 10BD     		pop	{r4, pc}
+ 277              	.L16:
+ 278 001e 00BF     		.align	2
+ 279              	.L15:
+ 280 0020 00100140 		.word	1073811456
+ 281 0024 00080140 		.word	1073809408
+ 282              		.cfi_endproc
+ 283              	.LFE68:
+ 285              		.global	beer_flag
+ 286              		.section	.bss.beer_flag,"aw",%nobits
+ 287              		.set	.LANCHOR0,. + 0
+ 290              	beer_flag:
+ 291 0000 00       		.space	1
+ 292              		.text
+ 293              	.Letext0:
+ 294              		.file 2 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h"
+ 295              		.file 3 "/Users/leixiaoxiang/opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h"
+ 296              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
+ 297              		.file 5 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
+ 298              		.file 6 "Drivers/CMSIS/Include/core_cm3.h"
+ 299              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h"
+ARM GAS  /var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gpio.c
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:20     .text.MX_GPIO_Init:0000000000000000 $t
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:25     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:167    .text.MX_GPIO_Init:00000000000000d0 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:174    .text.MX_GPIO1_TEST_Error:0000000000000000 $t
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:179    .text.MX_GPIO1_TEST_Error:0000000000000000 MX_GPIO1_TEST_Error
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:209    .text.MX_GPIO1_TEST_Error:0000000000000020 $d
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:215    .text.MX_GPIO2_TEST_Error:0000000000000000 $t
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:220    .text.MX_GPIO2_TEST_Error:0000000000000000 MX_GPIO2_TEST_Error
-/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//cc5aoCBN.s:250    .text.MX_GPIO2_TEST_Error:0000000000000020 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:20     .text.MX_GPIO_Init:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:25     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:166    .text.MX_GPIO_Init:00000000000000cc $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:174    .text.HAL_GPIO_EXTI_Callback:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:179    .text.HAL_GPIO_EXTI_Callback:0000000000000000 HAL_GPIO_EXTI_Callback
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:199    .text.HAL_GPIO_EXTI_Callback:000000000000000c $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:204    .text.MX_GPIO1_TEST_Error:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:209    .text.MX_GPIO1_TEST_Error:0000000000000000 MX_GPIO1_TEST_Error
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:239    .text.MX_GPIO1_TEST_Error:0000000000000020 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:245    .text.MX_GPIO2_TEST_Error:0000000000000000 $t
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:250    .text.MX_GPIO2_TEST_Error:0000000000000000 MX_GPIO2_TEST_Error
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:280    .text.MX_GPIO2_TEST_Error:0000000000000020 $d
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:290    .bss.beer_flag:0000000000000000 beer_flag
+/var/folders/9t/hshg14bj4r3bdmp8s0pp3jdw0000gn/T//ccxVaQ8J.s:291    .bss.beer_flag:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
 HAL_GPIO_Init
+HAL_NVIC_SetPriority
+HAL_NVIC_EnableIRQ

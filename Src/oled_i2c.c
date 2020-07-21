@@ -295,7 +295,7 @@ void display_ctrl(I2C_HandleTypeDef *hi2c, uint32_t adc_val, __IO uint8_t *uart_
     uint16_t vol = 0x00;
     uint32_t pow = 0x00;
     uint32_t out = 0x00;
-
+    static uint8_t err_1 = 0x00, err_2 = 0x00;
 
     if (uart_array != NULL)
     {
@@ -309,43 +309,30 @@ void display_ctrl(I2C_HandleTypeDef *hi2c, uint32_t adc_val, __IO uint8_t *uart_
         if(hi2c == &hi2c1)
         {
             MX_GPIO1_TEST_Error(GPIO_PIN_SET);
-            if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0))
-            {
-                while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
-                MX_GPIO1_TEST_Error(GPIO_PIN_RESET);
-            }
+            beer_flag = 0x01;
+            err_1 = 0x01;
         }
         else
         {
             MX_GPIO2_TEST_Error(GPIO_PIN_SET);
-            /*
-            if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13))
-            {
-                while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13));
-                MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
-            }
-            */
-            if(GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0))
-            {
-                while (GPIO_PIN_SET == HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
-                MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
-            }
+            beer_flag = 0x01;
+            err_2 = 0x01;
         }
     }
 
-    /*
-    if(adc_offset > pow)
+    if(beer_flag == 0x00)
     {
         if(hi2c == &hi2c1)
         {
+            err_1 = 0x00;
             MX_GPIO1_TEST_Error(GPIO_PIN_RESET);
         }
         else
         {
+            err_2 = 0x00;
             MX_GPIO2_TEST_Error(GPIO_PIN_RESET);
-        } 
+        }
     }
-    */
 
     //out
     memcpy(&array1[10][0],&number[out / 10][0],16);
@@ -374,14 +361,28 @@ void display_ctrl(I2C_HandleTypeDef *hi2c, uint32_t adc_val, __IO uint8_t *uart_
 
         for(n=0;n<128;n++)
         {
-            if(adc_offset < pow)
+            if (hi2c == &hi2c1)
             {
-                HAL_I2C_Mem_Write(hi2c,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array2[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);
+                if (err_1 == 0x01)
+                {
+                    HAL_I2C_Mem_Write(&hi2c1,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array2[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);    
+                }
+                else
+                {
+                    HAL_I2C_Mem_Write(&hi2c1,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array1[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);        
+                }   
             }
             else
             {
-                HAL_I2C_Mem_Write(hi2c,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array1[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);    
-            }
+                if (err_2 == 0x01)
+                {
+                    HAL_I2C_Mem_Write(&hi2c2,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array2[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);    
+                }
+                else
+                {
+                    HAL_I2C_Mem_Write(&hi2c2,0x78,0x40,I2C_MEMADD_SIZE_8BIT,&array1[m / 2 * 16 + n / 8][(m % 2)*8+n%8],1,10);        
+                }
+            } 
         }
 	}  
 }
